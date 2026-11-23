@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>历史知识库 · 高中三年历史知识清单</title>
 <meta name="description" content="离线可用的高中历史知识点速查工具：章节树、全文检索、笔记、错题本与备份。">
-<link rel="stylesheet" href="assets/css/app.css?v=20261124">
+<link rel="stylesheet" href="assets/css/app.css?v=20261124d">
 </head>
 <body>
 <a class="skip-link" href="#listViewport">跳到知识列表</a>
@@ -29,9 +29,9 @@
 
   <div class="topactions">
     <button id="dueBtn" class="btn ghost" title="今日待复习">
-      待复习 <span id="dueCount" class="count bad">0</span>
+      <span class="lbl">待复习</span> <span id="dueCount" class="count bad">0</span>
     </button>
-    <button id="backupBtn" class="btn ghost" title="备份与导出">备份</button>
+    <button id="backupBtn" class="btn ghost" title="备份与导出"><span class="lbl">备份</span><span class="ico" aria-hidden="true">⇩</span></button>
     <button id="helpBtn" class="icon-btn" title="快捷键与说明" aria-label="快捷键与说明">?</button>
   </div>
 </header>
@@ -147,6 +147,6 @@
 <div id="modalRoot" class="modal-root" hidden></div>
 <pre id="selftest" hidden></pre>
 
-<script type="module" src="assets/js/app.js?v=20261124"></script>
+<script type="module" src="assets/js/app.js?v=20261124c"></script>
 </body>
 </html>

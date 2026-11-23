@@ -572,7 +572,7 @@ function renderDetail() {
   box.innerHTML = `
     <h1 class="detail-title">${esc(p.title)}</h1>
     <div class="detail-badges">
-      <span class="badge book">${esc(p.kind === 'custom' ? '我创建' : '知识清单')}</span>
+      <span class="badge book">${esc(p.kind === 'custom' ? '我创建' : (p.excerpt ? '原文摘录' : '考点归纳'))}</span>
       <span class="badge type">${esc(p.type || '')}</span>
       <span class="badge">难度 ${esc('★'.repeat(p.difficulty || 0))}</span>
       ${st === 'mastered' ? '<span class="badge ok">已掌握</span>' : st === 'review' ? '<span class="badge warn">待复习</span>' : '<span class="badge">未标记</span>'}
@@ -612,7 +612,7 @@ function renderDetail() {
     </section>
 
     <div class="detail-source">
-      <span>${esc(p.source || '我创建')}</span>
+      <span>${esc(p.source || (p.excerpt ? '高中三年历史知识清单' : '考点归纳（未引用原文，页图为扫描版）'))}</span>
       ${canPdf ? `<button class="btn small" id="openPdf">跳转书源 p${p.pdfPage}</button>` : ''}
     </div>
 
@@ -1403,7 +1403,8 @@ async function runSelfTest() {
 
   ck('books.json 单元数=21', S.units.size === 21, S.units.size);
   ck('books.json 课数=66', S.lessons.size === 66, S.lessons.size);
-  ck('knowledge.json 条数', S.points.length === 64, S.points.length);
+  ck('knowledge.json 条数≥66', S.points.length >= 66, S.points.length);
+  ck('66 课全覆盖', new Set(S.points.map(p => p.lesson)).size === 66, new Set(S.points.map(p => p.lesson)).size);
 
   // 搜索
   const searchOnce = q => new Promise(res => {
