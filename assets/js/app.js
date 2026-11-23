@@ -584,7 +584,7 @@ function renderDetail() {
     </section>
 
     ${p.excerpt ? `<section class="detail-section">
-      <h3>原文摘录（一字未改）</h3>
+      <h3>原文摘录（OCR 定位）</h3>
       <div class="quote">${esc(p.excerpt)}
         <span class="quote-src">—— ${esc(p.source)}</span>
       </div>
