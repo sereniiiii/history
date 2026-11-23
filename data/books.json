@@ -1,0 +1,723 @@
+{
+ "books": [
+  {
+   "code": "LS",
+   "title": "高中三年历史知识清单",
+   "short": "知识清单",
+   "color": "#0f766e",
+   "pages": 225,
+   "pdfPages": 228,
+   "offset": 3,
+   "note": "扫描版；PDF 页 = 书页 + 3",
+   "volumes": [
+    {
+     "code": "LS-V1",
+     "title": "上部 中国史（36课）",
+     "parts": [
+      {
+       "code": "LS-P1",
+       "title": "第一部 中国古代史（统一多民族国家的形成与发展）",
+       "units": [
+        {
+         "code": "LS-U01",
+         "no": 1,
+         "title": "第一单元 先秦时期",
+         "page": 2,
+         "lessons": [
+          {
+           "code": "LS-U01-L01",
+           "no": 1,
+           "title": "中华文明的起源与早期国家",
+           "page": 3,
+           "pdfPage": 6
+          },
+          {
+           "code": "LS-U01-L02",
+           "no": 2,
+           "title": "诸侯纷争与变法运动",
+           "page": 9,
+           "pdfPage": 12
+          },
+          {
+           "code": "LS-U01-L03",
+           "no": 3,
+           "title": "先秦时期的思想文化",
+           "page": 13,
+           "pdfPage": 16
+          }
+         ]
+        },
+        {
+         "code": "LS-U02",
+         "no": 2,
+         "title": "第二单元 秦汉时期",
+         "page": 17,
+         "lessons": [
+          {
+           "code": "LS-U02-L04",
+           "no": 4,
+           "title": "秦统一多民族封建国家的建立",
+           "page": 18,
+           "pdfPage": 21
+          },
+          {
+           "code": "LS-U02-L05",
+           "no": 5,
+           "title": "汉统一多民族封建国家的巩固",
+           "page": 20,
+           "pdfPage": 23
+          },
+          {
+           "code": "LS-U02-L06",
+           "no": 6,
+           "title": "秦汉经济思想文化发展与对外交流",
+           "page": 23,
+           "pdfPage": 26
+          }
+         ]
+        },
+        {
+         "code": "LS-U03",
+         "no": 3,
+         "title": "第三单元 三国两晋南北朝时期",
+         "page": 26,
+         "lessons": [
+          {
+           "code": "LS-U03-L07",
+           "no": 7,
+           "title": "三国两晋南北朝的政治更迭与民族交融",
+           "page": 27,
+           "pdfPage": 30
+          },
+          {
+           "code": "LS-U03-L08",
+           "no": 8,
+           "title": "三国两晋南北朝的经济与思想文化",
+           "page": 30,
+           "pdfPage": 33
+          }
+         ]
+        },
+        {
+         "code": "LS-U04",
+         "no": 4,
+         "title": "第四单元 隋唐五代时期",
+         "page": 34,
+         "lessons": [
+          {
+           "code": "LS-U04-L09",
+           "no": 9,
+           "title": "从隋唐盛世到五代十国",
+           "page": 35,
+           "pdfPage": 38
+          },
+          {
+           "code": "LS-U04-L10",
+           "no": 10,
+           "title": "隋唐制度的变化与创新",
+           "page": 37,
+           "pdfPage": 40
+          },
+          {
+           "code": "LS-U04-L11",
+           "no": 11,
+           "title": "隋唐经济思想文化发展与对外交流",
+           "page": 39,
+           "pdfPage": 42
+          }
+         ]
+        },
+        {
+         "code": "LS-U05",
+         "no": 5,
+         "title": "第五单元 辽宋夏金元时期",
+         "page": 42,
+         "lessons": [
+          {
+           "code": "LS-U05-L12",
+           "no": 12,
+           "title": "两宋的政治和军事",
+           "page": 43,
+           "pdfPage": 46
+          },
+          {
+           "code": "LS-U05-L13",
+           "no": 13,
+           "title": "辽夏金元的统治",
+           "page": 46,
+           "pdfPage": 49
+          },
+          {
+           "code": "LS-U05-L14",
+           "no": 14,
+           "title": "辽宋夏金元的经济与社会",
+           "page": 48,
+           "pdfPage": 51
+          },
+          {
+           "code": "LS-U05-L15",
+           "no": 15,
+           "title": "辽宋夏金元的思想文化",
+           "page": 51,
+           "pdfPage": 54
+          }
+         ]
+        },
+        {
+         "code": "LS-U06",
+         "no": 6,
+         "title": "第六单元 明清时期",
+         "page": 53,
+         "lessons": [
+          {
+           "code": "LS-U06-L16",
+           "no": 16,
+           "title": "从明朝建立到清军入关",
+           "page": 55,
+           "pdfPage": 58
+          },
+          {
+           "code": "LS-U06-L17",
+           "no": 17,
+           "title": "清朝前中期的鼎盛与危机",
+           "page": 59,
+           "pdfPage": 62
+          },
+          {
+           "code": "LS-U06-L18",
+           "no": 18,
+           "title": "明至清中叶的经济与思想文化",
+           "page": 63,
+           "pdfPage": 66
+          }
+         ]
+        }
+       ],
+       "topics": [
+        {
+         "title": "中国历史的种种分期",
+         "page": 1,
+         "pdfPage": 4
+        },
+        {
+         "title": "中国历史朝代表",
+         "page": 1,
+         "pdfPage": 4
+        }
+       ]
+      },
+      {
+       "code": "LS-P2",
+       "title": "第二部 中国近代史（1840~1949，内忧外患与救亡图存）",
+       "units": [
+        {
+         "code": "LS-U07",
+         "no": 7,
+         "title": "第七单元 晚清时期",
+         "page": 69,
+         "lessons": [
+          {
+           "code": "LS-U07-L19",
+           "no": 19,
+           "title": "两次鸦片战争和新思想的萌发",
+           "page": 71,
+           "pdfPage": 74
+          },
+          {
+           "code": "LS-U07-L20",
+           "no": 20,
+           "title": "国家出路的探索和边疆新危机",
+           "page": 74,
+           "pdfPage": 77
+          },
+          {
+           "code": "LS-U07-L21",
+           "no": 21,
+           "title": "甲午中日战争和戊戌维新运动",
+           "page": 76,
+           "pdfPage": 79
+          },
+          {
+           "code": "LS-U07-L22",
+           "no": 22,
+           "title": "民族危机的加深和辛亥革命",
+           "page": 79,
+           "pdfPage": 82
+          },
+          {
+           "code": "LS-U07-L23",
+           "no": 23,
+           "title": "晚清中国社会的近代化",
+           "page": 83,
+           "pdfPage": 86
+          }
+         ]
+        },
+        {
+         "code": "LS-U08",
+         "no": 8,
+         "title": "第八单元 中华民国前期",
+         "page": 86,
+         "lessons": [
+          {
+           "code": "LS-U08-L24",
+           "no": 24,
+           "title": "从南京临时政府到北洋政府的统治",
+           "page": 87,
+           "pdfPage": 90
+          },
+          {
+           "code": "LS-U08-L25",
+           "no": 25,
+           "title": "五四运动与中国共产党的诞生",
+           "page": 89,
+           "pdfPage": 92
+          }
+         ]
+        },
+        {
+         "code": "LS-U09",
+         "no": 9,
+         "title": "第九单元 中华民国后期",
+         "page": 91,
+         "lessons": [
+          {
+           "code": "LS-U09-L26",
+           "no": 26,
+           "title": "国共政权的十年对峙",
+           "page": 93,
+           "pdfPage": 96
+          },
+          {
+           "code": "LS-U09-L27",
+           "no": 27,
+           "title": "从局部抗战到全面抗战",
+           "page": 96,
+           "pdfPage": 99
+          },
+          {
+           "code": "LS-U09-L28",
+           "no": 28,
+           "title": "全民族浴血奋战与抗日战争的胜利",
+           "page": 97,
+           "pdfPage": 100
+          },
+          {
+           "code": "LS-U09-L29",
+           "no": 29,
+           "title": "人民解放战争",
+           "page": 100,
+           "pdfPage": 103
+          },
+          {
+           "code": "LS-U09-L30",
+           "no": 30,
+           "title": "民国时期的经济和文化",
+           "page": 103,
+           "pdfPage": 106
+          }
+         ]
+        }
+       ],
+       "topics": [
+        {
+         "title": "中国近代现代史分期",
+         "page": 68,
+         "pdfPage": 71
+        }
+       ]
+      },
+      {
+       "code": "LS-P3",
+       "title": "第三部 中国现代史（1949~至今，中华民族的伟大复兴）",
+       "units": [
+        {
+         "code": "LS-U10",
+         "no": 10,
+         "title": "第十单元 从新中国成立到文革",
+         "page": 108,
+         "lessons": [
+          {
+           "code": "LS-U10-L31",
+           "no": 31,
+           "title": "新中国成立和向社会主义的过渡",
+           "page": 110,
+           "pdfPage": 113
+          },
+          {
+           "code": "LS-U10-L32",
+           "no": 32,
+           "title": "社会主义建设在探索中曲折发展",
+           "page": 112,
+           "pdfPage": 115
+          }
+         ]
+        },
+        {
+         "code": "LS-U11",
+         "no": 11,
+         "title": "第十一单元 社会主义现代化建设新时期",
+         "page": 114,
+         "lessons": [
+          {
+           "code": "LS-U11-L33",
+           "no": 33,
+           "title": "中国特色社会主义道路的开辟与发展",
+           "page": 116,
+           "pdfPage": 119
+          },
+          {
+           "code": "LS-U11-L34",
+           "no": 34,
+           "title": "政治建设与社会治理",
+           "page": 120,
+           "pdfPage": 123
+          },
+          {
+           "code": "LS-U11-L35",
+           "no": 35,
+           "title": "改革开放以来的巨大成就",
+           "page": 122,
+           "pdfPage": 125
+          },
+          {
+           "code": "LS-U11-L36",
+           "no": 36,
+           "title": "现代中国的外交",
+           "page": 124,
+           "pdfPage": 127
+          }
+         ]
+        }
+       ],
+       "topics": []
+      }
+     ]
+    },
+    {
+     "code": "LS-V2",
+     "title": "下部 世界史（30课）",
+     "parts": [
+      {
+       "code": "LS-P1",
+       "title": "第一部 世界古代史（多元发展的区域文明）",
+       "units": [
+        {
+         "code": "LS-U12",
+         "no": 12,
+         "title": "第一单元 上古时期的世界：古代文明的产生与发展",
+         "page": 126,
+         "lessons": [
+          {
+           "code": "LS-U12-L01",
+           "no": 1,
+           "title": "古文明的产生与早期发展",
+           "page": 127,
+           "pdfPage": 130
+          },
+          {
+           "code": "LS-U12-L02",
+           "no": 2,
+           "title": "印欧人的迁徙与古代希腊文明",
+           "page": 132,
+           "pdfPage": 135
+          },
+          {
+           "code": "LS-U12-L03",
+           "no": 3,
+           "title": "古代世界的帝国与文明交流",
+           "page": 135,
+           "pdfPage": 138
+          }
+         ]
+        },
+        {
+         "code": "LS-U13",
+         "no": 13,
+         "title": "第二单元 中古时期的世界",
+         "page": 139,
+         "lessons": [
+          {
+           "code": "LS-U13-L04",
+           "no": 4,
+           "title": "中古时期的欧洲",
+           "page": 140,
+           "pdfPage": 143
+          },
+          {
+           "code": "LS-U13-L05",
+           "no": 5,
+           "title": "中古时期的亚洲",
+           "page": 144,
+           "pdfPage": 147
+          },
+          {
+           "code": "LS-U13-L06",
+           "no": 6,
+           "title": "古代非洲与美洲",
+           "page": 149,
+           "pdfPage": 152
+          }
+         ]
+        }
+       ],
+       "topics": []
+      },
+      {
+       "code": "LS-P2",
+       "title": "第二部 世界近代史（西方主导走向整体的近代世界）",
+       "units": [
+        {
+         "code": "LS-U14",
+         "no": 14,
+         "title": "第三单元 走向整体的世界",
+         "page": 153,
+         "lessons": [
+          {
+           "code": "LS-U14-L07",
+           "no": 7,
+           "title": "全球航路的开辟",
+           "page": 154,
+           "pdfPage": 157
+          },
+          {
+           "code": "LS-U14-L08",
+           "no": 8,
+           "title": "全球联系的初步建立与世界格局的演变",
+           "page": 155,
+           "pdfPage": 158
+          }
+         ]
+        },
+        {
+         "code": "LS-U15",
+         "no": 15,
+         "title": "第四单元 资本主义制度的确立",
+         "page": 160,
+         "lessons": [
+          {
+           "code": "LS-U15-L09",
+           "no": 9,
+           "title": "欧洲的思想解放运动",
+           "page": 161,
+           "pdfPage": 164
+          },
+          {
+           "code": "LS-U15-L10",
+           "no": 10,
+           "title": "近代西方民族国家的产生与资本主义政治制度逐步确立",
+           "page": 164,
+           "pdfPage": 167
+          },
+          {
+           "code": "LS-U15-L11",
+           "no": 11,
+           "title": "近代西方制度文化建构",
+           "page": 167,
+           "pdfPage": 170
+          }
+         ]
+        },
+        {
+         "code": "LS-U16",
+         "no": 16,
+         "title": "第五单元 工业革命与社会的近代化",
+         "page": 168,
+         "lessons": [
+          {
+           "code": "LS-U16-L12",
+           "no": 12,
+           "title": "影响世界的工业革命",
+           "page": 169,
+           "pdfPage": 172
+          },
+          {
+           "code": "LS-U16-L13",
+           "no": 13,
+           "title": "城市化进程与社会发展",
+           "page": 171,
+           "pdfPage": 174
+          },
+          {
+           "code": "LS-U16-L14",
+           "no": 14,
+           "title": "西方文官制度与近代外交制度",
+           "page": 174,
+           "pdfPage": 177
+          }
+         ]
+        },
+        {
+         "code": "LS-U17",
+         "no": 17,
+         "title": "第六单元 民族独立运动与社会主义运动",
+         "page": 176,
+         "lessons": [
+          {
+           "code": "LS-U17-L15",
+           "no": 15,
+           "title": "资本主义世界殖民体系的形成",
+           "page": 177,
+           "pdfPage": 180
+          },
+          {
+           "code": "LS-U17-L16",
+           "no": 16,
+           "title": "亚非拉民族独立运动",
+           "page": 180,
+           "pdfPage": 183
+          },
+          {
+           "code": "LS-U17-L17",
+           "no": 17,
+           "title": "马克思主义的诞生、传播与国际工人运动",
+           "page": 183,
+           "pdfPage": 186
+          }
+         ]
+        }
+       ],
+       "topics": [
+        {
+         "title": "世界近代现代史分期",
+         "page": 152,
+         "pdfPage": 155
+        }
+       ]
+      },
+      {
+       "code": "LS-P3",
+       "title": "第三部 世界现代史（复杂多变走向多极的现代世界）",
+       "units": [
+        {
+         "code": "LS-U18",
+         "no": 18,
+         "title": "第七单元 两次世界大战与国际秩序的演变",
+         "page": 185,
+         "lessons": [
+          {
+           "code": "LS-U18-L18",
+           "no": 18,
+           "title": "第一次世界大战与战后国际秩序",
+           "page": 186,
+           "pdfPage": 189
+          },
+          {
+           "code": "LS-U18-L19",
+           "no": 19,
+           "title": "十月革命的胜利与苏（俄）联的社会主义实践",
+           "page": 189,
+           "pdfPage": 192
+          },
+          {
+           "code": "LS-U18-L20",
+           "no": 20,
+           "title": "亚非拉民族民主运动的高涨",
+           "page": 191,
+           "pdfPage": 194
+          },
+          {
+           "code": "LS-U18-L21",
+           "no": 21,
+           "title": "一战后二战前世界经济文化的发展",
+           "page": 193,
+           "pdfPage": 196
+          },
+          {
+           "code": "LS-U18-L22",
+           "no": 22,
+           "title": "第二次世界大战与战后国际秩序的形成",
+           "page": 196,
+           "pdfPage": 199
+          }
+         ]
+        },
+        {
+         "code": "LS-U19",
+         "no": 19,
+         "title": "第八单元 两极格局与各国建设道路的探索",
+         "page": 199,
+         "lessons": [
+          {
+           "code": "LS-U19-L23",
+           "no": 23,
+           "title": "两极对峙格局和多极化趋势",
+           "page": 200,
+           "pdfPage": 203
+          },
+          {
+           "code": "LS-U19-L24",
+           "no": 24,
+           "title": "世界经济体系的确立和资本主义国家治理的新变化",
+           "page": 203,
+           "pdfPage": 206
+          },
+          {
+           "code": "LS-U19-L25",
+           "no": 25,
+           "title": "社会主义国家的发展与变化",
+           "page": 205,
+           "pdfPage": 208
+          },
+          {
+           "code": "LS-U19-L26",
+           "no": 26,
+           "title": "世界殖民体系的瓦解与新兴国家的发展",
+           "page": 207,
+           "pdfPage": 210
+          }
+         ]
+        },
+        {
+         "code": "LS-U20",
+         "no": 20,
+         "title": "第九单元 科学技术新发展与社会的现代化",
+         "page": 210,
+         "lessons": [
+          {
+           "code": "LS-U20-L27",
+           "no": 27,
+           "title": "科学技术新发展与社会生产的现代化",
+           "page": 211,
+           "pdfPage": 214
+          },
+          {
+           "code": "LS-U20-L28",
+           "no": 28,
+           "title": "城市化与生活安全保障",
+           "page": 214,
+           "pdfPage": 217
+          }
+         ]
+        },
+        {
+         "code": "LS-U21",
+         "no": 21,
+         "title": "第十单元 当代世界发展的特点与主要趋势",
+         "page": 219,
+         "lessons": [
+          {
+           "code": "LS-U21-L29",
+           "no": 29,
+           "title": "当今世界发展的特点",
+           "page": 217,
+           "pdfPage": 220
+          },
+          {
+           "code": "LS-U21-L30",
+           "no": 30,
+           "title": "和平发展合作共赢的时代潮流",
+           "page": 221,
+           "pdfPage": 224
+          }
+         ]
+        }
+       ],
+       "topics": []
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
