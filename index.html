@@ -4,8 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>历史知识库 · 高中三年历史知识清单</title>
-<meta name="description" content="离线可用的高中历史知识点速查工具：章节树、全文检索、笔记、错题本与备份。">
-<link rel="stylesheet" href="assets/css/app.css?v=20261124e">
+<meta name="description" content="离线可用的高中历史知识点速查工具：章节树、全文检索、笔记、错题本、时间线与备份。">
+<script>(function(){try{var t=localStorage.getItem("hs.theme");if(!t){t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}document.documentElement.dataset.theme=t}catch(e){}})();</script>
+<link rel="stylesheet" href="assets/css/app.css?v=20261124h">
+<link rel="stylesheet" href="assets/css/editorial.css?v=20261124d">
+<link rel="stylesheet" href="assets/css/hidden-fix.css?v=20261124a">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2317394f'/%3E%3Ctext x='32' y='46' text-anchor='middle' font-family='serif' font-size='38' fill='%23f4fbfe'%3E%E5%8F%B2%3C/text%3E%3C/svg%3E">
 </head>
 <body>
 <a class="skip-link" href="#listViewport">跳到知识列表</a>
@@ -28,14 +32,88 @@
   </div>
 
   <div class="topactions">
+    <button id="themeToggle" class="theme-btn" title="切换明暗主题" aria-label="切换明暗主题">◐</button>
     <a id="timelineBtn" class="btn ghost" href="timeline.html" title="历史时间线"><span class="lbl">时间线</span><span class="ico" aria-hidden="true">时</span></a>
     <button id="dueBtn" class="btn ghost" title="今日待复习">
-      <span class="lbl">待复习</span> <span id="dueCount" class="count bad">0</span>
+      <span class="lbl">待复习</span> <span id="dueCount" class="count bad">0</span><span class="ico" aria-hidden="true">待</span>
     </button>
     <button id="backupBtn" class="btn ghost" title="备份与导出"><span class="lbl">备份</span><span class="ico" aria-hidden="true">⇩</span></button>
     <button id="helpBtn" class="icon-btn" title="快捷键与说明" aria-label="快捷键与说明">?</button>
   </div>
 </header>
+
+<section class="hero" aria-label="学习概览">
+  <svg class="hero-scape" viewBox="0 0 1440 260" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <defs>
+      <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#91b6c8"/>
+        <stop offset=".56" stop-color="#c6dae2"/>
+        <stop offset="1" stop-color="#eef2ee"/>
+      </linearGradient>
+      <linearGradient id="far" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#7896a6"/><stop offset="1" stop-color="#557788"/>
+      </linearGradient>
+      <linearGradient id="mid" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#486c7e"/><stop offset="1" stop-color="#2b4d60"/>
+      </linearGradient>
+      <linearGradient id="near" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#274a5d"/><stop offset="1" stop-color="#132f40"/>
+      </linearGradient>
+      <radialGradient id="sun" cx=".5" cy=".5" r=".5">
+        <stop offset="0" stop-color="#fff5dd" stop-opacity=".85"/>
+        <stop offset=".55" stop-color="#f2ddc2" stop-opacity=".28"/>
+        <stop offset="1" stop-color="#f2ddc2" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="mist" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#e8f0f1" stop-opacity="0"/>
+        <stop offset=".45" stop-color="#e8f0f1" stop-opacity=".42"/>
+        <stop offset="1" stop-color="#e8f0f1" stop-opacity="0"/>
+      </linearGradient>
+    </defs>
+    <rect width="1440" height="260" fill="url(#sky)"/>
+    <circle cx="1128" cy="78" r="180" fill="url(#sun)"/>
+    <path d="M0 186 L118 146 L208 178 L320 128 L420 170 L526 138 L646 190 L760 158 L884 196 L1006 150 L1136 186 L1258 142 L1360 176 L1440 152 L1440 260 L0 260 Z" fill="url(#far)" opacity=".7"/>
+    <path d="M0 212 L86 180 L176 206 L268 164 L372 208 L470 174 L568 214 L690 184 L802 220 L920 178 L1030 214 L1148 182 L1260 218 L1372 184 L1440 204 L1440 260 L0 260 Z" fill="url(#mid)" opacity=".9"/>
+    <path d="M0 238 L96 220 L198 240 L306 212 L410 238 L522 210 L626 240 L740 218 L842 246 L960 214 L1072 242 L1188 220 L1300 246 L1402 226 L1440 236 L1440 260 L0 260 Z" fill="url(#near)"/>
+    <g opacity=".6">
+      <rect x="180" y="204" width="360" height="9" rx="4.5" fill="url(#mist)"/>
+      <rect x="640" y="222" width="440" height="7" rx="3.5" fill="url(#mist)"/>
+      <rect x="1020" y="198" width="300" height="10" rx="5" fill="url(#mist)"/>
+    </g>
+  </svg>
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <p class="hero-eyebrow">HISTORY ARCHIVE · 高中历史</p>
+      <h1>把三年历史，<em>读成一条线。</em></h1>
+      <p class="hero-lede">从先秦到当代，323 个考点拆成可检索、可标记、可复习的卡片；每个纪年事件，都能回到它所在的章节。</p>
+      <div class="hero-meta">
+        <span id="heroDate">2026.11.24 · 星期二</span>
+        <span class="dot" aria-hidden="true"></span>
+        <span>66 课</span>
+        <span class="dot" aria-hidden="true"></span>
+        <span>104 个纪年事件</span>
+      </div>
+    </div>
+    <div class="hero-metrics" aria-label="学习数据">
+      <div class="metric accent">
+        <span class="metric-label">知识点</span>
+        <div class="metric-value"><strong id="heroTotal">323</strong><small>条</small></div>
+      </div>
+      <div class="metric">
+        <span class="metric-label">已掌握</span>
+        <div class="metric-value"><strong id="heroMastered">0</strong><small>条</small></div>
+      </div>
+      <div class="metric">
+        <span class="metric-label">今日待复习</span>
+        <div class="metric-value"><strong id="heroDue">0</strong><small>条</small></div>
+      </div>
+      <div class="metric">
+        <span class="metric-label">错题本</span>
+        <div class="metric-value"><strong id="heroMistakes">0</strong><small>道</small></div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <div class="layout" id="app">
   <!-- 左：章节树 + 筛选 -->
@@ -129,7 +207,7 @@
       <button id="closeDetail" class="icon-btn mobile-only" aria-label="关闭详情">×</button>
     </div>
     <div id="detailEmpty" class="detail-empty">
-      <div class="empty-glyph" aria-hidden="true">◫</div>
+      <div class="empty-glyph" aria-hidden="true">史</div>
       <p>从左侧章节树或中间列表选一条知识点</p>
       <p class="muted small">快捷键 <kbd>J</kbd> / <kbd>K</kbd> 可在列表中上下移动</p>
     </div>
@@ -148,6 +226,7 @@
 <div id="modalRoot" class="modal-root" hidden></div>
 <pre id="selftest" hidden></pre>
 
-<script type="module" src="assets/js/app.js?v=20261124e"></script>
+<script src="assets/js/chrome.js?v=20261124b" defer></script>
+<script type="module" src="assets/js/app.js?v=20261124h"></script>
 </body>
 </html>

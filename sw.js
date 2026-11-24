@@ -4,12 +4,16 @@
  *  - 静态资源：缓存优先 + 后台更新（stale-while-revalidate）
  * 重新部署后如资源有变，改下面的 CACHE 版本号即可整体换新。
  */
-const CACHE = 'hs-static-v9';
+const CACHE = 'hs-static-v14';
 const ASSETS = [
   './',
   './index.html',
+  './detail.html',
   './assets/css/app.css',
+  './assets/css/editorial.css',
+  './assets/css/hidden-fix.css',
   './assets/js/app.js',
+  './assets/js/chrome.js',
   './assets/js/store.js',
   './assets/js/search-worker.js',
   './assets/vendor/pdfjs/pdf.min.mjs',
@@ -20,7 +24,11 @@ const ASSETS = [
   './data/pinyin.json',
   './timeline.html',
   './assets/css/timeline.css',
+  './assets/css/timeline-editorial.css',
+  './assets/css/timeline-plus.css',
+  './assets/css/detail.css',
   './assets/js/timeline.js',
+  './assets/js/detail.js',
   './data/timeline.json',
 ];
 
@@ -53,10 +61,16 @@ self.addEventListener('fetch', (e) => {
       fetch(req)
         .then((res) => {
           const copy = res.clone();
-          caches.open(CACHE).then((c) => c.put('./index.html', copy)).catch(() => {});
+          caches.open(CACHE).then((c) => c.put(req, copy)).catch(() => {});
           return res;
         })
-        .catch(() => caches.match(req).then((hit) => hit || caches.match('./index.html')))
+        .catch(async () => {
+          const hit = await caches.match(req);
+          if (hit) return hit;
+          if (url.pathname.endsWith('/detail.html')) return caches.match('./detail.html');
+          if (url.pathname.endsWith('/timeline.html')) return caches.match('./timeline.html');
+          return caches.match('./index.html');
+        })
     );
     return;
   }

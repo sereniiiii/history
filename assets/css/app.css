@@ -69,7 +69,7 @@ a{color:var(--primary)}
 #brandSub{font-size:11px;color:var(--muted)}
 
 .searchbox{
-  flex:1 1 auto;max-width:720px;margin:0 auto;
+  flex:1 1 auto;min-width:0;max-width:720px;margin:0 auto;
   display:flex;align-items:center;gap:8px;
   background:var(--bg);
   border:1px solid var(--line-strong);
@@ -270,7 +270,7 @@ kbd{
 
 /* 卡片：固定高度，虚拟滚动 */
 .k-card{
-  position:absolute;left:0;right:0;height:96px;
+  position:absolute;left:0;right:0;height:116px;
   background:var(--card);border:1px solid var(--line);
   border-left:4px solid var(--book);
   border-radius:var(--radius);
@@ -288,9 +288,12 @@ kbd{
 .k-card .ct{font-size:14.5px;font-weight:650;line-height:1.35;margin-bottom:3px;
   overflow:hidden;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical}
 .k-card .cc{font-size:12.5px;color:#4b5563;line-height:1.5;
-  overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+  overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow-wrap:anywhere}
 .k-card .cm{display:flex;align-items:center;gap:8px;margin-top:5px;font-size:11px;color:var(--muted)}
-.k-card .cm .src{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+.k-card .cm .src{flex:1 1 auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+.k-card .cm .diff{flex:0 0 auto;color:var(--muted);letter-spacing:.04em}
+.k-card .cd-link{flex:0 0 auto;font-size:10.5px;line-height:16px;color:var(--primary);text-decoration:none;border-bottom:1px solid color-mix(in srgb,var(--primary) 40%,transparent);padding-bottom:1px}
+.k-card .cd-link:hover{color:var(--book)}
 .badge{
   display:inline-flex;align-items:center;gap:3px;
   padding:1px 6px;border-radius:999px;font-size:10.5px;line-height:16px;
@@ -444,6 +447,14 @@ mark{background:#ffe58a;color:inherit;border-radius:3px;padding:0 1px}
 
 @media (max-width:1240px){
   .layout{grid-template-columns:238px minmax(0,1fr) 340px}
+}
+@media (max-width:1180px){
+  .layout{grid-template-columns:212px minmax(0,1fr) 300px}
+  .home-strip{gap:6px}
+  .result-line{min-width:0}
+}
+@media (max-width:1080px){
+  .layout{grid-template-columns:200px minmax(0,1fr) 284px}
 }
 @media (max-width:980px){
   body{overflow:hidden}

@@ -17,8 +17,8 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({
   '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
 }[c]));
 
-const ITEM_H = 104;
-const CARD_H = 96;
+const ITEM_H = 124;
+const CARD_H = 116;
 const TODAY = () => {
   const d = new Date();
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
@@ -414,7 +414,8 @@ function paintWindow(force = false) {
         <span class="badge book">${it.kind === 'custom' ? '自定义' : '清单'}</span>
         ${badge}${statusBadge}${dueBadge}${noteBadge}
         <span class="src">${meta}</span>
-        <span>${esc(diff)}</span>
+        <span class="diff">${esc(diff)}</span>
+        <a class="cd-link" href="detail.html?id=${encodeURIComponent(it.id)}" target="_blank" rel="noopener" data-detail-link>解析 ↗</a>
       </div>`;
     frag.appendChild(card);
   }
@@ -632,6 +633,7 @@ function renderDetail() {
       ${canPdf ? `<button class="btn small" id="openPdf">跳转书源 p${p.pdfPage}</button>` : ''}
     </div>
 
+    <a class="btn detail-open" href="detail.html?id=${encodeURIComponent(p.id)}" target="_blank" rel="noopener">完整解析 ↗</a>
     <div class="detail-actions">
       <button class="btn ${st === 'mastered' ? 'primary' : ''}" data-mark="mastered">已掌握</button>
       <button class="btn ${st === 'review' ? 'primary' : ''}" data-mark="review">待复习</button>
@@ -1296,6 +1298,7 @@ function bindEvents() {
 
   // 卡片点击 / 键盘
   $('#listCanvas').addEventListener('click', (e) => {
+    if (e.target.closest('[data-detail-link]')) return;
     const card = e.target.closest('.k-card');
     if (card) select(card.dataset.id);
   });
