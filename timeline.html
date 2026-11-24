@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>历史时间线 · 高中三年历史知识清单</title>
+<meta name="description" content="104 个有明确纪年的高中历史考点，按六个时代排成时间轴；点事件跳转对应章节与教材页。">
+<link rel="stylesheet" href="assets/css/timeline.css?v=20261124b">
+</head>
+<body>
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+<header class="tl-top">
+  <a class="back" href="index.html" title="返回知识库">← <span>知识库</span></a>
+  <div class="tl-brand">
+    <span class="mark" aria-hidden="true">时</span>
+    <div><strong>历史时间线</strong><small>高中三年历史知识清单</small></div>
+  </div>
+  <div class="tl-actions">
+    <button class="btn" id="csvBtn" title="导出 CSV">CSV</button>
+    <button class="btn" id="jsonBtn" title="导出 JSON">JSON</button>
+    <button class="btn icon" id="printBtn" title="打印" aria-label="打印">⌘P</button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-copy">
+    <p class="kicker">CHRONOLOGY · 66 LESSONS</p>
+    <h1>历史，<br><em>在一条线上。</em></h1>
+    <p class="lede">323 个考点里，有明确纪年的 <strong id="totalCount">104</strong> 个。按六个时代排成时间轴，点任意事件，回到对应章节与教材页。</p>
+  </div>
+  <aside class="hero-panel" aria-label="时间线概览">
+    <p class="panel-label">时间跨度</p>
+    <p class="range" id="range">前 2070 <span>—</span> 2020</p>
+    <dl class="stats">
+      <div><dt>纪年考点</dt><dd id="statEvents">104</dd></div>
+      <div><dt>时代</dt><dd>6</dd></div>
+      <div><dt>覆盖课次</dt><dd id="statLessons">—</dd></div>
+    </dl>
+    <p class="panel-note">约数用 <b>~</b> 标注 · 年份取自知识点原文</p>
+  </aside>
+</section>
+
+<nav class="era-tabs" id="eraTabs" aria-label="按时代筛选"></nav>
+
+<main class="wrap">
+  <div class="tools">
+    <div class="search">
+      <span aria-hidden="true">⌕</span>
+      <input id="q" type="search" placeholder="搜事件、人物、条约…" aria-label="在时间线内搜索" autocomplete="off" spellcheck="false">
+      <kbd>/</kbd>
+    </div>
+    <button class="reset" id="resetBtn" hidden>清除筛选 ×</button>
+  </div>
+
+  <p class="status" id="status" role="status"></p>
+
+  <div id="stream" class="stream"></div>
+
+  <div class="empty" id="empty" hidden>
+    <h3>这条时间线上没有匹配的事件</h3>
+    <p>试试更短的关键词，比如“条约”“革命”“1927”。</p>
+  </div>
+</main>
+
+<footer class="tl-foot">
+  <p>点击事件 → 打开知识库对应知识点，可继续看笔记、标记掌握、跳到 PDF 原页。</p>
+  <p class="muted">离线可用 · 数据只读 · 你的笔记与错题仍保存在浏览器本地</p>
+</footer>
+
+<button class="totop" id="toTop" title="回到顶部" aria-label="回到顶部" hidden>↑</button>
+
+<script src="assets/js/timeline.js?v=20261124b" defer></script>
+</body>
+</html>

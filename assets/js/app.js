@@ -115,9 +115,25 @@ async function boot() {
   renderDetail();
   S.initMs = +(performance.now() - t0).toFixed(1);
 
-  // 恢复上次选中
-  const last = S.user.config?.lastSel;
-  if (last && itemById(last)) select(last, false);
+  // 恢复上次选中；时间线深链优先
+  const focus = new URLSearchParams(location.search).get('focus');
+  if (focus && itemById(focus)) {
+    S.view = 'browse';
+    S.scope = { type: 'all', code: null };
+    S.query = '';
+    renderList();
+    select(focus, true);
+    const idx = S.list.findIndex(x => x.id === focus);
+    if (idx >= 0) {
+      const vp = $('#listViewport');
+      vp.scrollTop = Math.max(0, idx * ITEM_H - Math.round(vp.clientHeight / 2) + ITEM_H / 2);
+      lastStart = lastEnd = -1;
+      paintWindow(true);
+    }
+  } else {
+    const last = S.user.config?.lastSel;
+    if (last && itemById(last)) select(last, false);
+  }
 
   if (new URLSearchParams(location.search).get('selftest') === '1') runSelfTest();
   if (new URLSearchParams(location.search).get('perf') === '1000') enablePerfMode();
