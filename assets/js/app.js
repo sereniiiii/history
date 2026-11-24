@@ -9,6 +9,9 @@ import {
   exportPayload, validateImport, mergeUser, overwriteUser,
   download, stamp, mistakesToCSV, knowledgeToMD, emptyUser,
 } from './store.js';
+import {
+  calendarMarkup, getReviewDates, isReviewedToday, monthReviewCount, reviewStats, toggleReviewToday,
+} from './review.js';
 
 /* ---------------- 基础工具 ---------------- */
 const $ = s => document.querySelector(s);
@@ -17,8 +20,8 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({
   '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
 }[c]));
 
-const ITEM_H = 124;
-const CARD_H = 116;
+const ITEM_H = 150;
+const CARD_H = 140;
 const TODAY = () => {
   const d = new Date();
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
@@ -28,6 +31,7 @@ const addDays = (n) => {
   d.setDate(d.getDate() + n);
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 };
+const cleanSource = s => String(s || '').replace(/[·,，]\s*p\d+\s*$/i, '').replace(/\s+p\d+\s*$/i, '');
 const fmtTime = ts => {
   if (!ts) return '从未';
   const d = new Date(ts);
@@ -262,6 +266,70 @@ function statusOf(id) {
   return S.user.status?.[id]?.state || 'none';
 }
 
+/* ---------------- 复习月历 ---------------- */
+let reviewCal = { id: null, y: new Date().getFullYear(), m: new Date().getMonth() };
+
+function ensureReviewCal(id) {
+  if (reviewCal.id !== id) {
+    const now = new Date();
+    reviewCal = { id, y: now.getFullYear(), m: now.getMonth() };
+  }
+}
+
+function reviewBlockHTML(id) {
+  ensureReviewCal(id);
+  const dates = getReviewDates(S.user, id);
+  const stats = reviewStats(S.user, id);
+  const reviewed = isReviewedToday(S.user, id);
+  return `<section class="detail-section review-section">
+      <div class="review-head">
+        <h3>复习月历</h3>
+        <button type="button" class="review-btn ${reviewed ? 'done' : ''}" id="reviewTodayDetail" aria-pressed="${reviewed}">
+          <span class="review-box" aria-hidden="true"></span>今日已复习
+        </button>
+      </div>
+      <div class="review-cal" id="reviewCal">${calendarMarkup(reviewCal.y, reviewCal.m, dates)}</div>
+      <div class="review-sum" id="reviewSum">本月 ${monthReviewCount(dates, reviewCal.y, reviewCal.m)} 天 · 累计 ${stats.total} 天${stats.last ? ' · 最近 ' + stats.last : ''}</div>
+    </section>`;
+}
+
+function refreshReviewCalendar(id) {
+  const dates = getReviewDates(S.user, id);
+  const stats = reviewStats(S.user, id);
+  const reviewed = isReviewedToday(S.user, id);
+  const cal = $('#reviewCal');
+  if (cal) cal.innerHTML = calendarMarkup(reviewCal.y, reviewCal.m, dates);
+  const sum = $('#reviewSum');
+  if (sum) sum.textContent = `本月 ${monthReviewCount(dates, reviewCal.y, reviewCal.m)} 天 · 累计 ${stats.total} 天${stats.last ? ' · 最近 ' + stats.last : ''}`;
+  const btn = $('#reviewTodayDetail');
+  if (btn) {
+    btn.classList.toggle('done', reviewed);
+    btn.setAttribute('aria-pressed', String(reviewed));
+  }
+}
+
+function bindReviewSection(id) {
+  const cal = $('#reviewCal');
+  if (cal) {
+    cal.addEventListener('click', (e) => {
+      const shift = e.target.closest('[data-cal-shift]');
+      if (!shift) return;
+      const next = new Date(reviewCal.y, reviewCal.m + Number(shift.dataset.calShift), 1);
+      reviewCal.y = next.getFullYear();
+      reviewCal.m = next.getMonth();
+      cal.innerHTML = calendarMarkup(reviewCal.y, reviewCal.m, getReviewDates(S.user, id));
+      refreshReviewCalendar(id);
+    });
+  }
+  $('#reviewTodayDetail')?.addEventListener('click', () => {
+    const res = toggleReviewToday(S.user, id);
+    if (!saveUser(S.user)) { toggleReviewToday(S.user, id); toast('保存失败，请检查浏览器存储'); return; }
+    refreshReviewCalendar(id);
+    paintWindow(true);
+    toast(res.reviewed ? '已记录今日复习' : '已取消今日复习');
+  });
+}
+
 function inScope(p) {
   if (S.scope.type === 'all') return true;
   if (S.scope.type === 'unit') return p.unit === S.scope.code;
@@ -365,7 +433,7 @@ function renderNearest() {
   if (!list.length) return;
   box.innerHTML = `<h4 class="nearest-title">最相近的 ${list.length} 条</h4>` +
     list.map(p => `<button class="nearest-item" data-id="${esc(p.id)}">
-      <span>${esc(p.title)}</span><span class="muted small">${esc(p.source)}</span>
+      <span>${esc(p.title)}</span><span class="muted small">${esc(cleanSource(p.source))}</span>
     </button>`).join('');
   box.querySelectorAll('button').forEach(b => b.onclick = () => select(b.dataset.id));
 }
@@ -385,8 +453,11 @@ function paintWindow(force = false) {
   for (let i = start; i < end; i++) {
     const it = items[i];
     const stt = statusOf(it.id);
+    const reviewable = it.kind !== 'mistake';
+    const reviewedToday = reviewable && isReviewedToday(S.user, it.id);
+    const reviewInfo = reviewable ? reviewStats(S.user, it.id) : null;
     const card = document.createElement('div');
-    card.className = `k-card ${S.selected === it.id ? 'selected' : ''} ${stt !== 'none' ? stt : ''}`;
+    card.className = `k-card ${S.selected === it.id ? 'selected' : ''} ${stt !== 'none' ? stt : ''} ${reviewedToday ? 'reviewed-today' : ''}`;
     card.style.transform = `translate3d(0,${i * ITEM_H}px,0)`;
     card.dataset.id = it.id;
     card.dataset.index = i;
@@ -416,7 +487,14 @@ function paintWindow(force = false) {
         <span class="src">${meta}</span>
         <span class="diff">${esc(diff)}</span>
         <a class="cd-link" href="detail.html?id=${encodeURIComponent(it.id)}" target="_blank" rel="noopener" data-detail-link>解析 ↗</a>
-      </div>`;
+      </div>
+      ${reviewable ? `<div class="cr">
+        <label class="review-toggle" title="勾选 = 今天复习过这条">
+          <input type="checkbox" data-review-today ${reviewedToday ? 'checked' : ''} aria-label="今日已复习">
+          <span>今日已复习</span>
+        </label>
+        <span class="review-hint">本月 ${reviewInfo.month} 天 · 共 ${reviewInfo.total} 天</span>
+      </div>` : ''}`;
     frag.appendChild(card);
   }
   const canvas = $('#listCanvas');
@@ -447,7 +525,7 @@ function renderTree() {
     for (const part of v.parts) {
       html += `<div class="tree-part">${esc(part.title)}</div>`;
       for (const t of (part.topics || [])) {
-        html += `<div class="tree-topic" data-topic="1" data-page="${t.page}" title="书页 ${t.page}">${esc(t.title)}</div>`;
+        html += `<div class="tree-topic">${esc(t.title)}</div>`;
       }
       for (const u of part.units) {
         const cnt = S.counts.get(u.code) || 0;
@@ -460,7 +538,7 @@ function renderTree() {
         <div class="unit-lessons" ${uOpen ? '' : 'hidden'}>`;
         for (const l of u.lessons) {
           const c = S.counts.get(l.code) || 0;
-          html += `<div class="tree-lesson ${S.scope.code === l.code ? 'active' : ''}" data-lesson="${esc(l.code)}" title="书页 ${l.page}">
+          html += `<div class="tree-lesson ${S.scope.code === l.code ? 'active' : ''}" data-lesson="${esc(l.code)}" title="${esc(l.title)}">
             <span class="dot"></span><span class="num">${l.no}</span>
             <span>${esc(l.title)}</span>
             ${c ? `<span class="cnt">${c}</span>` : ''}
@@ -498,9 +576,6 @@ function renderTree() {
       onMobileTab('list');
     };
   });
-  tree.querySelectorAll('.tree-topic').forEach(el => {
-    el.onclick = () => showToast(`「${el.textContent}」在书页 ${el.dataset.page}，可从右侧详情跳转书源`);
-  });
   updateTreeDots();
 }
 
@@ -533,10 +608,10 @@ function updateScopeUI() {
   else if (S.view === 'due') sub.textContent = `${dueMistakes().length} 道今天到期`;
   else if (S.scope.type === 'lesson') {
     const l = S.lessons.get(S.scope.code);
-    sub.textContent = l ? `书页 ${l.page} · PDF ${l.pdfPage}` : '';
+    sub.textContent = l ? '本课知识点' : '';
   } else if (S.scope.type === 'unit') {
     const u = S.units.get(S.scope.code);
-    sub.textContent = u ? `书页 ${u.page} 起` : '';
+    sub.textContent = u ? '本单元知识点' : '';
   } else {
     sub.textContent = S.perfMode ? '合成数据，仅用于帧率测试' : `${S.all.length} 条 · ${S.units.size} 单元 · ${S.lessons.size} 课`;
   }
@@ -584,7 +659,6 @@ function renderDetail() {
   const st = statusOf(p.id);
   const note = S.user.notes?.[p.id]?.text || '';
   const isCustom = p.kind === 'custom';
-  const canPdf = p.pdfPage && !isCustom;
 
   box.innerHTML = `
     <h1 class="detail-title">${esc(p.title)}</h1>
@@ -603,7 +677,7 @@ function renderDetail() {
     ${p.excerpt ? `<section class="detail-section">
       <h3>原文摘录（OCR 定位）</h3>
       <div class="quote">${esc(p.excerpt)}
-        <span class="quote-src">—— ${esc(p.source)}</span>
+        <span class="quote-src">—— ${esc(cleanSource(p.source))}</span>
       </div>
     </section>` : ''}
 
@@ -628,9 +702,10 @@ function renderDetail() {
       </div>
     </section>
 
+    ${reviewBlockHTML(p.id)}
+
     <div class="detail-source">
-      <span>${esc(p.source || (p.excerpt ? '高中三年历史知识清单' : '考点归纳（未引用原文，页图为扫描版）'))}</span>
-      ${canPdf ? `<button class="btn small" id="openPdf">跳转书源 p${p.pdfPage}</button>` : ''}
+      <span>${esc(cleanSource(p.source) || (p.excerpt ? '高中三年历史知识清单' : '考点归纳（未引用原文）'))}</span>
     </div>
 
     <a class="btn detail-open" href="detail.html?id=${encodeURIComponent(p.id)}" target="_blank" rel="noopener">完整解析 ↗</a>
@@ -672,7 +747,6 @@ function renderDetail() {
   box.querySelectorAll('[data-mark]').forEach(b => {
     b.onclick = () => setStatus(p.id, b.dataset.mark === 'none' ? null : b.dataset.mark);
   });
-  $('#openPdf')?.addEventListener('click', () => openPdf(p));
   $('#editCustom')?.addEventListener('click', () => openPointForm(p));
   $('#delCustom')?.addEventListener('click', () => {
     if (!confirm(`删除自定义知识点「${p.title}」？`)) return;
@@ -680,13 +754,15 @@ function renderDetail() {
     S.user.customs = S.user.customs.filter(c => c.id !== p.id);
     delete S.user.notes[p.id];
     delete S.user.status[p.id];
+    delete S.user.reviews?.[p.id];
     saveUser(S.user);
     rebuildAll(); S.selected = null;
     renderTree(); renderList(); renderDetail(); renderHome();
     toast('已删除');
   });
+  bindReviewSection(p.id);
   $('#copyPoint')?.addEventListener('click', async () => {
-    const txt = `${p.title}\n${p.content}\n${p.excerpt ? '原文：' + p.excerpt + '\n' : ''}${p.source}`;
+    const txt = `${p.title}\n${p.content}\n${p.excerpt ? '原文：' + p.excerpt + '\n' : ''}${cleanSource(p.source)}`;
     try { await navigator.clipboard.writeText(txt); toast('已复制'); }
     catch { toast('复制失败，请手动选择'); }
   });
@@ -926,7 +1002,7 @@ function openBackupPanel() {
     <div class="row">
       <div>
         <div>${esc(new Date(s.at).toLocaleString('zh-CN'))}</div>
-        <div class="snap-meta">${esc(s.reason)} · 笔记 ${s.counts?.notes || 0} / 自定义 ${s.counts?.customs || 0} / 错题 ${s.counts?.mistakes || 0}</div>
+        <div class="snap-meta">${esc(s.reason)} · 笔记 ${s.counts?.notes || 0} / 复习 ${s.counts?.reviewDays || 0} 天 / 自定义 ${s.counts?.customs || 0} / 错题 ${s.counts?.mistakes || 0}</div>
       </div>
       <button class="btn small" data-rollback="${esc(s.id)}">回滚</button>
     </div>`).join('') : '<p class="muted small">还没有快照。导入、批量操作前会自动生成。</p>';
@@ -935,8 +1011,8 @@ function openBackupPanel() {
     <div class="detail-section" style="margin-top:0">
       <h3>一键备份</h3>
       <div class="list-mini">
-        <div class="row"><div>完整数据（笔记 / 自定义 / 错题 / 配置）</div><button class="btn small primary" id="bkExport">导出 JSON</button></div>
-        <div class="row"><div>知识点（含原文摘录与页码）</div><button class="btn small" id="bkMD">导出 Markdown</button></div>
+        <div class="row"><div>完整数据（笔记 / 复习记录 / 自定义 / 错题 / 配置）</div><button class="btn small primary" id="bkExport">导出 JSON</button></div>
+        <div class="row"><div>知识点（含原文摘录）</div><button class="btn small" id="bkMD">导出 Markdown</button></div>
         <div class="row"><div>错题本（可直接进 Excel）</div><button class="btn small" id="bkCSV">导出 CSV</button></div>
         <div class="row"><div>恢复备份</div><button class="btn small" id="bkImport">选择 JSON</button></div>
       </div>
@@ -1007,7 +1083,7 @@ function openBackupPanel() {
         if (!confirm('确定删除全部「我创建」的知识点？此操作可通过快照恢复。')) return;
         takeSnapshot(S.user, '批量删除自定义知识点');
         S.user.customs = [];
-        for (const c of S.customs) { delete S.user.notes[c.id]; delete S.user.status[c.id]; }
+        for (const c of S.customs) { delete S.user.notes[c.id]; delete S.user.status[c.id]; delete S.user.reviews?.[c.id]; }
       } else {
         takeSnapshot(S.user, '批量标记：' + kind);
         for (const it of items) {
@@ -1298,9 +1374,26 @@ function bindEvents() {
 
   // 卡片点击 / 键盘
   $('#listCanvas').addEventListener('click', (e) => {
-    if (e.target.closest('[data-detail-link]')) return;
+    if (e.target.closest('[data-detail-link]') || e.target.closest('.review-toggle')) return;
     const card = e.target.closest('.k-card');
     if (card) select(card.dataset.id);
+  });
+  $('#listCanvas').addEventListener('change', (e) => {
+    const input = e.target.closest('[data-review-today]');
+    if (!input) return;
+    const card = input.closest('.k-card');
+    if (!card) return;
+    const id = card.dataset.id;
+    const res = toggleReviewToday(S.user, id);
+    if (!saveUser(S.user)) {
+      toggleReviewToday(S.user, id);
+      input.checked = !input.checked;
+      toast('保存失败，请检查浏览器存储');
+      return;
+    }
+    paintWindow(true);
+    if (S.selected === id) refreshReviewCalendar(id);
+    toast(res.reviewed ? '已记录今日复习' : '已取消今日复习');
   });
   $('#listCanvas').addEventListener('keydown', (e) => {
     const card = e.target.closest('.k-card');

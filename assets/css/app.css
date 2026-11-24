@@ -270,7 +270,7 @@ kbd{
 
 /* 卡片：固定高度，虚拟滚动 */
 .k-card{
-  position:absolute;left:0;right:0;height:116px;
+  position:absolute;left:0;right:0;height:140px;
   background:var(--card);border:1px solid var(--line);
   border-left:4px solid var(--book);
   border-radius:var(--radius);

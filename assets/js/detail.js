@@ -2,6 +2,10 @@
    detail.js —— 单条考点解析页
    只读 data/*.json；不写入知识库数据
    ============================================================ */
+import {
+  calendarMarkup, getReviewDates, isReviewedToday, monthReviewCount, reviewStats, toggleReviewToday,
+} from './review.js';
+
 'use strict';
 
 const $ = (s) => document.querySelector(s);
@@ -54,13 +58,82 @@ function persistNote(id, text) {
   }
 }
 
-
-function fmtPage(p) {
-  if (p.page && p.pdfPage) return `书页 ${p.page} · PDF ${p.pdfPage}`;
-  if (p.page) return `书页 ${p.page}`;
-  if (p.pdfPage) return `PDF ${p.pdfPage}`;
-  return '未定位';
+function persistReview(id) {
+  const u = readUser();
+  if (!u) return null;
+  const res = toggleReviewToday(u, id);
+  try {
+    localStorage.setItem(USER_KEY, JSON.stringify(u));
+    return res;
+  } catch (e) {
+    return null;
+  }
 }
+
+let reviewCal = { id: null, y: new Date().getFullYear(), m: new Date().getMonth() };
+
+function ensureReviewCal(id) {
+  if (reviewCal.id !== id) {
+    const now = new Date();
+    reviewCal = { id, y: now.getFullYear(), m: now.getMonth() };
+  }
+}
+
+function reviewSectionHTML(p) {
+  ensureReviewCal(p.id);
+  const u = readUser();
+  const dates = getReviewDates(u, p.id);
+  const stats = reviewStats(u, p.id);
+  const reviewed = isReviewedToday(u, p.id);
+  return `<section class="paper-section review-section" id="reviewSection">
+      <div class="sec-head">
+        <span class="sec-no">07</span><h2>复习月历</h2><span class="rule"></span>
+        <button type="button" class="review-btn ${reviewed ? 'done' : ''}" id="reviewTodayDetail" aria-pressed="${reviewed}">
+          <span class="review-box" aria-hidden="true"></span>今日已复习
+        </button>
+      </div>
+      <div class="review-cal" id="reviewCal">${calendarMarkup(reviewCal.y, reviewCal.m, dates)}</div>
+      <div class="review-sum" id="reviewSum">本月 ${monthReviewCount(dates, reviewCal.y, reviewCal.m)} 天 · 累计 ${stats.total} 天${stats.last ? ' · 最近 ' + stats.last : ''}</div>
+    </section>`;
+}
+
+function refreshReviewCalendar(p) {
+  const u = readUser();
+  const dates = getReviewDates(u, p.id);
+  const stats = reviewStats(u, p.id);
+  const reviewed = isReviewedToday(u, p.id);
+  const cal = $('#reviewCal');
+  if (cal) cal.innerHTML = calendarMarkup(reviewCal.y, reviewCal.m, dates);
+  const sum = $('#reviewSum');
+  if (sum) sum.textContent = `本月 ${monthReviewCount(dates, reviewCal.y, reviewCal.m)} 天 · 累计 ${stats.total} 天${stats.last ? ' · 最近 ' + stats.last : ''}`;
+  const btn = $('#reviewTodayDetail');
+  if (btn) {
+    btn.classList.toggle('done', reviewed);
+    btn.setAttribute('aria-pressed', String(reviewed));
+  }
+}
+
+function bindReviewSection(p) {
+  const cal = $('#reviewCal');
+  if (cal) {
+    cal.addEventListener('click', (e) => {
+      const shift = e.target.closest('[data-cal-shift]');
+      if (!shift) return;
+      const next = new Date(reviewCal.y, reviewCal.m + Number(shift.dataset.calShift), 1);
+      reviewCal.y = next.getFullYear();
+      reviewCal.m = next.getMonth();
+      refreshReviewCalendar(p);
+    });
+  }
+  $('#reviewTodayDetail')?.addEventListener('click', () => {
+    const res = persistReview(p.id);
+    if (!res) { showToast('保存失败，请检查浏览器存储'); return; }
+    refreshReviewCalendar(p);
+    showToast(res.reviewed ? '已记录今日复习' : '已取消今日复习');
+  });
+}
+
+
 
 function yearLabel(y) {
   if (y == null) return '未标年份';
@@ -237,6 +310,8 @@ async function boot() {
       </div>
       <p class="note-help">这条笔记只保存在本机浏览器，并与知识库主站的「我的笔记」共用同一份数据；导出备份时会一起带走。</p>
     </section>
+
+    ${reviewSectionHTML(p)}
   `;
 
   $('#detailSide').innerHTML = `
@@ -257,6 +332,7 @@ async function boot() {
       <div class="side-actions">
         <a class="btn primary" href="index.html?focus=${encodeURIComponent(p.id)}">回知识库定位</a>
         <button class="btn" id="jumpNote" type="button">写 / 看我的笔记</button>
+        <button class="btn" id="jumpReview" type="button">今日复习 / 月历</button>
         <a class="btn" href="timeline.html?q=${encodeURIComponent(p.title)}">在时间线里看</a>
         <button class="btn" id="copyLink">复制本页链接</button>
       </div>
@@ -274,6 +350,11 @@ async function boot() {
     } catch (e) {
       showToast('复制失败，请手动复制地址栏');
     }
+  });
+
+  bindReviewSection(p);
+  $('#jumpReview')?.addEventListener('click', () => {
+    $('#reviewSection')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   });
 
   const noteInput = $('#noteInput');

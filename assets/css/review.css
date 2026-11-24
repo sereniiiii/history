@@ -1,0 +1,109 @@
+/* ============================================================
+   review.css —— 今日已复习 + 复习月历
+   同时服务主站知识卡片与解析页
+   ============================================================ */
+
+/* 卡片底部：今日已复习 */
+.k-card .cr{
+  display:flex;align-items:center;justify-content:space-between;gap:8px;
+  margin-top:4px;padding-top:4px;
+  border-top:1px solid color-mix(in srgb,var(--line) 62%,transparent);
+  font-size:10.5px;color:var(--muted);
+}
+.review-toggle{
+  display:inline-flex;align-items:center;gap:6px;
+  cursor:pointer;white-space:nowrap;user-select:none;color:var(--muted);
+}
+.review-toggle input{
+  appearance:none;-webkit-appearance:none;
+  width:14px;height:14px;margin:0;padding:0;flex:0 0 auto;
+  border:1px solid color-mix(in srgb,var(--muted) 42%,transparent);
+  border-radius:4px;background:color-mix(in srgb,var(--paper) 72%,transparent);
+  position:relative;cursor:pointer;transition:background .15s,border-color .15s;
+}
+.review-toggle input:checked{background:var(--ok);border-color:var(--ok)}
+.review-toggle input:checked::after{
+  content:"";position:absolute;left:4px;top:1px;width:4px;height:8px;
+  border:solid #fff;border-width:0 1.5px 1.5px 0;transform:rotate(45deg);
+}
+.review-toggle input:checked + span{color:var(--ok);font-weight:650}
+.review-hint{white-space:nowrap;font-size:9.5px;color:var(--muted)}
+.k-card.reviewed-today{box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--ok) 18%,transparent),0 3px 12px rgba(24,50,68,.045)}
+
+/* 详情区标题行 */
+.review-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px}
+.review-head h3{margin:0}
+.review-section .sec-head{flex-wrap:wrap}
+.review-section .sec-head .rule{min-width:18px}
+.review-section .review-btn{margin-left:auto;align-self:center}
+
+/* 今日复习按钮 */
+.review-btn{
+  display:inline-flex;align-items:center;gap:6px;
+  border:1px solid var(--line);
+  background:color-mix(in srgb,var(--paper) 76%,transparent);
+  border-radius:999px;padding:5px 10px;
+  font:600 11px/1.5 var(--sans);color:var(--muted);
+  cursor:pointer;white-space:nowrap;
+  transition:background .15s,border-color .15s,color .15s;
+}
+.review-btn:hover{border-color:var(--line-strong);color:var(--text)}
+.review-btn .review-box{
+  width:14px;height:14px;flex:0 0 auto;position:relative;
+  border:1px solid color-mix(in srgb,var(--muted) 42%,transparent);border-radius:4px;
+  background:color-mix(in srgb,var(--paper) 72%,transparent);
+}
+.review-btn.done{color:var(--ok);border-color:color-mix(in srgb,var(--ok) 34%,var(--line));background:color-mix(in srgb,var(--ok-weak) 58%,transparent)}
+.review-btn.done .review-box{background:var(--ok);border-color:var(--ok)}
+.review-btn.done .review-box::after{
+  content:"";position:absolute;left:4px;top:1px;width:4px;height:8px;
+  border:solid #fff;border-width:0 1.5px 1.5px 0;transform:rotate(45deg);
+}
+
+/* 月历 */
+.review-cal{
+  padding:10px 12px 9px;border:1px solid var(--line);border-radius:14px;
+  background:color-mix(in srgb,var(--paper) 80%,transparent);
+}
+.review-cal-head{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:8px}
+.review-cal-head strong{font:600 13px/1.4 var(--serif);color:var(--text);letter-spacing:.02em}
+.review-nav{
+  width:26px;height:26px;display:inline-flex;align-items:center;justify-content:center;
+  border:1px solid var(--line);border-radius:8px;background:transparent;
+  color:var(--muted);font:16px/1 var(--serif);cursor:pointer;
+}
+.review-nav:hover{border-color:var(--line-strong);color:var(--text);background:var(--card)}
+.review-week,.review-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px}
+.review-week span{text-align:center;font-size:9px;line-height:1.4;color:var(--muted);padding:2px 0}
+.review-cell{
+  min-height:27px;display:flex;align-items:center;justify-content:center;
+  border-radius:6px;font-size:11px;line-height:1;color:var(--muted);
+  background:transparent;
+}
+.review-cell.empty{visibility:hidden}
+.review-cell.today{box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--primary) 55%,transparent);color:var(--primary);font-weight:700}
+.review-cell.reviewed{
+  background:color-mix(in srgb,var(--ok) 70%,#0b2230);
+  color:#fff;font-weight:650;
+}
+.review-cell.reviewed.today{box-shadow:0 0 0 2px color-mix(in srgb,var(--primary) 38%,transparent)}
+.review-legend{display:flex;align-items:center;gap:6px;margin-top:8px;font-size:9.5px;color:var(--muted)}
+.review-legend i{width:11px;height:11px;border-radius:3px;background:color-mix(in srgb,var(--ok) 70%,#0b2230)}
+.review-sum{margin-top:8px;font-size:10.5px;line-height:1.6;color:var(--muted)}
+
+[data-theme="dark"] .review-cal{background:rgba(255,255,255,.035)}
+[data-theme="dark"] .review-btn{background:rgba(255,255,255,.045)}
+[data-theme="dark"] .review-toggle input{background:rgba(255,255,255,.06)}
+[data-theme="dark"] .review-cell.reviewed{background:color-mix(in srgb,var(--ok) 42%,#0b2230)}
+[data-theme="dark"] .review-legend i{background:color-mix(in srgb,var(--ok) 42%,#0b2230)}
+
+@media (max-width:700px){
+  .k-card .review-hint{display:none}
+  .review-btn{padding:6px 9px;font-size:10.5px}
+}
+@media (prefers-reduced-motion:reduce){
+  .review-toggle input,.review-btn{transition:none}
+}
+@media print{
+  .review-btn,.review-nav{display:none!important}
+}

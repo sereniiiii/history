@@ -12,6 +12,7 @@ export function emptyUser() {
   return {
     version: 1,
     notes: {},        // kid -> {text, updatedAt}
+    reviews: {},      // kid -> ['YYYY-MM-DD', ...]
     status: {},       // kid -> {state:'mastered'|'review', updatedAt}
     customs: [],      // 自定义知识点
     mistakes: [],     // 错题
@@ -32,6 +33,7 @@ export function loadUser() {
     ...base,
     ...u,
     notes: u.notes && typeof u.notes === 'object' ? u.notes : {},
+    reviews: u.reviews && typeof u.reviews === 'object' ? u.reviews : {},
     status: u.status && typeof u.status === 'object' ? u.status : {},
     customs: Array.isArray(u.customs) ? u.customs : [],
     mistakes: Array.isArray(u.mistakes) ? u.mistakes : [],
@@ -66,9 +68,10 @@ export function takeSnapshot(u, reason) {
       notes: Object.keys(u.notes || {}).length,
       customs: (u.customs || []).length,
       mistakes: (u.mistakes || []).length,
+      reviewDays: new Set(Object.values(u.reviews || {}).flatMap(arr => Array.isArray(arr) ? arr : [])).size,
     },
     data: JSON.parse(JSON.stringify({
-      notes: u.notes, status: u.status, customs: u.customs,
+      notes: u.notes, reviews: u.reviews, status: u.status, customs: u.customs,
       mistakes: u.mistakes, config: u.config, version: 1,
     })),
   };
@@ -101,7 +104,7 @@ export function exportPayload(u) {
     version: 1,
     exportedAt: new Date().toISOString(),
     data: {
-      notes: u.notes, status: u.status, customs: u.customs,
+      notes: u.notes, reviews: u.reviews, status: u.status, customs: u.customs,
       mistakes: u.mistakes, config: u.config,
     },
   };
@@ -114,6 +117,7 @@ export function validateImport(obj) {
   if (!d || typeof d !== 'object') return '备份缺少 data 字段';
   if (d.notes && typeof d.notes !== 'object') return 'notes 字段格式错误';
   if (d.status && typeof d.status !== 'object') return 'status 字段格式错误';
+  if (d.reviews && typeof d.reviews !== 'object') return 'reviews 字段格式错误';
   if (d.customs && !Array.isArray(d.customs)) return 'customs 字段格式错误';
   if (d.mistakes && !Array.isArray(d.mistakes)) return 'mistakes 字段格式错误';
   for (const c of (d.customs || [])) {
@@ -136,6 +140,12 @@ export function mergeUser(local, incoming) {
   for (const [k, v] of Object.entries(inc.notes || {})) {
     if (!/^[\w\-:.]+$/.test(k)) continue;
     out.notes[k] = newer(out.notes[k], v);
+  }
+  out.reviews = out.reviews || {};
+  for (const [k, arr] of Object.entries(inc.reviews || {})) {
+    if (!/^[\w\-:.]+$/.test(k) || !Array.isArray(arr)) continue;
+    const dates = new Set([...(out.reviews[k] || []), ...arr.filter(x => /^\d{4}-\d{2}-\d{2}$/.test(x))]);
+    if (dates.size) out.reviews[k] = [...dates].sort();
   }
   out.status = out.status || {};
   for (const [k, v] of Object.entries(inc.status || {})) {
@@ -161,6 +171,7 @@ export function mergeUser(local, incoming) {
 export function overwriteUser(incoming) {
   const out = emptyUser();
   out.notes = incoming.notes || {};
+  out.reviews = incoming.reviews || {};
   out.status = incoming.status || {};
   out.customs = incoming.customs || [];
   out.mistakes = incoming.mistakes || [];

@@ -338,7 +338,7 @@ kbd{background:rgba(255,255,255,.6);border-color:var(--line);color:var(--muted)}
 
 /* 知识卡片：纸面卡片，不做嵌套玻璃 */
 .k-card{
-  height:116px;
+  height:140px;
   background:color-mix(in srgb,var(--card) 92%,transparent);
   border:1px solid var(--line);
   border-left:0;
