@@ -2,8 +2,10 @@
 
 一个**完全离线可用**的历史学习工具：左侧章节树、中间知识点列表、右侧详情，另有点击即开的**独立解析页**与**全球纪年时间线**。支持全文检索、笔记、自定义知识点、错题本（1/3/7/15/30 天排期）、知识点复习打卡与月历、多种备份。
 
-- 纯静态，无后端；除内置 pdf.js 外无任何联网依赖，断网可继续使用。
-- 用户数据（笔记 / 自定义知识点 / 错题 / 复习记录 / 配置 / 快照）只存浏览器 localStorage，与 `data/` 静态数据严格分离，重新部署不会覆盖。
+登录是可选的：不登录时全部功能照常在本机运行；登录后通过 Supabase 把 `hs.user.v1` 这一份用户数据同步到云端，换设备打开同一邮箱即可取回笔记、复习、错题和自定义知识点。
+
+- 纯静态；主体功能无任何联网依赖，断网可继续使用；只有主动登录 / 云同步时才会访问 Supabase。
+- 未登录时用户数据只存浏览器 localStorage，与 `data/` 静态数据严格分离，重新部署不会覆盖。
 - 当前内容：**66 课共 323 条**，章节树完整录入 2 册 / 6 部 / 21 单元 / 66 课。314 条带原文摘录，9 条因扫描页无对应正文标为“考点归纳”，界面会显示不同徽标。
 - 视觉：编辑感玻璃主题（山景 Hero、四格学习概览、暖纸阅读面、宋体标题），支持明暗主题切换，桌面 / 平板 / 手机三档响应式；时间线与主站共用同一套设计语言。
 - 线上地址：<https://sereniiiii.github.io/history/>（时间线：`/timeline.html`；单条解析：`/detail.html?id=<知识点ID>`）。
@@ -35,20 +37,25 @@ history/
 │  ├─ css/timeline-plus.css   全球总览、地区筛选、自定义事件弹层
 │  ├─ css/detail.css          解析页阅读版式
 │  ├─ css/review.css          复习勾选、月历、深色已复习日期、暗色/移动端
-│  ├─ js/app.js               渲染、检索、详情、错题、复习打卡、快捷键
+│  ├─ js/app.js               渲染、检索、详情、错题、复习打卡、账号入口、快捷键
+│  ├─ js/cloud.js             Supabase 登录、会话、云端读写、冲突处理
+│  ├─ js/supabase-config.js   Supabase URL / Publishable key / 表名
 │  ├─ js/detail.js            解析页：原文、考法、注意点、同课网络、时间线坐标、个人笔记、复习月历
 │  ├─ js/review.js            复习日期、今日打卡、月历生成与统计
 │  ├─ js/chrome.js            明暗主题、日期、Hero 学习概览
 │  ├─ js/timeline.js          时间线总览/分时代、地区筛选、自定义事件、导出
 │  ├─ js/store.js             用户数据、快照、导入导出、CSV/Markdown
 │  ├─ js/search-worker.js     倒排索引 + 同义词 + 拼音首字母 + 模糊匹配
-│  └─ vendor/pdfjs/           本地 pdf.js 4.10.38（legacy）
+│  ├─ vendor/pdfjs/           本地 pdf.js 4.10.38（legacy）
+│  ├─ vendor/supabase.js      本地 supabase-js 2.57.4（UMD）
+│  └─ vendor/supabase-mount.js 以模块方式挂载 supabase-js
 ├─ data/
 │  ├─ knowledge.json          知识点（静态，只读）
 │  ├─ timeline.json           时间线事件（104 个，按六个时代分组）
 │  ├─ books.json              章节树（静态，只读）
 │  ├─ aliases.json            同义词/别名表
 │  └─ pinyin.json             汉字→拼音首字母
+├─ supabase-setup.sql         云端建表 + RLS 策略
 └─ README.md
 ```
 
@@ -95,6 +102,31 @@ history/
 - 与主应用共用 `sw.js` 离线缓存；断网后仍可打开时间线。
 
 localStorage 键：`hs.timeline.custom.v1`（只存自定义事件，不写入 `data/timeline.json`）。
+
+
+## 账号登录与跨设备同步（可选）
+
+站点不登录也能完整使用；登录入口只在主站顶栏，普通邮箱 Magic Link，不设密码。
+
+### 一次性配置 Supabase
+
+1. 打开 Supabase Dashboard → 项目 `history-kb` → **SQL Editor**。
+2. 把仓库里的 `supabase-setup.sql` 整段粘贴进去，点 **Run**。它会创建 `public.history_user_state`、开启 RLS，并只允许登录用户读写自己那一行。
+3. 打开 **Authentication → URL Configuration**，把下面两个地址都加入 **Redirect URLs**，并保存：
+   - `https://sereniiiii.github.io/history/`
+   - `http://127.0.0.1:8787/`
+4. 确认 **Authentication → Providers → Email** 已开启（当前项目已开）。
+5. 前端配置在 `assets/js/supabase-config.js`，只放 Project URL 和 Publishable key；**绝不能**把 Secret key / service_role 放进来。
+
+### 使用
+
+1. 顶栏点「登录」，输入邮箱，点「发送登录链接」。
+2. 到邮箱点开链接，会回到站点并显示「已同步」。
+3. 之后每次本地保存后约 1.5 秒自动上传；换设备用同一邮箱登录即取回。
+4. 登录后首次同步按 `updatedAt / updated_at` 比较，较新的整份覆盖较旧的；云端覆盖本机前会自动留一份本机快照「登录同步前」。
+5. 点顶栏「已同步」可退出登录；退出后本机数据仍在，继续离线使用。
+
+> 云端存的是整份 `hs.user.v1` JSON，不做逐条合并。多设备同时编辑同一条时，后保存的版本会覆盖较早的版本；重要改动请先用「备份」导出完整 JSON。
 
 ## 数据备份
 
@@ -162,5 +194,6 @@ git push origin main
 
 - 内容已覆盖 66 课 / 323 条；9 条扫描页无正文的条目只保留“考点归纳”，没有原文摘录。
 - OCR 对表格与形近字有误差，所有摘录均已回图人工核对；后续扩量必须沿用同一流程。
-- 自定义时间线事件只存在当前浏览器 localStorage，不跨设备同步；换设备请用时间线页的 JSON 导出备份。
+- 自定义时间线事件只存在当前浏览器 localStorage，不随账号同步；换设备请用时间线页的 JSON 导出备份。
+- 云同步按整份 JSON 的较新时间戳覆盖，不做逐条合并；多设备同时改同一条时以最后保存者为准。
 - 旧浏览器若不支持 `color-mix()` / `backdrop-filter`，玻璃与混色会降级为实色，不影响阅读与操作。

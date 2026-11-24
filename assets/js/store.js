@@ -45,6 +45,9 @@ export function saveUser(u) {
   u.updatedAt = Date.now();
   try {
     localStorage.setItem(KEY_USER, JSON.stringify(u));
+    if (typeof window !== 'undefined') {
+      window.dispatchEvent(new CustomEvent('hs:user-saved', { detail: { updatedAt: u.updatedAt } }));
+    }
     return true;
   } catch (e) {
     console.warn('保存失败', e);

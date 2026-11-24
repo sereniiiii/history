@@ -12,6 +12,10 @@ import {
 import {
   calendarMarkup, getReviewDates, isReviewedToday, monthReviewCount, reviewStats, toggleReviewToday,
 } from './review.js';
+import {
+  cloudConfigured, initCloud, getSession, sendMagicLink, signOutCloud,
+  fetchCloudState, pushCloudState, setAuthCallback, authErrorMessage,
+} from './cloud.js';
 
 /* ---------------- 基础工具 ---------------- */
 const $ = s => document.querySelector(s);
@@ -79,6 +83,14 @@ const S = {
   initMs: 0,
 };
 
+let cloudUser = null;
+let cloudBusy = false;
+let cloudApplying = false;
+let cloudPushTimer = 0;
+let cloudPushInFlight = false;
+let cloudLastSync = 0;
+let cloudErrorShown = false;
+
 /* ---------------- 数据加载 ---------------- */
 async function boot() {
   const t0 = performance.now();
@@ -141,6 +153,7 @@ async function boot() {
 
   if (new URLSearchParams(location.search).get('selftest') === '1') runSelfTest();
   if (new URLSearchParams(location.search).get('perf') === '1000') enablePerfMode();
+  setupCloud();
 }
 
 function rebuildAll() {
@@ -1313,6 +1326,270 @@ function closeModal(modal) {
   if (modal._cleanup) modal._cleanup();
 }
 
+/* ---------------- 账号与云同步 ---------------- */
+function cloudWeight(u) {
+  if (!u) return 0;
+  return Object.keys(u.notes || {}).length
+    + Object.keys(u.reviews || {}).length
+    + Object.keys(u.status || {}).length
+    + (u.customs || []).length
+    + (u.mistakes || []).length;
+}
+
+function updateAuthButton() {
+  const btn = $('#authBtn');
+  if (!btn) return;
+  const label = btn.querySelector('.lbl');
+  if (label) label.textContent = cloudBusy ? '同步中' : (cloudUser ? '已同步' : '登录');
+  btn.classList.toggle('authed', !!cloudUser);
+  btn.disabled = cloudBusy;
+  btn.title = cloudUser
+    ? `已登录：${cloudUser.email || ''}。点击管理云同步`
+    : '登录后跨设备保存笔记、复习、错题和自定义知识点';
+}
+
+function applyCloudState(data, cloudAt) {
+  if (cloudWeight(S.user) > 0) takeSnapshot(S.user, '登录同步前');
+  cloudApplying = true;
+  try {
+    const restored = overwriteUser(data || {});
+    restored.updatedAt = cloudAt || Date.now();
+    S.user = restored;
+    saveUser(S.user);
+    S.user = loadUser();
+    S.customs = S.user.customs || [];
+    rebuildAll();
+    renderTree();
+    renderHome();
+    renderList();
+    renderDetail();
+  } finally {
+    cloudApplying = false;
+  }
+}
+
+async function syncCloud(manual = false) {
+  if (!cloudConfigured()) {
+    if (manual) toast('Supabase 尚未配置');
+    return false;
+  }
+  if (cloudBusy) return false;
+  cloudBusy = true;
+  updateAuthButton();
+  try {
+    const session = await getSession();
+    cloudUser = session?.user || null;
+    updateAuthButton();
+    if (!cloudUser) {
+      if (manual) toast('请先登录邮箱');
+      return false;
+    }
+    const remote = await fetchCloudState();
+    const local = S.user;
+    const localAt = local.updatedAt || 0;
+    if (!remote) {
+      if (cloudWeight(local) > 0) await pushCloudState(local);
+      cloudLastSync = Date.now();
+      if (manual) toast(cloudWeight(local) > 0 ? '本机数据已上传到云端' : '云端还没有数据');
+      return true;
+    }
+    const cloudAt = Date.parse(remote.updated_at) || 0;
+    const cloudHas = cloudWeight(remote.data) > 0;
+    const localHas = cloudWeight(local) > 0;
+    if (!localHas && cloudHas) {
+      applyCloudState(remote.data, cloudAt);
+      toast('已载入云端数据');
+    } else if (localHas && !cloudHas) {
+      await pushCloudState(local);
+      toast('本机数据已上传');
+    } else if (localHas && cloudHas) {
+      if (cloudAt > localAt + 1000) {
+        applyCloudState(remote.data, cloudAt);
+        toast('云端较新，已载入云端数据');
+      } else {
+        await pushCloudState(local);
+        if (manual || localAt > cloudAt + 1000) toast('本机较新，已上传到云端');
+      }
+    } else if (manual) {
+      toast('本机和云端都还没有学习数据');
+    }
+    cloudLastSync = Date.now();
+    return true;
+  } catch (err) {
+    console.warn('cloud sync', err);
+    toast(authErrorMessage(err));
+    return false;
+  } finally {
+    cloudBusy = false;
+    updateAuthButton();
+  }
+}
+
+function queueCloudPush() {
+  if (!cloudUser || cloudApplying) return;
+  clearTimeout(cloudPushTimer);
+  cloudPushTimer = setTimeout(async () => {
+    if (cloudPushInFlight || !cloudUser || cloudApplying) return;
+    cloudPushInFlight = true;
+    try {
+      await pushCloudState(S.user);
+      cloudLastSync = Date.now();
+      cloudErrorShown = false;
+    } catch (err) {
+      console.warn('cloud push', err);
+      if (!cloudErrorShown) {
+        cloudErrorShown = true;
+        toast(authErrorMessage(err));
+      }
+    } finally {
+      cloudPushInFlight = false;
+    }
+  }, 1500);
+}
+
+function authStatusLine() {
+  if (cloudBusy) return '正在同步…';
+  if (cloudLastSync) return `上次同步：${new Date(cloudLastSync).toLocaleTimeString('zh-CN')}`;
+  return '登录后按较新版本同步；覆盖本机前会自动留快照。';
+}
+
+function renderAuthModal(modal) {
+  if (!modal) return;
+  const body = modal.querySelector('.modal-body');
+  const foot = modal.querySelector('.modal-foot');
+  if (!body || !foot) return;
+  if (!cloudUser) {
+    body.innerHTML = `
+      <div class="auth-copy">
+        <p class="hint">输入邮箱，收到登录链接后点开即可登录。登录后，笔记、复习、错题和自定义知识点会同步到云端；本机与云端都有数据时按较新版本为准，覆盖本机前会自动留快照。</p>
+      </div>
+      <div class="form-field">
+        <label for="authEmail">邮箱</label>
+        <input id="authEmail" type="email" autocomplete="email" placeholder="you@example.com" spellcheck="false">
+      </div>
+      <p class="hint" id="authMsg" style="margin-top:10px"></p>`;
+    foot.innerHTML = '<button class="btn" data-close>关闭</button><button class="btn primary" id="sendLogin">发送登录链接</button>';
+    const input = modal.querySelector('#authEmail');
+    const msg = modal.querySelector('#authMsg');
+    const btn = modal.querySelector('#sendLogin');
+    const send = async () => {
+      const email = input.value.trim();
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+        msg.textContent = '请输入正确的邮箱地址';
+        input.focus();
+        return;
+      }
+      btn.disabled = true;
+      msg.textContent = '正在发送…';
+      try {
+        await sendMagicLink(email);
+        msg.textContent = `登录链接已发送到 ${email}。请到邮箱点开链接，回到本站后会自动同步。`;
+        btn.textContent = '已发送';
+      } catch (err) {
+        msg.textContent = authErrorMessage(err);
+        btn.disabled = false;
+      }
+    };
+    btn.onclick = send;
+    input.addEventListener('keydown', e => { if (e.key === 'Enter') send(); });
+    return;
+  }
+  body.innerHTML = `
+    <div class="auth-account">
+      <div class="auth-avatar">${esc((cloudUser.email || '?')[0].toUpperCase())}</div>
+      <div>
+        <strong>${esc(cloudUser.email || '已登录')}</strong>
+        <div class="hint">${esc(authStatusLine())}</div>
+      </div>
+    </div>
+    <div class="detail-section" style="margin-top:14px">
+      <h3>同步规则</h3>
+      <p class="hint">登录后，本机与云端都有数据时，按较新的版本为准；载入云端前会自动生成本机快照，可在「备份」里回滚。退出登录不会清空本机数据。</p>
+    </div>`;
+  foot.innerHTML = '<button class="btn" data-close>关闭</button><button class="btn" id="logoutCloud">退出登录</button><button class="btn primary" id="syncNow">立即同步</button>';
+  modal.querySelector('#syncNow').onclick = async () => {
+    await syncCloud(true);
+    renderAuthModal(modal);
+  };
+  modal.querySelector('#logoutCloud').onclick = async () => {
+    if (!confirm('退出登录？本机数据会保留。')) return;
+    try {
+      await signOutCloud();
+      cloudUser = null;
+      cloudLastSync = 0;
+      toast('已退出登录，本机数据保留');
+      renderAuthModal(modal);
+    } catch (err) {
+      toast(authErrorMessage(err));
+    }
+  };
+}
+
+async function openAuthPanel() {
+  if (!cloudConfigured()) {
+    toast('Supabase 尚未配置');
+    return;
+  }
+  const modal = openModal('账号与云同步', '<p class="hint">正在读取登录状态…</p>');
+  try {
+    const session = await getSession();
+    cloudUser = session?.user || null;
+  } catch (err) {
+    console.warn('auth session', err);
+  }
+  updateAuthButton();
+  renderAuthModal(modal);
+}
+
+function setupCloud() {
+  if (!cloudConfigured()) return;
+  setAuthCallback((event, session) => {
+    if (event === 'SIGNED_OUT') {
+      cloudUser = null;
+      updateAuthButton();
+      return;
+    }
+    if (session?.user) {
+      const isNew = !cloudUser || cloudUser.id !== session.user.id;
+      cloudUser = session.user;
+      updateAuthButton();
+      if (event === 'SIGNED_IN' || isNew) setTimeout(() => syncCloud(false), 80);
+    }
+  });
+  initCloud()
+    .then(async () => {
+      const session = await getSession();
+      cloudUser = session?.user || null;
+      updateAuthButton();
+      if (cloudUser) await syncCloud(false);
+    })
+    .catch(err => {
+      console.warn('cloud init', err);
+      updateAuthButton();
+    });
+}
+
+window.addEventListener('hs:user-saved', () => {
+  if (cloudApplying) return;
+  if (cloudUser) queueCloudPush();
+});
+
+window.addEventListener('storage', (e) => {
+  if (e.key !== 'hs.user.v1' || !e.newValue || cloudApplying) return;
+  try {
+    S.user = loadUser();
+    S.customs = S.user.customs || [];
+    rebuildAll();
+    renderTree();
+    renderHome();
+    renderList();
+    renderDetail();
+    if (cloudUser) queueCloudPush();
+  } catch (err) {
+    console.warn('sync from another tab', err);
+  }
+});
+
 /* ---------------- 帮助 / 快捷键 ---------------- */
 function openHelp() {
   const body = `
@@ -1441,6 +1718,7 @@ function bindEvents() {
   $('#customBtn').onclick = () => openPointForm(null);
   $('#addMistakeBtn').onclick = () => openMistakeForm(null);
   $('#backupBtn').onclick = openBackupPanel;
+  $('#authBtn').onclick = openAuthPanel;
   $('#helpBtn').onclick = openHelp;
   $('#collapseAll').onclick = () => {
     const anyOpen = Object.values(S.expanded.vols).some(v => v !== false);

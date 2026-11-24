@@ -4,7 +4,7 @@
  *  - 静态资源：缓存优先 + 后台更新（stale-while-revalidate）
  * 重新部署后如资源有变，改下面的 CACHE 版本号即可整体换新。
  */
-const CACHE = 'hs-static-v18';
+const CACHE = 'hs-static-v20';
 const ASSETS = [
   './',
   './index.html',
@@ -13,6 +13,10 @@ const ASSETS = [
   './assets/css/editorial.css',
   './assets/css/hidden-fix.css',
   './assets/js/app.js',
+  './assets/js/cloud.js',
+  './assets/js/supabase-config.js',
+  './assets/vendor/supabase.js',
+  './assets/vendor/supabase-mount.js',
   './assets/js/chrome.js',
   './assets/js/store.js',
   './assets/js/search-worker.js',

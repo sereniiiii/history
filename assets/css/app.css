@@ -506,3 +506,16 @@ mark{background:#ffe58a;color:inherit;border-radius:3px;padding:0 1px}
 @media (prefers-reduced-motion:reduce){
   *{animation-duration:.001ms!important;transition-duration:.001ms!important}
 }
+
+/* ---------- 账号与云同步 ---------- */
+.auth-btn.authed{color:var(--ok)}
+.auth-btn.authed:hover{background:color-mix(in srgb,var(--ok-weak) 52%,transparent)}
+.auth-btn:disabled{opacity:.6;cursor:default}
+.auth-account{display:flex;align-items:center;gap:12px;padding:2px 0 2px}
+.auth-avatar{
+  width:38px;height:38px;flex:0 0 auto;border-radius:50%;
+  display:grid;place-items:center;background:var(--primary-weak);
+  color:var(--primary);font:700 16px/1 var(--serif);
+}
+.auth-account strong{display:block;font-size:13px;line-height:1.5;color:var(--text);overflow-wrap:anywhere}
+.auth-copy p{margin:0 0 12px}
