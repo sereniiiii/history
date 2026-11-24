@@ -4,7 +4,7 @@
  *  - 静态资源：缓存优先 + 后台更新（stale-while-revalidate）
  * 重新部署后如资源有变，改下面的 CACHE 版本号即可整体换新。
  */
-const CACHE = 'hs-static-v6';
+const CACHE = 'hs-static-v7';
 const ASSETS = [
   './',
   './index.html',
