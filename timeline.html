@@ -106,7 +106,19 @@
       </label>
       <label class="sheet-field">
         <span>地区</span>
-        <select id="efRegion"><option value="china">中国</option><option value="world">世界</option><option value="other">其他</option></select>
+        <select id="efRegion">
+          <option value="china">中国</option>
+          <option value="world">世界</option>
+          <option value="asia">亚洲</option>
+          <option value="europe">欧洲</option>
+          <option value="africa">非洲</option>
+          <option value="northAmerica">北美洲</option>
+          <option value="southAmerica">南美洲</option>
+          <option value="oceania">大洋洲</option>
+          <option value="middleEast">中东</option>
+          <option value="other">其他</option>
+          <option value="custom">自定义（手打）</option>
+        </select>
       </label>
       <label class="sheet-field">
         <span>历史阶段</span>
@@ -114,6 +126,10 @@
           <option value="0">中国古代</option><option value="1">中国近代</option><option value="2">中国现代</option>
           <option value="3">世界古代</option><option value="4">世界近代</option><option value="5">世界现代</option>
         </select>
+      </label>
+      <label class="sheet-field full" id="efRegionCustomWrap" hidden>
+        <span>自定义地区</span>
+        <input id="efRegionCustom" maxlength="16" placeholder="例：东南亚、巴尔干、拉丁美洲">
       </label>
       <label class="sheet-check"><input type="checkbox" id="efApprox"> 约数（世纪 / 年代）</label>
       <label class="sheet-field full">
@@ -138,6 +154,6 @@
 <div class="tl-toast" id="tlToast" role="status" aria-live="polite"></div>
 
 <script src="assets/js/chrome.js?v=20261124b" defer></script>
-<script src="assets/js/timeline.js?v=20261124f" defer></script>
+<script src="assets/js/timeline.js?v=20261124g" defer></script>
 </body>
 </html>

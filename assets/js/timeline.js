@@ -24,8 +24,29 @@ const STAGES = [
 const REGIONS = {
   china: { label: '中国', color: 'var(--c1)' },
   world: { label: '世界', color: 'var(--c4)' },
+  asia: { label: '亚洲', color: 'var(--c0)' },
+  europe: { label: '欧洲', color: 'var(--c5)' },
+  africa: { label: '非洲', color: 'var(--c2)' },
+  northAmerica: { label: '北美洲', color: 'var(--c3)' },
+  southAmerica: { label: '南美洲', color: 'var(--c2)' },
+  oceania: { label: '大洋洲', color: 'var(--c3)' },
+  middleEast: { label: '中东', color: 'var(--c0)' },
   other: { label: '其他', color: 'var(--c5)' },
+  custom: { label: '自定义', color: 'var(--c5)' },
 };
+const REGION_TABS = ['china', 'world', 'asia', 'europe', 'africa', 'northAmerica', 'southAmerica', 'oceania', 'middleEast', 'other'];
+const MANUAL_REGION_COLORS = ['var(--c0)', 'var(--c1)', 'var(--c2)', 'var(--c3)', 'var(--c4)', 'var(--c5)'];
+function manualRegionColor(label) {
+  let h = 0;
+  for (const ch of String(label)) h = (h * 31 + ch.charCodeAt(0)) | 0;
+  return MANUAL_REGION_COLORS[Math.abs(h) % MANUAL_REGION_COLORS.length];
+}
+function normalizeRegion(x) {
+  const raw = String((x && x.region) || '');
+  if (raw && raw !== 'custom' && REGIONS[raw]) return { region: raw, regionLabel: '' };
+  const label = String((x && x.regionLabel) || (raw && raw !== 'custom' ? raw : '') || '').trim().slice(0, 16);
+  return { region: 'custom', regionLabel: label || '其他' };
+}
 
 const state = {
   data: null,
@@ -42,14 +63,16 @@ function loadCustom() {
   try {
     const raw = JSON.parse(localStorage.getItem(CUSTOM_KEY) || '[]');
     if (!Array.isArray(raw)) return [];
-    return raw.filter(x => x && x.id && x.title).map(x => ({
-      ...x,
-      era: Number.isFinite(+x.era) ? Math.max(0, Math.min(5, +x.era)) : 0,
-      region: REGIONS[x.region] ? x.region : 'other',
-      year: Number.isFinite(+x.year) ? +x.year : 0,
-      custom: true,
-      source: '自定义',
-    }));
+    return raw.filter(x => x && x.id && x.title).map(x => {
+      const rg = normalizeRegion(x);
+      return {
+        ...x, ...rg,
+        era: Number.isFinite(+x.era) ? Math.max(0, Math.min(5, +x.era)) : 0,
+        year: Number.isFinite(+x.year) ? +x.year : 0,
+        custom: true,
+        source: '自定义',
+      };
+    });
   } catch (e) { return []; }
 }
 
@@ -89,6 +112,10 @@ function stageOf(it) {
   return STAGES[it.era] || STAGES[0];
 }
 function regionOf(it) {
+  if (it.region === 'custom') {
+    const label = String(it.regionLabel || '其他').slice(0, 16);
+    return { label, color: manualRegionColor(label) };
+  }
   return REGIONS[it.region] || REGIONS.other;
 }
 
@@ -132,11 +159,13 @@ function buildItems() {
     region: i < 3 ? 'china' : 'world',
     custom: false,
   })));
-  const custom = state.custom.map(x => ({
-    ...x,
-    era: Math.max(0, Math.min(5, +x.era || 0)),
-    region: REGIONS[x.region] ? x.region : 'other',
-  }));
+  const custom = state.custom.map(x => {
+    const rg = normalizeRegion(x);
+    return {
+      ...x, ...rg,
+      era: Math.max(0, Math.min(5, +x.era || 0)),
+    };
+  });
   state.items = base.concat(custom).sort((a, b) => {
     if ((a.year ?? 0) !== (b.year ?? 0)) return (a.year ?? 0) - (b.year ?? 0);
     if (a.era !== b.era) return a.era - b.era;
@@ -150,10 +179,11 @@ function buildItems() {
 
 function counts() {
   const stage = [0, 0, 0, 0, 0, 0];
-  const region = { china: 0, world: 0, other: 0, custom: 0 };
+  const region = { custom: 0 };
+  REGION_TABS.forEach(k => { region[k] = 0; });
   state.items.forEach(it => {
     stage[it.era] = (stage[it.era] || 0) + 1;
-    region[it.region] = (region[it.region] || 0) + 1;
+    if (REGION_TABS.includes(it.region)) region[it.region]++;
     if (it.custom) region.custom++;
   });
   return { stage, region };
@@ -167,7 +197,7 @@ function filtered() {
       if (!it.custom) return false;
     } else if (state.region !== 'all' && it.region !== state.region) return false;
     if (!q) return true;
-    const hay = [it.title, it.content, it.when, it.note, it.unitTitle, it.lessonTitle, it.type, stageOf(it).name, REGIONS[it.region]?.label]
+    const hay = [it.title, it.content, it.when, it.note, it.unitTitle, it.lessonTitle, it.type, it.regionLabel, stageOf(it).name, regionOf(it).label]
       .join(' ').toLowerCase();
     return q.split(/\s+/).filter(Boolean).every(t => hay.includes(t));
   });
@@ -184,8 +214,7 @@ function renderTabs() {
   const regionTabs = $('#regionTabs');
   const defs = [
     ['all', '全部地区', state.items.length],
-    ['china', '中国', c.region.china],
-    ['world', '世界', c.region.world],
+    ...REGION_TABS.filter(k => c.region[k] > 0).map(k => [k, REGIONS[k].label, c.region[k]]),
     ['custom', '自定义', c.region.custom],
   ];
   regionTabs.innerHTML = defs.map(([k, label, n]) =>
@@ -273,6 +302,14 @@ function showToast(text) {
 }
 
 /* ---------- 自定义事件 ---------- */
+function syncRegionCustom() {
+  const wrap = $('#efRegionCustomWrap');
+  const input = $('#efRegionCustom');
+  const isCustom = $('#efRegion').value === 'custom';
+  if (wrap) wrap.hidden = !isCustom;
+  if (isCustom && input) setTimeout(() => input.focus(), 30);
+}
+
 function openForm(item) {
   state.editId = item?.id || null;
   $('#eventModalTitle').textContent = item ? '编辑事件' : '添加事件';
@@ -280,7 +317,10 @@ function openForm(item) {
   $('#efTitle').value = item?.title || '';
   $('#efContent').value = item?.content || '';
   $('#efNote').value = item?.note || '';
-  $('#efRegion').value = item?.region || 'china';
+  const rg = item ? normalizeRegion(item) : { region: 'china', regionLabel: '' };
+  $('#efRegion').value = rg.region;
+  $('#efRegionCustom').value = rg.regionLabel;
+  syncRegionCustom();
   $('#efEra').value = String(item?.era ?? 0);
   $('#efApprox').checked = Boolean(item?.approx);
   $('#eventModal').hidden = false;
@@ -298,7 +338,16 @@ function saveForm(e) {
   const title = $('#efTitle').value.trim();
   const content = $('#efContent').value.trim();
   const note = $('#efNote').value.trim();
-  const region = $('#efRegion').value;
+  let region = $('#efRegion').value;
+  let regionLabel = '';
+  if (region === 'custom') {
+    regionLabel = $('#efRegionCustom').value.trim().slice(0, 16);
+    if (!regionLabel) {
+      showToast('请填写自定义地区');
+      $('#efRegionCustom').focus();
+      return;
+    }
+  }
   const era = Number($('#efEra').value);
   if (!when || !title) { showToast('时间和事件标题不能为空'); return; }
   const year = parseYear(when);
@@ -309,13 +358,13 @@ function saveForm(e) {
   if (editing) {
     const i = custom.findIndex(x => x.id === editing);
     if (i >= 0) custom[i] = {
-      ...custom[i], when, year, title, content, note, region, era,
+      ...custom[i], when, year, title, content, note, region, regionLabel, era,
       approx: $('#efApprox').checked, updatedAt: Date.now(),
     };
   } else {
     custom.push({
       id: 'CUSTOM-' + Date.now().toString(36),
-      when, year, title, content, note, region, era,
+      when, year, title, content, note, region, regionLabel, era,
       approx: $('#efApprox').checked,
       custom: true, source: '自定义', createdAt: Date.now(), updatedAt: Date.now(),
     });
@@ -358,7 +407,7 @@ function exportCSV() {
   for (const it of state.items) {
     rows.push([
       it.year ?? '', it.when || '', it.title, it.content || '',
-      it.custom ? REGIONS[it.region]?.label || '其他' : (it.region === 'china' ? '中国' : '世界'),
+      regionOf(it).label,
       stageOf(it).name, it.note || '', it.type || '', it.custom ? '自定义' : '内置', it.id,
     ]);
   }
@@ -410,6 +459,7 @@ function bindEvents() {
   $('#eventCancel').onclick = closeForm;
   $('#eventModal').addEventListener('click', e => { if (e.target === $('#eventModal')) closeForm(); });
   $('#eventForm').addEventListener('submit', saveForm);
+  $('#efRegion').addEventListener('change', syncRegionCustom);
   $('#stream').addEventListener('click', e => {
     const edit = e.target.closest('[data-edit]');
     if (edit) { e.preventDefault(); e.stopPropagation(); openForm(state.items.find(x => x.id === edit.dataset.edit)); return; }
