@@ -20,6 +20,40 @@ const TYPE_HINTS = {
 const GENERIC_HINT = '选择题先抓时间、主体、程度词；材料题按“背景—内容—影响”作答。';
 
 const ATTENTION_MARKS = ['最早', '首先', '标志', '开始', '完成', '主要', '根本', '直接', '间接', '不是', '并非', '唯一', '彻底', '转折', '取代', '奠定'];
+const USER_KEY = 'hs.user.v1';
+
+function readUser() {
+  try {
+    const raw = localStorage.getItem(USER_KEY);
+    const u = raw ? JSON.parse(raw) : null;
+    return u && typeof u === 'object' ? u : { version: 1, notes: {} };
+  } catch (e) {
+    return null;
+  }
+}
+
+function readNote(id) {
+  const u = readUser();
+  return u?.notes?.[id]?.text || '';
+}
+
+function persistNote(id, text) {
+  const u = readUser();
+  if (!u) return false;
+  u.version = u.version || 1;
+  u.notes = u.notes && typeof u.notes === 'object' ? u.notes : {};
+  const clean = String(text || '');
+  if (clean.trim()) u.notes[id] = { text: clean, updatedAt: Date.now() };
+  else delete u.notes[id];
+  u.updatedAt = Date.now();
+  try {
+    localStorage.setItem(USER_KEY, JSON.stringify(u));
+    return true;
+  } catch (e) {
+    return false;
+  }
+}
+
 
 function fmtPage(p) {
   if (p.page && p.pdfPage) return `书页 ${p.page} · PDF ${p.pdfPage}`;
@@ -147,6 +181,7 @@ async function boot() {
 
   const exam = p.commonq || TYPE_HINTS[p.type] || GENERIC_HINT;
   const notes = attentionItems(p);
+  const myNote = readNote(p.id);
 
   const relatedHTML = related.length
     ? related.map(x => `<a class="network-card" href="detail.html?id=${encodeURIComponent(x.id)}">
@@ -190,6 +225,18 @@ async function boot() {
       <div class="sec-head"><span class="sec-no">05</span><h2>同课知识网络</h2><span class="rule"></span></div>
       <div class="network-grid">${relatedHTML}</div>
     </section>
+
+    <section class="paper-section note-section" id="myNote">
+      <div class="sec-head"><span class="sec-no">06</span><h2>我的笔记</h2><span class="rule"></span></div>
+      <div class="note-editor">
+        <textarea id="noteInput" rows="7" placeholder="写下你的理解、易错点、联想法…">${esc(myNote)}</textarea>
+        <div class="note-foot">
+          <span class="note-state" id="noteState">${myNote ? '已保存' : '自动保存到本机'}</span>
+          <button class="note-clear" id="noteClear" type="button">清空笔记</button>
+        </div>
+      </div>
+      <p class="note-help">这条笔记只保存在本机浏览器，并与知识库主站的「我的笔记」共用同一份数据；导出备份时会一起带走。</p>
+    </section>
   `;
 
   $('#detailSide').innerHTML = `
@@ -209,6 +256,7 @@ async function boot() {
       <h3>操作</h3>
       <div class="side-actions">
         <a class="btn primary" href="index.html?focus=${encodeURIComponent(p.id)}">回知识库定位</a>
+        <button class="btn" id="jumpNote" type="button">写 / 看我的笔记</button>
         <a class="btn" href="timeline.html?q=${encodeURIComponent(p.title)}">在时间线里看</a>
         <button class="btn" id="copyLink">复制本页链接</button>
       </div>
@@ -227,6 +275,35 @@ async function boot() {
       showToast('复制失败，请手动复制地址栏');
     }
   });
+
+  const noteInput = $('#noteInput');
+  const noteState = $('#noteState');
+  if (noteInput) {
+    let noteTimer = 0;
+    const saveNote = () => {
+      clearTimeout(noteTimer);
+      const ok = persistNote(p.id, noteInput.value);
+      if (noteState) noteState.textContent = ok ? '已保存' : '保存失败，请检查浏览器存储';
+      return ok;
+    };
+    noteInput.addEventListener('input', () => {
+      if (noteState) noteState.textContent = '输入中…';
+      clearTimeout(noteTimer);
+      noteTimer = setTimeout(saveNote, 600);
+    });
+    window.addEventListener('beforeunload', saveNote);
+    $('#noteClear')?.addEventListener('click', () => {
+      if (!noteInput.value) return;
+      if (!confirm('清空这条笔记？')) return;
+      noteInput.value = '';
+      saveNote();
+      showToast('笔记已清空');
+    });
+    $('#jumpNote')?.addEventListener('click', () => {
+      $('#myNote')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      setTimeout(() => noteInput.focus(), 260);
+    });
+  }
 }
 
 let toastTimer = 0;

@@ -167,6 +167,31 @@ a{color:var(--primary)}
   border:1px solid color-mix(in srgb,var(--accent) 16%,transparent);
   font-size:12px;line-height:1.7;color:var(--accent);
 }
+.note-editor{
+  overflow:hidden;border:1px solid var(--line);border-radius:14px;
+  background:color-mix(in srgb,var(--paper) 86%,transparent);
+}
+.note-editor textarea{
+  display:block;width:100%;min-height:158px;resize:vertical;
+  padding:15px 16px;border:0;background:transparent;
+  font:14px/1.85 var(--sans);color:var(--text);outline:none;
+}
+.note-editor textarea::placeholder{color:var(--muted);opacity:1}
+.note-editor textarea:focus{background:color-mix(in srgb,var(--card) 80%,transparent)}
+.note-foot{
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+  padding:8px 12px;border-top:1px solid var(--line);
+  background:color-mix(in srgb,var(--card) 64%,transparent);
+}
+.note-state{font-size:10.5px;color:var(--muted);letter-spacing:.02em}
+.note-clear{
+  border:0;background:none;padding:2px 0;cursor:pointer;
+  font:12px var(--sans);color:var(--muted);text-decoration:underline;text-underline-offset:3px;
+}
+.note-clear:hover{color:var(--warn)}
+.note-help{margin:9px 0 0;font-size:10.5px;line-height:1.65;color:var(--muted)}
+[data-theme="dark"] .note-editor{background:rgba(255,255,255,.035)}
+[data-theme="dark"] .note-editor textarea{color:var(--text)}
 .network-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
 .network-card{
   display:block;text-decoration:none;color:inherit;
