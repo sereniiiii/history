@@ -191,14 +191,17 @@ kbd{background:rgba(255,255,255,.6);border-color:var(--line);color:var(--muted)}
 .hero h1{
   margin:0;font-family:var(--serif);font-weight:700;
   font-size:clamp(27px,3.1vw,40px);line-height:1.16;letter-spacing:.02em;
+  color:#f7fbfd;
   text-wrap:balance;
   text-shadow:none;
 }
 .hero h1 em{
   font-style:normal;
   color:#f7d9bd;
-  border-bottom:1px solid rgba(247,217,189,.55);
-  padding-bottom:1px;
+  text-decoration:underline;
+  text-decoration-thickness:2px;
+  text-underline-offset:7px;
+  text-decoration-color:rgba(247,217,189,.72);
 }
 .hero-lede{
   margin:9px 0 0;max-width:610px;

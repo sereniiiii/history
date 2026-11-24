@@ -4,7 +4,7 @@
  *  - 静态资源：缓存优先 + 后台更新（stale-while-revalidate）
  * 重新部署后如资源有变，改下面的 CACHE 版本号即可整体换新。
  */
-const CACHE = 'hs-static-v17';
+const CACHE = 'hs-static-v18';
 const ASSETS = [
   './',
   './index.html',
@@ -79,7 +79,7 @@ self.addEventListener('fetch', (e) => {
 
   // 其余静态资源：缓存优先，同时后台刷新
   e.respondWith(
-    caches.match(req, { ignoreSearch: true }).then((hit) => {
+    caches.match(req).then((hit) => {
       const net = fetch(req)
         .then((res) => {
           if (res && res.ok) {
@@ -88,7 +88,7 @@ self.addEventListener('fetch', (e) => {
           }
           return res;
         })
-        .catch(() => hit);
+        .catch(() => hit || caches.match(req, { ignoreSearch: true }));
       return hit || net;
     })
   );
