@@ -94,17 +94,27 @@ let cloudErrorShown = false;
 /* ---------------- 数据加载 ---------------- */
 async function boot() {
   const t0 = performance.now();
-  const [booksRes, knRes, aliasRes, pyRes] = await Promise.all([
+  const [booksRes, knRes, aliasRes, pyRes, exRes, tlRes] = await Promise.all([
     fetch('data/books.json').then(r => r.json()),
     fetch('data/knowledge.json').then(r => r.json()),
     fetch('data/aliases.json').then(r => r.json()),
     fetch('data/pinyin.json').then(r => r.json()),
+    fetch('data/examples.json').then(r => r.ok ? r.json() : []).catch(() => []),
+    fetch('data/timeline.json').then(r => r.ok ? r.json() : { eras: [] }).catch(() => ({ eras: [] })),
   ]);
 
   S.books = booksRes.books || [];
   S.book = S.books[0] || null;
+  S.timelineCount = (tlRes.eras || []).reduce((n, e) => n + (e.items || []).length, 0);
   S.points = knRes || [];
   S.customs = [];
+  S.examples = Array.isArray(exRes) ? exRes : [];
+  S.examplesByLesson = new Map();
+  for (const ex of S.examples) {
+    if (!ex?.lesson) continue;
+    if (!S.examplesByLesson.has(ex.lesson)) S.examplesByLesson.set(ex.lesson, []);
+    S.examplesByLesson.get(ex.lesson).push(ex);
+  }
 
   // 章节索引
   for (const v of (S.book?.volumes || [])) {
@@ -116,6 +126,9 @@ async function boot() {
     }
   }
   rebuildAll();
+  if ($('#heroTotal')) $('#heroTotal').textContent = String(S.points.length);
+  if ($('#heroLessonCount')) $('#heroLessonCount').textContent = `${S.lessons.size} 课`;
+  if ($('#heroEventCount')) $('#heroEventCount').textContent = `${S.timelineCount} 个纪年事件`;
 
   // 用户数据
   S.user = loadUser();
@@ -663,6 +676,25 @@ function select(id, openSheet = true) {
   if (openSheet) onMobileTab('detail');
 }
 
+function renderLessonExamples(lesson) {
+  const list = S.examplesByLesson.get(lesson) || [];
+  if (!list.length) return '';
+  return `<section class="detail-section">
+    <h3>本课例题 <span class="section-count">${list.length}</span></h3>
+    <div class="example-list">
+      ${list.map((ex, i) => `<div class="example-card">
+        <div class="example-head"><span class="example-no">${String(i + 1).padStart(2, '0')}</span><span class="example-type">${esc(ex.type || '例题')}</span></div>
+        <div class="example-q">${esc(ex.q)}</div>
+        ${(ex.options || []).length ? `<div class="example-options">${ex.options.map((o, j) => `<div class="example-option"><b>${'ABCD'[j]}</b><span>${esc(o)}</span></div>`).join('')}</div>` : ''}
+        <details class="example-answer"><summary>查看答案与解析</summary>
+          <div class="example-ans"><b>答案：</b>${esc(ex.answer || '')}</div>
+          <div class="example-analysis"><b>解析：</b>${esc(ex.analysis || '')}</div>
+        </details>
+      </div>`).join('')}
+    </div>
+  </section>`;
+}
+
 function renderDetail() {
   const box = $('#detailBody');
   const empty = $('#detailEmpty');
@@ -679,6 +711,7 @@ function renderDetail() {
       <span class="badge book">${esc(p.kind === 'custom' ? '我创建' : (p.excerpt ? '原文摘录' : '考点归纳'))}</span>
       <span class="badge type">${esc(p.type || '')}</span>
       <span class="badge">难度 ${esc('★'.repeat(p.difficulty || 0))}</span>
+      ${(S.examplesByLesson.get(p.lesson) || []).length ? `<span class="badge exam">例题 ${(S.examplesByLesson.get(p.lesson) || []).length}</span>` : ''}
       ${st === 'mastered' ? '<span class="badge ok">已掌握</span>' : st === 'review' ? '<span class="badge warn">待复习</span>' : '<span class="badge">未标记</span>'}
     </div>
 
@@ -703,6 +736,8 @@ function renderDetail() {
       <h3>可能考法</h3>
       <div class="commonq">${esc(p.commonq)}</div>
     </section>` : ''}
+
+    ${renderLessonExamples(p.lesson)}
 
     <section class="detail-section">
       <h3>我的笔记</h3>

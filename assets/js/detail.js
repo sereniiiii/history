@@ -208,15 +208,18 @@ async function boot() {
   let knowledge = [];
   let timeline = { eras: [] };
   let books = {};
+  let examples = [];
   try {
-    const [k, t, b] = await Promise.all([
+    const [k, t, b, e] = await Promise.all([
       fetch('data/knowledge.json').then(r => { if (!r.ok) throw new Error('知识点 HTTP ' + r.status); return r.json(); }),
       fetch('data/timeline.json').then(r => r.ok ? r.json() : { eras: [] }).catch(() => ({ eras: [] })),
       fetch('data/books.json').then(r => r.ok ? r.json() : {}).catch(() => ({})),
+      fetch('data/examples.json').then(r => r.ok ? r.json() : []).catch(() => []),
     ]);
     knowledge = Array.isArray(k) ? k : [];
     timeline = t || { eras: [] };
     books = b || {};
+    examples = Array.isArray(e) ? e : [];
   } catch (err) {
     renderError('数据加载失败：' + err.message);
     return;
@@ -255,6 +258,7 @@ async function boot() {
   const exam = p.commonq || TYPE_HINTS[p.type] || GENERIC_HINT;
   const notes = attentionItems(p);
   const myNote = readNote(p.id);
+  const lessonExamples = examples.filter(e => e.lesson === p.lesson);
 
   const relatedHTML = related.length
     ? related.map(x => `<a class="network-card" href="detail.html?id=${encodeURIComponent(x.id)}">
@@ -288,6 +292,21 @@ async function boot() {
       <div class="exam-box"><span class="label">EXAM ANGLE · 出题角度</span>${esc(exam)}</div>
       ${p.commonq ? '' : '<div class="note-line">本条没有单独标注题型；先按上面的通用角度准备，遇到具体材料再补。</div>'}
     </section>
+
+    ${lessonExamples.length ? `<section class="paper-section">
+      <div class="sec-head"><span class="sec-no">03+</span><h2>本课例题</h2><span class="rule"></span><span class="sec-note">${lessonExamples.length} 道 · 先做再看答案</span></div>
+      <div class="example-list">
+        ${lessonExamples.map((ex, i) => `<div class="example-card">
+          <div class="example-head"><span class="example-no">${String(i + 1).padStart(2, '0')}</span><span class="example-type">${esc(ex.type || '例题')}</span><span class="example-kid">${esc(ex.kid || '')}</span></div>
+          <div class="example-q">${esc(ex.q)}</div>
+          ${(ex.options || []).length ? `<div class="example-options">${ex.options.map((o, j) => `<div class="example-option"><b>${'ABCD'[j]}</b><span>${esc(o)}</span></div>`).join('')}</div>` : ''}
+          <details class="example-answer"><summary>查看答案与解析</summary>
+            <div class="example-ans"><b>答案：</b>${esc(ex.answer || '')}</div>
+            <div class="example-analysis"><b>解析：</b>${esc(ex.analysis || '')}</div>
+          </details>
+        </div>`).join('')}
+      </div>
+    </section>` : ''}
 
     <section class="paper-section">
       <div class="sec-head"><span class="sec-no">04</span><h2>注意点</h2><span class="rule"></span></div>

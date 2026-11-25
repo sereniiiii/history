@@ -1734,6 +1734,111 @@
   "commonq": "常考刘邦胜在根据地与经济基础。"
  },
  {
+  "id": "LS-U02-040",
+  "book": "LS",
+  "unit": "LS-U02",
+  "lesson": "LS-U02-L04",
+  "title": "秦朝暴政是速亡重要原因",
+  "content": "赋役沉重、刑法严苛、文化专制，激化阶级矛盾，导致秦末农民起义。",
+  "excerpt": "3.文化专制：“焚书坑儒”，使许多珍贵文献毁于一旦",
+  "source": "",
+  "page": 20,
+  "pdfPage": 23,
+  "keywords": [
+   "暴政",
+   "焚书坑儒",
+   "阶级矛盾",
+   "农民起义"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "常考秦亡原因的多角度分析。"
+ },
+ {
+  "id": "LS-U02-R01",
+  "book": "LS",
+  "unit": "LS-U02",
+  "lesson": "LS-U02-L04",
+  "title": "农牧分界线",
+  "content": "除了农牧分界线，在缓冲地带也有长城分布。这一分布特点，有",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 18,
+  "pdfPage": 21,
+  "keywords": [
+   "除了",
+   "农牧",
+   "分界线",
+   "缓冲地带"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U02-R02",
+  "book": "LS",
+  "unit": "LS-U02",
+  "lesson": "LS-U02-L04",
+  "title": "秦朝的长城并非全部新修",
+  "content": "秦朝的长城并非全部新修的，原来东方六国的边界长城，很大一部分仍在发挥防御北方游牧民族南下的作用。公元前214年，秦朝在原有北方诸侯国旧长城的基础上，修筑了西起临洮、东至辽东的万里长城",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 18,
+  "pdfPage": 21,
+  "keywords": [
+   "秦朝",
+   "长城",
+   "并非",
+   "全部"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U02-R03",
+  "book": "LS",
+  "unit": "LS-U02",
+  "lesson": "LS-U02-L04",
+  "title": "秦国完成统一时间",
+  "content": "前230-前221年，灭六国（韩赵魏楚燕齐），建立第一个统一王朝-秦朝，定都咸阳",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 18,
+  "pdfPage": 21,
+  "keywords": [
+   "时间",
+   "230",
+   "221",
+   "灭六国"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U02-R04",
+  "book": "LS",
+  "unit": "LS-U02",
+  "lesson": "LS-U02-L04",
+  "title": "秦朝完成统一后",
+  "content": "秦朝完成统一后，首创专制主义中央集权制（专制主义：是指统治的决策方式，具体而言就是皇帝个人专断独裁，集国家最高权力于一身，即君主专制。中央集权：是指分散地方权力，使地方在政治、军事、经济上都没有独立性，完全受中央控制，绝对服从中央。专制",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 18,
+  "pdfPage": 21,
+  "keywords": [
+   "秦朝",
+   "完成",
+   "统一",
+   "首创"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
   "id": "LS-U02-018",
   "book": "LS",
   "unit": "LS-U02",
@@ -1988,6 +2093,48 @@
   "commonq": "常考地方行政层级演变。"
  },
  {
+  "id": "LS-U02-R05",
+  "book": "LS",
+  "unit": "LS-U02",
+  "lesson": "LS-U02-L05",
+  "title": "河西四郡的意义政治",
+  "content": "推恩令；设立中（内）朝；确立察举制；分州部、设刺史；任用酷吏",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 21,
+  "pdfPage": 24,
+  "keywords": [
+   "政治",
+   "推恩",
+   "设立",
+   "确立"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U02-R06",
+  "book": "LS",
+  "unit": "LS-U02",
+  "lesson": "LS-U02-L05",
+  "title": "东汉公元25年～220年前期",
+  "content": "光武中兴、明章之治（公元57~88年）、永元之隆（公元88~105年）",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 21,
+  "pdfPage": 24,
+  "keywords": [
+   "前期",
+   "光武",
+   "中兴",
+   "明章"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
   "id": "LS-U02-030",
   "book": "LS",
   "unit": "LS-U02",
@@ -2198,25 +2345,25 @@
   "commonq": "常考佛教传入时间与路径。"
  },
  {
-  "id": "LS-U02-040",
+  "id": "LS-U02-R07",
   "book": "LS",
   "unit": "LS-U02",
-  "lesson": "LS-U02-L04",
-  "title": "秦朝暴政是速亡重要原因",
-  "content": "赋役沉重、刑法严苛、文化专制，激化阶级矛盾，导致秦末农民起义。",
-  "excerpt": "3.文化专制：“焚书坑儒”，使许多珍贵文献毁于一旦",
-  "source": "",
-  "page": 20,
-  "pdfPage": 23,
+  "lesson": "LS-U02-L06",
+  "title": "提出为人处世的道德标准",
+  "content": "提出为人处世的道德标准，后人归纳为“三纲五常”，提倡孝道",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 24,
+  "pdfPage": 27,
   "keywords": [
-   "暴政",
-   "焚书坑儒",
-   "阶级矛盾",
-   "农民起义"
+   "提出",
+   "为人处世",
+   "道德",
+   "标准"
   ],
-  "type": "结论",
+  "type": "概念",
   "difficulty": 2,
-  "commonq": "常考秦亡原因的多角度分析。"
+  "commonq": "教材细节，注意与主干结论对应。"
  },
  {
   "id": "LS-U03-001",
@@ -2616,6 +2763,69 @@
   "commonq": "常考民族交融特点。"
  },
  {
+  "id": "LS-U03-R01",
+  "book": "LS",
+  "unit": "LS-U03",
+  "lesson": "LS-U03-L07",
+  "title": "注意图中的流民迁入地：蜀郡、襄阳郡、丹阳",
+  "content": "注意图中的流民迁入地：蜀郡、襄阳郡、丹阳郡、长沙郡等地点",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 28,
+  "pdfPage": 31,
+  "keywords": [
+   "注意",
+   "图中",
+   "流民",
+   "迁入地"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U03-R02",
+  "book": "LS",
+  "unit": "LS-U03",
+  "lesson": "LS-U03-L07",
+  "title": "南方势力兴衰",
+  "content": "东晋北边的疆域大致到淮水；南朝逐步缩小，陈朝局限于长江以南。在南北对峙中处于明显劣势，覆亡大局已定",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 28,
+  "pdfPage": 31,
+  "keywords": [
+   "南方",
+   "势力",
+   "兴衰",
+   "东晋"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U03-R03",
+  "book": "LS",
+  "unit": "LS-U03",
+  "lesson": "LS-U03-L07",
+  "title": "农民VS地主",
+  "content": "农民VS地主；士族VS庶族；胡族VS汉族国家分裂，五胡内迁、民族交融；北方动荡，南方相对稳定三省制；九品中正制；律令儒家化；黄籍和白籍：孝文帝改革佛教、道教流行，三教交融：范建安文学、田园诗、驻文、民歌；王羲之、顾恺之",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 27,
+  "pdfPage": 30,
+  "keywords": [
+   "农民",
+   "VS",
+   "地主",
+   "士族"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
   "id": "LS-U03-020",
   "book": "LS",
   "unit": "LS-U03",
@@ -2952,6 +3162,111 @@
   "commonq": "常考地理学成就。"
  },
  {
+  "id": "LS-U03-R04",
+  "book": "LS",
+  "unit": "LS-U03",
+  "lesson": "LS-U03-L08",
+  "title": "各族文化交流交融",
+  "content": "各族文化交流交融，共同铸就这一时期文化成就，丰富了中华文化的内容",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 31,
+  "pdfPage": 34,
+  "keywords": [
+   "各族",
+   "文化交流",
+   "交融",
+   "共同"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U03-R05",
+  "book": "LS",
+  "unit": "LS-U03",
+  "lesson": "LS-U03-L08",
+  "title": "社会经济发展庄园经济",
+  "content": "魏晋南北朝的坞堡，除军事作用外，也带有庄园经济的色彩（两汉尤其是东汉时",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 31,
+  "pdfPage": 34,
+  "keywords": [
+   "庄园",
+   "经济",
+   "魏晋",
+   "南北朝"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U03-R06",
+  "book": "LS",
+  "unit": "LS-U03",
+  "lesson": "LS-U03-L08",
+  "title": "南方统治者重视发展经济",
+  "content": "南方统治者重视发展经济，采取了劝课农桑、奖励耕织、安抚流民、兴修水利等措施",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 32,
+  "pdfPage": 35,
+  "keywords": [
+   "南方",
+   "统治者",
+   "重视",
+   "发展"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U03-R07",
+  "book": "LS",
+  "unit": "LS-U03",
+  "lesson": "LS-U03-L08",
+  "title": "政局稳定是经济发展的重要前提统治者对经济",
+  "content": "政局稳定是经济发展的重要前提统治者对经济发展的重视程度是影响国家经济发展的重要因素及时引进、运用先进的生产技术是促进经济快速发展的重要保证发展经济的同时，要兼顾生态环境的保护",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 33,
+  "pdfPage": 36,
+  "keywords": [
+   "政局稳定",
+   "经济",
+   "发展",
+   "重要"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U03-R08",
+  "book": "LS",
+  "unit": "LS-U03",
+  "lesson": "LS-U03-L08",
+  "title": "律令的儒家化选必1，第8课，P47的",
+  "content": "汉武帝以后儒家思想成为主流思想，儒家知识分子以经注律（2)概况：魏明帝设置律博士，用儒家思想来解释律令，推动律令儒家化(3）特点：以亲属之间的尊卑亲蔬作为量刑的重要原则之一；维护三纲五常1全面理解三国两晋南北朝时期的民族交融",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 30,
+  "pdfPage": 33,
+  "keywords": [
+   "背景",
+   "汉武帝",
+   "以后",
+   "儒家思想"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
   "id": "LS-U04-001",
   "book": "LS",
   "unit": "LS-U04",
@@ -3182,6 +3497,47 @@
   "commonq": "常考五代十国后期的统一趋势。"
  },
  {
+  "id": "LS-U04-R01",
+  "book": "LS",
+  "unit": "LS-U04",
+  "lesson": "LS-U04-L09",
+  "title": "贞观之治、开元盛世",
+  "content": "贞观之治、开元盛世；安史之乱；藩镇；五代十国：边疆对外三省六部、道州县和乡里；科举、官员考核；《唐律》儒道佛发展、韩愈；玄奘、鉴真、空海；基层教育李白、杜甫；颜真卿、柳公权；吴道子；石窟艺术赵州桥；雕版印刷、火药；僧一行",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 35,
+  "pdfPage": 38,
+  "keywords": [
+   "贞观之治",
+   "开元",
+   "盛世",
+   "安史之乱"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U04-X01",
+  "book": "LS",
+  "unit": "LS-U04",
+  "lesson": "LS-U04-L09",
+  "title": "隋朝统一与灭亡",
+  "content": "581年杨坚建立隋朝，589年灭陈统一全国；隋炀帝暴政、三征高丽，618年隋朝灭亡。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "隋文帝",
+   "589",
+   "隋炀帝"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考隋朝统一与灭亡。"
+ },
+ {
   "id": "LS-U04-012",
   "book": "LS",
   "unit": "LS-U04",
@@ -3330,6 +3686,109 @@
   "commonq": "常考唐律地位。"
  },
  {
+  "id": "LS-U04-R02",
+  "book": "LS",
+  "unit": "LS-U04",
+  "lesson": "LS-U04-L10",
+  "title": "南方一些割据政权",
+  "content": "南方一些割据政权，如吴越（907一978年），长期统治江南地区，社会相对安定。吴越国王钱修筑钱塘江石塘：又置都水营使，主管水利事业，专管治河筑堤，发展了太湖一带的圩田。通过这些措施，使境内农业生产获得发展，推动了经济重心南移进程",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 37,
+  "pdfPage": 40,
+  "keywords": [
+   "南方",
+   "一些",
+   "割据",
+   "政权"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U04-R03",
+  "book": "LS",
+  "unit": "LS-U04",
+  "lesson": "LS-U04-L10",
+  "title": "统治黑暗",
+  "content": "唐朝后期，宦官专权和朋党之争加剧（2)农民起义：875年，黄巢起义，沉重地打击了唐朝的统治",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 37,
+  "pdfPage": 40,
+  "keywords": [
+   "统治",
+   "黑暗",
+   "唐朝",
+   "后期"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U04-X02",
+  "book": "LS",
+  "unit": "LS-U04",
+  "lesson": "LS-U04-L10",
+  "title": "大运河",
+  "content": "605年起开凿大运河，北抵涿郡、南达余杭，贯通南北，加强经济文化交流。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "大运河",
+   "605",
+   "余杭"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考大运河的路线与作用。"
+ },
+ {
+  "id": "LS-U04-X03",
+  "book": "LS",
+  "unit": "LS-U04",
+  "lesson": "LS-U04-L10",
+  "title": "三省六部制",
+  "content": "中书省决策、门下省审议、尚书省执行，六部分工，削弱相权、加强皇权。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "中书省",
+   "门下省",
+   "尚书省",
+   "六部"
+  ],
+  "type": "机制",
+  "difficulty": 2,
+  "commonq": "常考三省六部制的分工。"
+ },
+ {
+  "id": "LS-U04-X04",
+  "book": "LS",
+  "unit": "LS-U04",
+  "lesson": "LS-U04-L10",
+  "title": "科举制",
+  "content": "隋炀帝设进士科，唐代完善，以考试选拔官员，打破门阀垄断。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "科举制",
+   "进士科",
+   "考试选官"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "常考科举制的影响。"
+ },
+ {
   "id": "LS-U04-019",
   "book": "LS",
   "unit": "LS-U04",
@@ -3476,6 +3935,108 @@
   "type": "结论",
   "difficulty": 1,
   "commonq": "常考唐朝对外开放。"
+ },
+ {
+  "id": "LS-U04-R04",
+  "book": "LS",
+  "unit": "LS-U04",
+  "lesson": "LS-U04-L11",
+  "title": "三教发展特点武则天",
+  "content": "佛教在社会上有很大发展，形成不同宗派。禅宗对后世影响最大",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 40,
+  "pdfPage": 43,
+  "keywords": [
+   "武则天",
+   "佛教",
+   "社会",
+   "很大"
+  ],
+  "type": "对比",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U04-R05",
+  "book": "LS",
+  "unit": "LS-U04",
+  "lesson": "LS-U04-L11",
+  "title": "律：唐太宗《贞观律》，唐高宗《永徽律》疏",
+  "content": "唐高宗《永徽律疏》，即《唐律疏议》，是中国现存最早、最为完整的封建法典，是中华法系确立的标志。此后，历代王朝大多以此为蓝本创制自己的法律",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 39,
+  "pdfPage": 42,
+  "keywords": [
+   "唐高宗",
+   "永徽",
+   "律疏",
+   "唐律疏"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U04-X05",
+  "book": "LS",
+  "unit": "LS-U04",
+  "lesson": "LS-U04-L11",
+  "title": "租庸调制",
+  "content": "唐前期以人丁为本，租调之外可纳绢代役，保证农时，增加政府收入。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "租庸调",
+   "纳绢代役",
+   "均田制"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "常考租庸调制的特点。"
+ },
+ {
+  "id": "LS-U04-X06",
+  "book": "LS",
+  "unit": "LS-U04",
+  "lesson": "LS-U04-L11",
+  "title": "两税法",
+  "content": "780年杨炎建议实行两税法，按资产和田亩征税，一年分夏秋两次，改变以人丁为主。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "两税法",
+   "杨炎",
+   "780"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "常考两税法的意义。"
+ },
+ {
+  "id": "LS-U04-X07",
+  "book": "LS",
+  "unit": "LS-U04",
+  "lesson": "LS-U04-L11",
+  "title": "经济重心南移",
+  "content": "安史之乱后北民南迁，南方经济持续发展，南宋时经济重心南移完成。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "经济重心",
+   "南移",
+   "安史之乱"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "常考经济重心南移的过程。"
  },
  {
   "id": "LS-U05-001",
@@ -3688,6 +4249,27 @@
   "commonq": "常考宋金和议内容。"
  },
  {
+  "id": "LS-U05-R01",
+  "book": "LS",
+  "unit": "LS-U05",
+  "lesson": "LS-U05-L12",
+  "title": "北宋初君主专制、中央集权的加强军政",
+  "content": "将地方精锐部队编入禁军，拱卫京师，镇守地方，定期更换驻地",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 44,
+  "pdfPage": 47,
+  "keywords": [
+   "军政",
+   "地方",
+   "精锐部队",
+   "编入"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
   "id": "LS-U05-011",
   "book": "LS",
   "unit": "LS-U05",
@@ -3895,6 +4477,90 @@
   "commonq": "常考元朝民族政策。"
  },
  {
+  "id": "LS-U05-R02",
+  "book": "LS",
+  "unit": "LS-U05",
+  "lesson": "LS-U05-L13",
+  "title": "宋金关系时战时和、以和为贵宋高宗",
+  "content": "把“国事失图”由蔡京上溯至王安石，诏命重修《神宗实录》以否定王安石变法为基调，这对后世产生深远影响，成为中国皇权时代官方定论",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 46,
+  "pdfPage": 49,
+  "keywords": [
+   "宋高宗",
+   "国事",
+   "失图",
+   "蔡京"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U05-R03",
+  "book": "LS",
+  "unit": "LS-U05",
+  "lesson": "LS-U05-L13",
+  "title": "宋金关系时战时和、以和为贵宋哲宗",
+  "content": "初期高太后垂帘听政，司马光等旧党控制朝廷，废除新法。宋哲宗亲政后，打击旧党，恢复王安石变法中的保甲法、免役法、青苗法等",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 46,
+  "pdfPage": 49,
+  "keywords": [
+   "宋哲宗",
+   "初期",
+   "太后",
+   "垂帘听政"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U05-R04",
+  "book": "LS",
+  "unit": "LS-U05",
+  "lesson": "LS-U05-L13",
+  "title": "宋金关系时战时和、以和为贵宋徽宗",
+  "content": "初期向太后主政，任用守旧派，贬谪改革派。宋徽宗亲政后，任命蔡京为相。蔡京打着绍述神宗改革的旗号，排斥异已，加剧统治危机",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 46,
+  "pdfPage": 49,
+  "keywords": [
+   "宋徽宗",
+   "初期",
+   "向太后",
+   "主政"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U05-R05",
+  "book": "LS",
+  "unit": "LS-U05",
+  "lesson": "LS-U05-L13",
+  "title": "宋金关系时战时和、以和为贵战争",
+  "content": "南宋初年，岳飞的“岳家军”等抗金绍兴和议：1141年，划定边界，南宋对金称臣，缴纳“岁贡”隆兴和议：1164年，南宋“隆兴北伐”先胜后败、被迫议和，不再称臣，改为叔侄关系，改“岁贡”为“岁币”嘉定和议：1208年，南宋“开禧北伐”战败",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 46,
+  "pdfPage": 49,
+  "keywords": [
+   "战争",
+   "南宋",
+   "初年",
+   "岳飞"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
   "id": "LS-U05-021",
   "book": "LS",
   "unit": "LS-U05",
@@ -4040,6 +4706,90 @@
   "type": "结论",
   "difficulty": 2,
   "commonq": "常考宋代社会变化。"
+ },
+ {
+  "id": "LS-U05-R06",
+  "book": "LS",
+  "unit": "LS-U05",
+  "lesson": "LS-U05-L14",
+  "title": "元朝的民族关系蒙古",
+  "content": "草原其他部落融入蒙古部落：蒙古人迁入中原，同汉族杂居相处",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 48,
+  "pdfPage": 51,
+  "keywords": [
+   "蒙古",
+   "草原",
+   "其他",
+   "部落"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U05-R07",
+  "book": "LS",
+  "unit": "LS-U05",
+  "lesson": "LS-U05-L14",
+  "title": "农业和手工业的发展的影响",
+  "content": "带动棉纺织业的发展：改变自然经济结构，有利于商品经济发展",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 49,
+  "pdfPage": 52,
+  "keywords": [
+   "影响",
+   "带动",
+   "棉纺织业",
+   "发展"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U05-R08",
+  "book": "LS",
+  "unit": "LS-U05",
+  "lesson": "LS-U05-L14",
+  "title": "民族歧视压迫政策四等人制(1蒙古人",
+  "content": "民族歧视压迫政策（四等人制）(1）蒙古人：蒙古族，居统治地位",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 49,
+  "pdfPage": 52,
+  "keywords": [
+   "民族",
+   "歧视",
+   "压迫",
+   "政策"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U05-R09",
+  "book": "LS",
+  "unit": "LS-U05",
+  "lesson": "LS-U05-L14",
+  "title": "元朝的民族关系回回",
+  "content": "波斯人、阿拉伯人同汉、蒙古、畏元儿等民族融合，形成回回（回族）",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 48,
+  "pdfPage": 51,
+  "keywords": [
+   "波斯",
+   "阿拉伯人",
+   "同汉",
+   "蒙古"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
  },
  {
   "id": "LS-U05-028",
@@ -4232,6 +4982,27 @@
   "commonq": "常考理学影响。"
  },
  {
+  "id": "LS-U05-R10",
+  "book": "LS",
+  "unit": "LS-U05",
+  "lesson": "LS-U05-L15",
+  "title": "影响",
+  "content": "丛南宋后期起，程朱理学受到官方尊崇，在历史上产生了深远影响",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 52,
+  "pdfPage": 55,
+  "keywords": [
+   "影响",
+   "南宋",
+   "后期",
+   "程朱"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
   "id": "LS-U06-001",
   "book": "LS",
   "unit": "LS-U06",
@@ -4338,6 +5109,130 @@
   "commonq": "常考明朝灭亡与清军入关。"
  },
  {
+  "id": "LS-U06-R01",
+  "book": "LS",
+  "unit": "LS-U06",
+  "lesson": "LS-U06-L16",
+  "title": "实行：1572年，明神宗任用内阁首辅张居",
+  "content": "整肃吏治；裁减开支，清丈土地，改革税制（4)作用：国家财政收入增加，社会矛盾相对缓和，统治危机暂时缓解",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 57,
+  "pdfPage": 60,
+  "keywords": [
+   "内容",
+   "整肃",
+   "吏治",
+   "裁减"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U06-R02",
+  "book": "LS",
+  "unit": "LS-U06",
+  "lesson": "LS-U06-L16",
+  "title": "撤中书省废宰相",
+  "content": "明太祖撤中书省和废宰相，权分六部、直属皇帝，秦汉以来绵延1000多年的室相制度终结",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 56,
+  "pdfPage": 59,
+  "keywords": [
+   "中书省",
+   "宰相",
+   "明太祖",
+   "权分"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U06-R03",
+  "book": "LS",
+  "unit": "LS-U06",
+  "lesson": "LS-U06-L16",
+  "title": "考核和监察制度考核：分考满和考察",
+  "content": "考核和监察制度考核：分考满和考察。作为官员正常升迁或降、调依据。查处贪、酷和不作为",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 57,
+  "pdfPage": 60,
+  "keywords": [
+   "考核",
+   "监察",
+   "制度",
+   "分考"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U06-R04",
+  "book": "LS",
+  "unit": "LS-U06",
+  "lesson": "LS-U06-L16",
+  "title": "明成祖迁都北京",
+  "content": "加强了北部边防力量（“天子守国门”），促进了跨区域贸易的繁荣：推动了北方地区经济的恢复和发展",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 56,
+  "pdfPage": 59,
+  "keywords": [
+   "明成祖",
+   "迁都",
+   "北京",
+   "加强"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U06-X01",
+  "book": "LS",
+  "unit": "LS-U06",
+  "lesson": "LS-U06-L16",
+  "title": "废丞相设六部",
+  "content": "明太祖废除中书省和丞相，权分六部，直接对皇帝负责，君主专制加强。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "明太祖",
+   "废丞相",
+   "六部"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "常考明朝皇权加强的措施。"
+ },
+ {
+  "id": "LS-U06-X02",
+  "book": "LS",
+  "unit": "LS-U06",
+  "lesson": "LS-U06-L16",
+  "title": "内阁",
+  "content": "明成祖设内阁，内阁大学士票拟、皇帝批红，内阁并非法定宰相。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "内阁",
+   "票拟",
+   "批红"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考内阁的性质。"
+ },
+ {
   "id": "LS-U06-006",
   "book": "LS",
   "unit": "LS-U06",
@@ -4421,6 +5316,109 @@
   "type": "政策工具",
   "difficulty": 2,
   "commonq": "常考闭关锁国影响。"
+ },
+ {
+  "id": "LS-U06-R05",
+  "book": "LS",
+  "unit": "LS-U06",
+  "lesson": "LS-U06-L17",
+  "title": "时代潮流：改革是否顺应时代历史发展潮流国",
+  "content": "改革是从国情出发，切合实际；措施是否解决实际问题（3)力量对比：改革的动力与阻力，从国内国际的政治、经济、文化等多角度分析",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 59,
+  "pdfPage": 62,
+  "keywords": [
+   "国情",
+   "实际",
+   "改革",
+   "是从"
+  ],
+  "type": "对比",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U06-R06",
+  "book": "LS",
+  "unit": "LS-U06",
+  "lesson": "LS-U06-L17",
+  "title": "法律和教化教化",
+  "content": "乡约宣讲“圣谕”，常引用《大清律例》，与法律合流（选必1",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 60,
+  "pdfPage": 63,
+  "keywords": [
+   "教化",
+   "乡约",
+   "宣讲",
+   "圣谕"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U06-R07",
+  "book": "LS",
+  "unit": "LS-U06",
+  "lesson": "LS-U06-L17",
+  "title": "满洲崛起和清兵入关后金建立",
+  "content": "女真建州部首领努尔哈统一女真各部，1616年称汗，国号大金",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 59,
+  "pdfPage": 62,
+  "keywords": [
+   "后金",
+   "建立",
+   "女真",
+   "建州部"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U06-X04",
+  "book": "LS",
+  "unit": "LS-U06",
+  "lesson": "LS-U06-L17",
+  "title": "军机处",
+  "content": "清雍正设军机处，军机大臣跪受笔录，君主专制达到顶峰。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "军机处",
+   "雍正",
+   "君主专制"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考军机处的设立。"
+ },
+ {
+  "id": "LS-U06-X05",
+  "book": "LS",
+  "unit": "LS-U06",
+  "lesson": "LS-U06-L17",
+  "title": "改土归流",
+  "content": "明清在西南废除土司、改设流官，加强中央对边疆的直接管理。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "改土归流",
+   "土司",
+   "流官"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "常考明清边疆治理。"
  },
  {
   "id": "LS-U06-010",
@@ -4530,6 +5528,109 @@
   "commonq": "常考明清文化成就。"
  },
  {
+  "id": "LS-U06-R08",
+  "book": "LS",
+  "unit": "LS-U06",
+  "lesson": "LS-U06-L18",
+  "title": "中国古代货币的演变特点1)由自然货币到",
+  "content": "中国古代货币的演变特点（1)由自然货币到人工货币：商以前自然海贝，商以后金属铸币2)货币形状由杂乱到统一：战国各种形状货币，秦始皇统一为圆形方孔钱",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 68,
+  "pdfPage": 71,
+  "keywords": [
+   "中国",
+   "古代",
+   "货币",
+   "演变"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U06-R09",
+  "book": "LS",
+  "unit": "LS-U06",
+  "lesson": "LS-U06-L18",
+  "title": "中国古代户籍制度的特点1地域性：政府将",
+  "content": "中国古代户籍制度的特点1）地域性：政府将人口控制在特定地域范围内，限制其流动2)等级性：政府将人口按照等级分为特权户种（官户）、民籍户种、贱民户种等",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 63,
+  "pdfPage": 66,
+  "keywords": [
+   "中国",
+   "古代",
+   "户籍制度",
+   "特点"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U06-R10",
+  "book": "LS",
+  "unit": "LS-U06",
+  "lesson": "LS-U06-L18",
+  "title": "对外贸易的变化主动开放一被动收缩",
+  "content": "对外贸易的变化（主动开放一被动收缩，兴盛一衰落）特点：视外商来华为“朝贡”，中国为“赏赐”；往往薄来厚往倍偿其价且的：宣扬国威，加强与海外各国的联系",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 65,
+  "pdfPage": 68,
+  "keywords": [
+   "对外贸易",
+   "变化",
+   "主动",
+   "开放"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U06-X06",
+  "book": "LS",
+  "unit": "LS-U06",
+  "lesson": "LS-U06-L18",
+  "title": "海禁与闭关锁国",
+  "content": "明清实行海禁和闭关锁国，限制海外贸易，阻碍资本主义萌芽发展。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "海禁",
+   "闭关锁国",
+   "资本主义萌芽"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "常考闭关锁国的影响。"
+ },
+ {
+  "id": "LS-U06-X07",
+  "book": "LS",
+  "unit": "LS-U06",
+  "lesson": "LS-U06-L18",
+  "title": "一条鞭法",
+  "content": "1581年张居正推行一条鞭法，赋役合并、折银征收，适应商品经济发展。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "一条鞭法",
+   "张居正",
+   "1581"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "常考一条鞭法的内容。"
+ },
+ {
   "id": "LS-U07-001",
   "book": "LS",
   "unit": "LS-U07",
@@ -4594,6 +5695,67 @@
   "type": "结论",
   "difficulty": 1,
   "commonq": "常考新思想萌发的代表人物与主张。"
+ },
+ {
+  "id": "LS-U07-R01",
+  "book": "LS",
+  "unit": "LS-U16",
+  "lesson": "LS-U16-L12",
+  "title": "工业革命",
+  "content": "资本主义生产方式在英、法、美等国逐渐占据主导地位，对市场、原料、廉价劳动力、资本输出等需求越来越强烈",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR（已按内容归位）",
+  "page": 72,
+  "pdfPage": 75,
+  "keywords": [
+   "工业革命",
+   "资本主义",
+   "生产方式",
+   "美等国"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U07-X01",
+  "book": "LS",
+  "unit": "LS-U07",
+  "lesson": "LS-U07-L19",
+  "title": "鸦片战争",
+  "content": "1840—1842年英国发动鸦片战争，中国战败，签订《南京条约》。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "鸦片战争",
+   "1840",
+   "南京条约"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考鸦片战争的时间与结果。"
+ },
+ {
+  "id": "LS-U07-X02",
+  "book": "LS",
+  "unit": "LS-U07",
+  "lesson": "LS-U07-L19",
+  "title": "《南京条约》",
+  "content": "割香港岛、赔款2100万银元、开放五口通商、协定关税，中国开始沦为半殖民地。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "南京条约",
+   "香港岛",
+   "五口通商"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考南京条约的内容。"
  },
  {
   "id": "LS-U07-004",
@@ -4662,6 +5824,89 @@
   "commonq": "常考晚清边疆危机与应对。"
  },
  {
+  "id": "LS-U07-R02",
+  "book": "LS",
+  "unit": "LS-U07",
+  "lesson": "LS-U07-L20",
+  "title": "条约主要内容魏源",
+  "content": "编《海国图志》，介绍各国历史、地理等；提出“师夷之长技以制夷”",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 74,
+  "pdfPage": 77,
+  "keywords": [
+   "魏源",
+   "海国",
+   "图志",
+   "介绍"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U07-R03",
+  "book": "LS",
+  "unit": "LS-U07",
+  "lesson": "LS-U07-L20",
+  "title": "条约主要内容的影响",
+  "content": "中国的独立、主权和领土完整受到严重侵犯，进一步沦为半殖民地半封建社会",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 74,
+  "pdfPage": 77,
+  "keywords": [
+   "影响",
+   "中国",
+   "独立",
+   "主权"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U07-R04",
+  "book": "LS",
+  "unit": "LS-U07",
+  "lesson": "LS-U07-L20",
+  "title": "开眼看世界1背景",
+  "content": "鸦片战争；清朝统治阶级高层的封闭、愚味与腐朽（1)林则徐：在广州开办译馆，译《四洲志》等，供对外交涉时参考",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 74,
+  "pdfPage": 77,
+  "keywords": [
+   "眼看",
+   "世界",
+   "背景",
+   "鸦片战争"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U07-X04",
+  "book": "LS",
+  "unit": "LS-U07",
+  "lesson": "LS-U07-L20",
+  "title": "洋务运动",
+  "content": "19世纪60—90年代洋务派“师夷长技”，创办军事民用工业，甲午战败标志运动失败。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "洋务运动",
+   "师夷长技",
+   "甲午"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "常考洋务运动的目的与局限。"
+ },
+ {
   "id": "LS-U07-007",
   "book": "LS",
   "unit": "LS-U07",
@@ -4704,6 +5949,88 @@
   "type": "结论",
   "difficulty": 2,
   "commonq": "常考戊戌变法内容与失败原因。"
+ },
+ {
+  "id": "LS-U07-R05",
+  "book": "LS",
+  "unit": "LS-U07",
+  "lesson": "LS-U07-L21",
+  "title": "太平天国运动与中外局势变化1)政权割据",
+  "content": "太平天国运动与中外局势变化（1)政权割据：太平天国控制长江中下游地区，形成割据局面，影响清政府的经济、政治",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 77,
+  "pdfPage": 80,
+  "keywords": [
+   "太平天国运动",
+   "中外",
+   "局势",
+   "变化"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U07-R06",
+  "book": "LS",
+  "unit": "LS-U07",
+  "lesson": "LS-U07-L21",
+  "title": "太平天国也未能正确地对待儒学",
+  "content": "太平天国也未能正确地对待儒学，把儒学中的封建纲常伦理原则保留了下来",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 76,
+  "pdfPage": 79,
+  "keywords": [
+   "太平天国",
+   "未能",
+   "正确",
+   "对待"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U07-X05",
+  "book": "LS",
+  "unit": "LS-U07",
+  "lesson": "LS-U07-L21",
+  "title": "甲午中日战争",
+  "content": "1894—1895年日本发动甲午战争，北洋海军覆没，签订《马关条约》。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "甲午战争",
+   "1894",
+   "马关条约"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考甲午战争的影响。"
+ },
+ {
+  "id": "LS-U07-X06",
+  "book": "LS",
+  "unit": "LS-U07",
+  "lesson": "LS-U07-L21",
+  "title": "戊戌变法",
+  "content": "1898年康有为、梁启超推动百日维新，慈禧发动政变，变法失败。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "戊戌变法",
+   "康有为",
+   "梁启超"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考戊戌变法的内容与失败原因。"
  },
  {
   "id": "LS-U07-009",
@@ -4772,6 +6099,69 @@
   "commonq": "常考三民主义内涵。"
  },
  {
+  "id": "LS-U07-R07",
+  "book": "LS",
+  "unit": "LS-U07",
+  "lesson": "LS-U07-L22",
+  "title": "背景原因1)根本：《马关条约》签订",
+  "content": "背景（原因）（1)根本：《马关条约》签订后，西方列强掀起瓜分中国的狂潮，民族危机日益加剧",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 81,
+  "pdfPage": 84,
+  "keywords": [
+   "背景",
+   "原因",
+   "根本",
+   "马关条约"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U07-R08",
+  "book": "LS",
+  "unit": "LS-U07",
+  "lesson": "LS-U07-L22",
+  "title": "德国强占胶州湾，进一步刺激了山东民众兴起",
+  "content": "以“扶清灭洋”为口号的反洋教斗争蔓延到山东、直隶很多州县农村",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 81,
+  "pdfPage": 84,
+  "keywords": [
+   "兴起",
+   "扶清灭",
+   "口号",
+   "洋教"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U07-R09",
+  "book": "LS",
+  "unit": "LS-U07",
+  "lesson": "LS-U07-L22",
+  "title": "德国强占胶州湾，进一步刺激了山东民众最后",
+  "content": "北京陷落后，慈禧太后被迫逃亡，逃亡途中颁布了铲除义和团的谕旨",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 81,
+  "pdfPage": 84,
+  "keywords": [
+   "最后",
+   "北京",
+   "陷落",
+   "慈禧太后"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
   "id": "LS-U07-012",
   "book": "LS",
   "unit": "LS-U07",
@@ -4816,6 +6206,48 @@
   "commonq": "常考晚清社会近代化表现。"
  },
  {
+  "id": "LS-U07-R10",
+  "book": "LS",
+  "unit": "LS-U07",
+  "lesson": "LS-U07-L23",
+  "title": "立宪派与革命派革命派",
+  "content": "以孙中山等人为代表，主张用暴力革命方式推翻清朝封建统治，建立民主共和。革命派和立宪派都代表资产阶级利益，要求建立民主宪政和发展资本主义；主要区别在于变革方式的不同以及建立民主政体的差异",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 84,
+  "pdfPage": 87,
+  "keywords": [
+   "革命派",
+   "孙中山",
+   "人为",
+   "代表"
+  ],
+  "type": "对比",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U07-R11",
+  "book": "LS",
+  "unit": "LS-U07",
+  "lesson": "LS-U07-L23",
+  "title": "西医在中国的传播1)西式医院：分科完备",
+  "content": "西医在中国的传播1)）西式医院：分科完备，技术先进。牛痘接种法、麻醉术、放射技术等2）西医院校：把教学、科研与临床结合一起，培养了相当数量的西医人才（3)公共卫生：预防传染病、普及公共卫生知识，实行公共卫生措施",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 85,
+  "pdfPage": 88,
+  "keywords": [
+   "西医",
+   "中国",
+   "传播",
+   "西式"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
   "id": "LS-U08-001",
   "book": "LS",
   "unit": "LS-U08",
@@ -4858,6 +6290,248 @@
   "type": "结论",
   "difficulty": 2,
   "commonq": "常考北洋军阀统治特点。"
+ },
+ {
+  "id": "LS-U08-X01",
+  "book": "LS",
+  "unit": "LS-U08",
+  "lesson": "LS-U08-L24",
+  "title": "武昌起义与各省响应",
+  "content": "1911年10月10日武昌起义爆发，各省纷纷宣布独立，清王朝统治迅速瓦解。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "武昌起义",
+   "辛亥革命",
+   "各省独立"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "选择题常考辛亥革命的首义地点与时间。"
+ },
+ {
+  "id": "LS-U08-X02",
+  "book": "LS",
+  "unit": "LS-U08",
+  "lesson": "LS-U08-L24",
+  "title": "南京临时政府成立",
+  "content": "1912年1月1日孙中山在南京就任临时大总统，中华民国临时政府成立，改用公历。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "南京临时政府",
+   "孙中山",
+   "1912"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考临时政府成立时间与都城。"
+ },
+ {
+  "id": "LS-U08-X03",
+  "book": "LS",
+  "unit": "LS-U08",
+  "lesson": "LS-U08-L24",
+  "title": "清帝退位与袁世凯窃权",
+  "content": "1912年2月清帝退位，孙中山让位，袁世凯在北京就任临时大总统，革命果实被窃取。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "清帝退位",
+   "袁世凯",
+   "革命果实"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "常考“辛亥革命失败”的表现。"
+ },
+ {
+  "id": "LS-U08-X04",
+  "book": "LS",
+  "unit": "LS-U08",
+  "lesson": "LS-U08-L24",
+  "title": "《临时约法》的局限",
+  "content": "临时约法实责任内阁制以限制袁世凯，但未能改变半殖民地半封建社会性质。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "临时约法",
+   "责任内阁",
+   "局限"
+  ],
+  "type": "对比",
+  "difficulty": 2,
+  "commonq": "材料题常考约法的进步性与局限性。"
+ },
+ {
+  "id": "LS-U08-X05",
+  "book": "LS",
+  "unit": "LS-U08",
+  "lesson": "LS-U08-L24",
+  "title": "二次革命与护国运动",
+  "content": "1913年宋教仁案引发二次革命；1915年袁世凯复辟帝制，护国运动兴起并迫使其取消帝制。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "二次革命",
+   "护国运动",
+   "宋教仁"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考反袁斗争的顺序与性质。"
+ },
+ {
+  "id": "LS-U08-X06",
+  "book": "LS",
+  "unit": "LS-U08",
+  "lesson": "LS-U08-L24",
+  "title": "北洋军阀割据",
+  "content": "袁世凯死后北洋军阀分裂为皖系、直系、奉系等，混战不断，中央权威衰弱。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "北洋军阀",
+   "皖系",
+   "直系",
+   "奉系"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "常考军阀割据局面的成因与影响。"
+ },
+ {
+  "id": "LS-U08-X07",
+  "book": "LS",
+  "unit": "LS-U08",
+  "lesson": "LS-U08-L24",
+  "title": "民族资本主义短暂春天",
+  "content": "一战期间列强放松对华经济侵略，民族资本主义出现“短暂春天”，无产阶级队伍壮大。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "民族资本主义",
+   "一战",
+   "无产阶级"
+  ],
+  "type": "机制",
+  "difficulty": 2,
+  "commonq": "常考一战期间民族工业发展的原因。"
+ },
+ {
+  "id": "LS-U08-X08",
+  "book": "LS",
+  "unit": "LS-U08",
+  "lesson": "LS-U08-L24",
+  "title": "新文化运动的背景",
+  "content": "辛亥革命后专制思想仍存，民族资本主义发展，知识分子寻求思想启蒙，新文化运动兴起。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "新文化运动",
+   "背景",
+   "思想启蒙"
+  ],
+  "type": "机制",
+  "difficulty": 2,
+  "commonq": "材料题常考新文化运动的时代背景。"
+ },
+ {
+  "id": "LS-U08-X09",
+  "book": "LS",
+  "unit": "LS-U08",
+  "lesson": "LS-U08-L24",
+  "title": "新文化运动的内容",
+  "content": "提倡民主与科学，反对专制与迷信；提倡新道德、新文学，反对旧道德、旧文学。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "民主",
+   "科学",
+   "新道德",
+   "白话文"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "选择题常考新文化运动的两面旗帜。"
+ },
+ {
+  "id": "LS-U08-X18",
+  "book": "LS",
+  "unit": "LS-U08",
+  "lesson": "LS-U08-L24",
+  "title": "中华民国成立",
+  "content": "1912年1月1日孙中山在南京就任临时大总统，中华民国成立。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "中华民国",
+   "1912",
+   "孙中山"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考中华民国成立的时间。"
+ },
+ {
+  "id": "LS-U08-X19",
+  "book": "LS",
+  "unit": "LS-U08",
+  "lesson": "LS-U08-L24",
+  "title": "清帝退位",
+  "content": "1912年2月12日宣统帝退位，清朝灭亡，袁世凯在北京就任临时大总统。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "清帝退位",
+   "1912",
+   "袁世凯"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考清朝灭亡的标志。"
+ },
+ {
+  "id": "LS-U08-X20",
+  "book": "LS",
+  "unit": "LS-U08",
+  "lesson": "LS-U08-L24",
+  "title": "袁世凯称帝",
+  "content": "1915年底袁世凯称中华帝国皇帝，护国运动爆发，帝制被迫取消。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "袁世凯",
+   "称帝",
+   "护国运动"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考袁世凯复辟的结局。"
  },
  {
   "id": "LS-U08-003",
@@ -4924,6 +6598,185 @@
   "type": "结论",
   "difficulty": 2,
   "commonq": "常考中共成立时间与意义。"
+ },
+ {
+  "id": "LS-U08-X10",
+  "book": "LS",
+  "unit": "LS-U08",
+  "lesson": "LS-U08-L25",
+  "title": "五四运动的导火索",
+  "content": "1919年巴黎和会中国外交失败，列强将德国在山东的权益转给日本，点燃五四运动。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "五四运动",
+   "巴黎和会",
+   "山东"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考五四运动的直接原因。"
+ },
+ {
+  "id": "LS-U08-X11",
+  "book": "LS",
+  "unit": "LS-U08",
+  "lesson": "LS-U08-L25",
+  "title": "五四运动的进程",
+  "content": "1919年5月4日北京学生游行，6月上海工人罢工、商人罢市，运动扩展到全国。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "五四运动",
+   "学生",
+   "工人罢工"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考运动中心由北京转向上海。"
+ },
+ {
+  "id": "LS-U08-X12",
+  "book": "LS",
+  "unit": "LS-U08",
+  "lesson": "LS-U08-L25",
+  "title": "五四运动的意义",
+  "content": "五四运动是彻底反帝反封建的爱国运动，工人阶级登上政治舞台，是新民主主义革命的开端。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "反帝反封建",
+   "工人阶级",
+   "新民主主义"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "材料题常考五四运动的历史意义。"
+ },
+ {
+  "id": "LS-U08-X13",
+  "book": "LS",
+  "unit": "LS-U08",
+  "lesson": "LS-U08-L25",
+  "title": "马克思主义的传播",
+  "content": "李大钊发表《庶民的胜利》《布尔什维主义的胜利》，马克思主义在中国广泛传播。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "李大钊",
+   "马克思主义",
+   "庶民的胜利"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考马克思主义传播的代表人物。"
+ },
+ {
+  "id": "LS-U08-X14",
+  "book": "LS",
+  "unit": "LS-U08",
+  "lesson": "LS-U08-L25",
+  "title": "中共一大",
+  "content": "1921年中共一大在上海召开，后转嘉兴南湖，确定党纲和奋斗目标，选举陈独秀为书记。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "中共一大",
+   "1921",
+   "嘉兴南湖"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考中国共产党成立的时间与地点。"
+ },
+ {
+  "id": "LS-U08-X15",
+  "book": "LS",
+  "unit": "LS-U08",
+  "lesson": "LS-U08-L25",
+  "title": "中共二大",
+  "content": "1922年中共二大提出反帝反封建的民主革命纲领，明确最低纲领。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "中共二大",
+   "民主革命纲领"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "常考中共二大的纲领贡献。"
+ },
+ {
+  "id": "LS-U08-X16",
+  "book": "LS",
+  "unit": "LS-U08",
+  "lesson": "LS-U08-L25",
+  "title": "第一次国共合作",
+  "content": "1924年国民党一大召开，提出新三民主义，国共合作推动国民革命。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "国共合作",
+   "国民党一大",
+   "新三民主义"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考国共合作的政治基础。"
+ },
+ {
+  "id": "LS-U08-X17",
+  "book": "LS",
+  "unit": "LS-U08",
+  "lesson": "LS-U08-L25",
+  "title": "国民革命失败",
+  "content": "1927年蒋介石发动四一二政变，汪精卫发动七一五政变，第一次国共合作破裂。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "四一二政变",
+   "七一五政变",
+   "国民革命"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "常考国民革命失败的原因与标志。"
+ },
+ {
+  "id": "LS-U08-X24",
+  "book": "LS",
+  "unit": "LS-U08",
+  "lesson": "LS-U08-L25",
+  "title": "宋教仁案",
+  "content": "1913年宋教仁被刺，引发二次革命，袁世凯武力镇压，北洋军阀统治加强。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "宋教仁",
+   "1913",
+   "二次革命"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考二次革命的导火索。"
  },
  {
   "id": "LS-U09-001",
@@ -5014,6 +6867,89 @@
   "commonq": "常考长征原因、转折与胜利标志。"
  },
  {
+  "id": "LS-U09-R01",
+  "book": "LS",
+  "unit": "LS-U09",
+  "lesson": "LS-U09-L26",
+  "title": "南京国民政府的统治的内容",
+  "content": "国民党代行国民大会权力，指导监督国民政府的重大国务(2）实质：剥夺人民权利的一党专政",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 94,
+  "pdfPage": 97,
+  "keywords": [
+   "内容",
+   "国民党",
+   "代行",
+   "国民大会"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U09-R02",
+  "book": "LS",
+  "unit": "LS-U09",
+  "lesson": "LS-U09-L26",
+  "title": "南京国民政府的统治3皇姑屯事件",
+  "content": "张作霖败退东北，在皇姑屯被日本炸死，其子张学良继任（4)东北易帜：1928年底，东北三省服从国民政府，改旗易帜。国民政府形式上统一全国",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 94,
+  "pdfPage": 97,
+  "keywords": [
+   "皇姑屯",
+   "事件",
+   "张作霖",
+   "败退"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U09-R03",
+  "book": "LS",
+  "unit": "LS-U09",
+  "lesson": "LS-U09-L26",
+  "title": "公务员制度的建立1)立法：1929年《",
+  "content": "公务员制度的建立（1)立法：1929年《考试法》《公务员任用条例》，1933年《公务员任用法》2)规定：新任用公务员均须经考试院考选，允许女子参加考试；一般在职人员采用甄别",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 94,
+  "pdfPage": 97,
+  "keywords": [
+   "公务员",
+   "制度",
+   "建立",
+   "立法"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U09-X02",
+  "book": "LS",
+  "unit": "LS-U09",
+  "lesson": "LS-U09-L26",
+  "title": "井冈山会师",
+  "content": "1928年朱德、毛泽东在井冈山会师，创建农村革命根据地，形成工农武装割据。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "井冈山",
+   "会师",
+   "工农武装割据"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考农村包围城市道路。"
+ },
+ {
   "id": "LS-U09-005",
   "book": "LS",
   "unit": "LS-U09",
@@ -5056,6 +6992,26 @@
   "type": "结论",
   "difficulty": 2,
   "commonq": "常考西安事变和平解决意义。"
+ },
+ {
+  "id": "LS-U09-X05",
+  "book": "LS",
+  "unit": "LS-U09",
+  "lesson": "LS-U09-L27",
+  "title": "七七事变",
+  "content": "1937年7月7日卢沟桥事变，日本全面侵华，中国全民族抗战开始。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "七七事变",
+   "1937",
+   "全民族抗战"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考全面抗战开始的标志。"
  },
  {
   "id": "LS-U09-007",
@@ -5124,6 +7080,68 @@
   "commonq": "常考抗战胜利时间与意义。"
  },
  {
+  "id": "LS-U09-R04",
+  "book": "LS",
+  "unit": "LS-U09",
+  "lesson": "LS-U09-L28",
+  "title": "中国局部抗战的背景",
+  "content": "蒋介石调集东北军、西北军围攻陕北：张学良、杨虎城实行联共抗日",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 97,
+  "pdfPage": 100,
+  "keywords": [
+   "背景",
+   "蒋介石",
+   "调集",
+   "东北军"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U09-R05",
+  "book": "LS",
+  "unit": "LS-U09",
+  "lesson": "LS-U09-L28",
+  "title": "中国局部抗战的结果",
+  "content": "蒋介石被迫接受停止内战、联共抗日的主张。西安事变得到和平解决",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 97,
+  "pdfPage": 100,
+  "keywords": [
+   "结果",
+   "蒋介石",
+   "被迫",
+   "接受"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U09-X06",
+  "book": "LS",
+  "unit": "LS-U09",
+  "lesson": "LS-U09-L28",
+  "title": "抗战胜利",
+  "content": "1945年8月15日日本宣布投降，9月2日签署投降书，中国抗日战争取得胜利。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "抗战胜利",
+   "1945",
+   "日本投降"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "常考抗战胜利的意义。"
+ },
+ {
   "id": "LS-U09-010",
   "book": "LS",
   "unit": "LS-U09",
@@ -5190,6 +7208,111 @@
   "commonq": "常考渡江战役标志。"
  },
  {
+  "id": "LS-U09-R06",
+  "book": "LS",
+  "unit": "LS-U09",
+  "lesson": "LS-U09-L29",
+  "title": "抗日战争的胜利的内容",
+  "content": "提出了党的政治路线；确立毛泽东思想为党的指导思想(3）意义：使全党在马克思列宁主义、毛泽东思想的基础上达到了空前的团结",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 100,
+  "pdfPage": 103,
+  "keywords": [
+   "内容",
+   "提出",
+   "政治路线",
+   "确立"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U09-R07",
+  "book": "LS",
+  "unit": "LS-U09",
+  "lesson": "LS-U09-L29",
+  "title": "抗日主战场",
+  "content": "中国战场所抗击的日军兵力，超过了太平洋战场上日军的总兵力",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 100,
+  "pdfPage": 103,
+  "keywords": [
+   "抗日",
+   "主战场",
+   "中国",
+   "战场"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U09-R08",
+  "book": "LS",
+  "unit": "LS-U09",
+  "lesson": "LS-U09-L29",
+  "title": "国内：各民族、各政党、各政治力量团结抗战",
+  "content": "海外华侨在陈嘉庚等侨领的号召和领导下，积极支援抗战2．中国战场成为东方主战场",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 100,
+  "pdfPage": 103,
+  "keywords": [
+   "海外",
+   "华侨",
+   "陈嘉庚",
+   "侨领"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U09-R09",
+  "book": "LS",
+  "unit": "LS-U09",
+  "lesson": "LS-U09-L29",
+  "title": "盟国对中国地位的肯定1)领土：1943",
+  "content": "盟国对中国地位的肯定（1)领土：1943.11，中、美、英《开罗宜言》，规定日本所窃取的中国领土归还中国",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 100,
+  "pdfPage": 103,
+  "keywords": [
+   "盟国",
+   "中国",
+   "地位",
+   "肯定"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U09-R10",
+  "book": "LS",
+  "unit": "LS-U09",
+  "lesson": "LS-U09-L29",
+  "title": "抗日战争胜利后",
+  "content": "抗日战争胜利后，和平建国是中国人民的强烈愿望。当时的中国出现了两种不同的建国方针：中国共产党以和平、民主、团结为号召，主张成立联合政府，力争建成一个新民主主义的国家；国民党打着“和平建国”的旗号，坚持独裁和内战的方针",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 101,
+  "pdfPage": 104,
+  "keywords": [
+   "抗日战争",
+   "胜利",
+   "和平",
+   "建国"
+  ],
+  "type": "对比",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
   "id": "LS-U09-013",
   "book": "LS",
   "unit": "LS-U09",
@@ -5232,6 +7355,27 @@
   "type": "结论",
   "difficulty": 1,
   "commonq": "常考民国文化成就。"
+ },
+ {
+  "id": "LS-U09-R11",
+  "book": "LS",
+  "unit": "LS-U08",
+  "lesson": "LS-U08-L25",
+  "title": "新文化运动前期",
+  "content": "资产阶级知识分子在思想文化领域发起的一场反封建的斗争(1）原因：对辛玄革命失败的反思：缺乏对旧思想、旧文化、旧礼教的彻底批判",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR（已按内容归位）",
+  "page": 105,
+  "pdfPage": 108,
+  "keywords": [
+   "新文化运动",
+   "前期",
+   "资产阶级",
+   "知识分子"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
  },
  {
   "id": "LS-U10-001",
@@ -5297,6 +7441,207 @@
   "type": "结论",
   "difficulty": 2,
   "commonq": "常考三大改造方式与标志。"
+ },
+ {
+  "id": "LS-U10-R01",
+  "book": "LS",
+  "unit": "LS-U10",
+  "lesson": "LS-U10-L31",
+  "title": "新政协、新中国成立",
+  "content": "新政协、新中国成立；巩固政权；中共“八大”；反右派；文革人大、政协和民族区域自治制度；《共同纲领》《1954宪法》一边倒、抗美援朝；五项原则、日内瓦、万隆会议：中苏关系变化：加强与第三世界交往；恢复联大席位，中美、中日关系正常化土地改革",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 110,
+  "pdfPage": 113,
+  "keywords": [
+   "新政协",
+   "中国",
+   "成立",
+   "巩固政权"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U10-X01",
+  "book": "LS",
+  "unit": "LS-U10",
+  "lesson": "LS-U10-L31",
+  "title": "新政协与《共同纲领》",
+  "content": "1949年9月新政协通过《共同纲领》，规定国家性质与基本政策，起临时宪法作用。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "新政协",
+   "共同纲领",
+   "临时宪法"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考新中国成立初期的临时宪法。"
+ },
+ {
+  "id": "LS-U10-X02",
+  "book": "LS",
+  "unit": "LS-U10",
+  "lesson": "LS-U10-L31",
+  "title": "新中国成立的意义",
+  "content": "1949年10月1日中华人民共和国成立，结束半殖民地半封建社会，人民成为国家主人。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "新中国成立",
+   "1949",
+   "人民民主专政"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "材料题常考新中国成立的历史意义。"
+ },
+ {
+  "id": "LS-U10-X03",
+  "book": "LS",
+  "unit": "LS-U10",
+  "lesson": "LS-U10-L31",
+  "title": "土地改革",
+  "content": "1950—1952年废除封建土地所有制，农民获得土地，解放农村生产力。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "土地改革",
+   "封建土地所有制",
+   "农民"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "常考土地改革的时间与作用。"
+ },
+ {
+  "id": "LS-U10-X04",
+  "book": "LS",
+  "unit": "LS-U10",
+  "lesson": "LS-U10-L31",
+  "title": "抗美援朝的背景",
+  "content": "1950年朝鲜战争爆发，美国越过三八线、威胁中国边境，中国决定抗美援朝。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "抗美援朝",
+   "朝鲜战争",
+   "三八线"
+  ],
+  "type": "机制",
+  "difficulty": 2,
+  "commonq": "常考抗美援朝的原因。"
+ },
+ {
+  "id": "LS-U10-X05",
+  "book": "LS",
+  "unit": "LS-U10",
+  "lesson": "LS-U10-L31",
+  "title": "抗美援朝的意义",
+  "content": "1953年美国在停战协定上签字，捍卫国家安全，提高国际地位，为国内建设赢得环境。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "抗美援朝",
+   "停战协定",
+   "国际地位"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "材料题常考抗美援朝的意义。"
+ },
+ {
+  "id": "LS-U10-X06",
+  "book": "LS",
+  "unit": "LS-U10",
+  "lesson": "LS-U10-L31",
+  "title": "稳定物价与统一财经",
+  "content": "1950年统一全国财政经济，打击投机资本，物价趋于稳定，国家财政经济好转。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "统一财经",
+   "物价",
+   "投机资本"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "常考新中国成立初期经济措施。"
+ },
+ {
+  "id": "LS-U10-X07",
+  "book": "LS",
+  "unit": "LS-U10",
+  "lesson": "LS-U10-L31",
+  "title": "过渡时期总路线",
+  "content": "1953年提出“一化三改”，逐步实现社会主义工业化，完成对农业、手工业和资本主义工商业的改造。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "一化三改",
+   "过渡时期",
+   "工业化"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "常考过渡时期总路线的内容。"
+ },
+ {
+  "id": "LS-U10-X08",
+  "book": "LS",
+  "unit": "LS-U10",
+  "lesson": "LS-U10-L31",
+  "title": "三大改造的完成",
+  "content": "1956年农业合作化、手工业合作社、资本主义工商业公私合营基本完成。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "三大改造",
+   "公私合营",
+   "1956"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "常考社会主义制度确立的标志。"
+ },
+ {
+  "id": "LS-U10-X09",
+  "book": "LS",
+  "unit": "LS-U10",
+  "lesson": "LS-U10-L31",
+  "title": "社会主义制度的确立",
+  "content": "1956年三大改造完成，生产资料公有制占主导，社会主义制度基本建立。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "社会主义制度",
+   "公有制",
+   "1956"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "材料题常考1956年的历史地位。"
  },
  {
   "id": "LS-U10-004",
@@ -5365,6 +7710,228 @@
   "commonq": "常考文革危害与教训。"
  },
  {
+  "id": "LS-U10-R02",
+  "book": "LS",
+  "unit": "LS-U10",
+  "lesson": "LS-U10-L32",
+  "title": "因政协不是由普选产生的正式代议制机构",
+  "content": "因政协不是由普选产生的正式代议制机构，它通过的“共同纲领”只起到临时宪法作用，不是2)1954年《宪法》：一届全国人民代表大会通过。它延续了“共同纲领”的多数内容，在体现人民民主原则的同时，进一步体现社会主义原则",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 113,
+  "pdfPage": 116,
+  "keywords": [
+   "政协",
+   "不是",
+   "普选",
+   "产生"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U10-R03",
+  "book": "LS",
+  "unit": "LS-U10",
+  "lesson": "LS-U10-L32",
+  "title": "民族区域自治制度与自治区1)民族区域自治",
+  "content": "民族区域自治制度与自治区1)民族区域自治制度：是新中国的基本政治制度。其内容是，在国家的统一领导下，一些少数民族聚居的地方可实行区域自治，设立自治机构，行使自治权。其自治权仅限于处理本民族内部事务。主要官员由中央委派或任命",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 113,
+  "pdfPage": 116,
+  "keywords": [
+   "民族区域",
+   "自治",
+   "制度",
+   "自治区"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U10-X10",
+  "book": "LS",
+  "unit": "LS-U10",
+  "lesson": "LS-U10-L32",
+  "title": "中共八大",
+  "content": "1956年中共八大指出主要矛盾是先进社会制度同落后生产力之间的矛盾，集中力量发展生产力。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "中共八大",
+   "主要矛盾",
+   "生产力"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "常考中共八大的正确探索。"
+ },
+ {
+  "id": "LS-U10-X11",
+  "book": "LS",
+  "unit": "LS-U10",
+  "lesson": "LS-U10-L32",
+  "title": "一五计划的成就",
+  "content": "1953—1957年一五计划优先发展重工业，鞍钢、长春一汽、武汉长江大桥等建成。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "一五计划",
+   "重工业",
+   "鞍钢"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "常考一五计划的时间与重点。"
+ },
+ {
+  "id": "LS-U10-X12",
+  "book": "LS",
+  "unit": "LS-U10",
+  "lesson": "LS-U10-L32",
+  "title": "大跃进的表现",
+  "content": "1958年片面追求工农业生产高指标，浮夸风、共产风盛行，国民经济比例失调。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "大跃进",
+   "高指标",
+   "浮夸风"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "常考大跃进的失误。"
+ },
+ {
+  "id": "LS-U10-X13",
+  "book": "LS",
+  "unit": "LS-U10",
+  "lesson": "LS-U10-L32",
+  "title": "人民公社化运动",
+  "content": "1958年实行“一大二公”、政社合一，平均主义挫伤农民积极性。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "人民公社",
+   "一大二公",
+   "政社合一"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考人民公社化的特点。"
+ },
+ {
+  "id": "LS-U10-X14",
+  "book": "LS",
+  "unit": "LS-U10",
+  "lesson": "LS-U10-L32",
+  "title": "国民经济调整",
+  "content": "1960年提出“调整、巩固、充实、提高”八字方针，1962年经济逐步恢复。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "八字方针",
+   "经济调整",
+   "1962"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "常考调整国民经济的方针。"
+ },
+ {
+  "id": "LS-U10-X15",
+  "book": "LS",
+  "unit": "LS-U10",
+  "lesson": "LS-U10-L32",
+  "title": "文化大革命的发动",
+  "content": "1966年毛泽东认为党内出现资本主义复辟危险，发动文化大革命。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "文化大革命",
+   "1966",
+   "阶级斗争"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考文革的发动原因。"
+ },
+ {
+  "id": "LS-U10-X16",
+  "book": "LS",
+  "unit": "LS-U10",
+  "lesson": "LS-U10-L32",
+  "title": "文化大革命的危害",
+  "content": "文革期间民主法制被践踏，大批干部知识分子受迫害，国民经济遭受严重损失。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "文革",
+   "民主法制",
+   "经济损失"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "材料题常考文革的教训。"
+ },
+ {
+  "id": "LS-U10-X17",
+  "book": "LS",
+  "unit": "LS-U10",
+  "lesson": "LS-U10-L32",
+  "title": "文化大革命的结束",
+  "content": "1976年粉碎“四人帮”，十年动乱结束，中国进入新的历史时期。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "粉碎四人帮",
+   "1976",
+   "十年动乱"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考文革结束的标志。"
+ },
+ {
+  "id": "LS-U10-X18",
+  "book": "LS",
+  "unit": "LS-U10",
+  "lesson": "LS-U10-L32",
+  "title": "探索时期的成就",
+  "content": "两弹一星、大庆油田、籼型杂交水稻等成就，体现自力更生、艰苦奋斗精神。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "两弹一星",
+   "大庆油田",
+   "杂交水稻"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "常考社会主义建设探索的成就。"
+ },
+ {
   "id": "LS-U11-001",
   "book": "LS",
   "unit": "LS-U11",
@@ -5430,6 +7997,128 @@
   "commonq": "常考首批经济特区。"
  },
  {
+  "id": "LS-U11-R01",
+  "book": "LS",
+  "unit": "LS-U11",
+  "lesson": "LS-U11-L33",
+  "title": "中共十一届三中全会1978.12的意",
+  "content": "实现具有深远意义的伟大转折，开启了改革开放和社会主义现代化建设新时期",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 118,
+  "pdfPage": 121,
+  "keywords": [
+   "意义",
+   "实现",
+   "具有",
+   "深远"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U11-R02",
+  "book": "LS",
+  "unit": "LS-U11",
+  "lesson": "LS-U11-L33",
+  "title": "真理标准问题的讨论1978.51)",
+  "content": "真理标准问题的讨论（1978.5）（1)内容：否定了“两个凡是”的错误观点，重新确立了实事求是的马克思主义思想路线",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 118,
+  "pdfPage": 121,
+  "keywords": [
+   "真理",
+   "标准",
+   "问题",
+   "讨论"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U11-X04",
+  "book": "LS",
+  "unit": "LS-U11",
+  "lesson": "LS-U11-L33",
+  "title": "南方谈话",
+  "content": "1992年邓小平南方谈话，强调发展才是硬道理，推动社会主义市场经济体制建立。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "南方谈话",
+   "1992",
+   "邓小平"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考南方谈话的背景。"
+ },
+ {
+  "id": "LS-U11-X05",
+  "book": "LS",
+  "unit": "LS-U11",
+  "lesson": "LS-U11-L33",
+  "title": "社会主义市场经济",
+  "content": "1992年中共十四大提出建立社会主义市场经济体制，市场在国家宏观调控下起基础性作用。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "十四大",
+   "1992",
+   "市场经济"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考市场经济体制的确立。"
+ },
+ {
+  "id": "LS-U11-X08",
+  "book": "LS",
+  "unit": "LS-U11",
+  "lesson": "LS-U11-L33",
+  "title": "沿海开放城市",
+  "content": "1984年开放大连、天津、青岛、上海等14个沿海城市，扩大对外开放。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "沿海城市",
+   "1984",
+   "对外开放"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "常考对外开放格局。"
+ },
+ {
+  "id": "LS-U11-X09",
+  "book": "LS",
+  "unit": "LS-U11",
+  "lesson": "LS-U11-L33",
+  "title": "浦东开发",
+  "content": "1990年开发上海浦东，成为对外开放的重要窗口和经济增长极。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "浦东",
+   "1990",
+   "开放窗口"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考浦东开发的意义。"
+ },
+ {
   "id": "LS-U11-004",
   "book": "LS",
   "unit": "LS-U11",
@@ -5470,6 +8159,149 @@
   "type": "机制",
   "difficulty": 2,
   "commonq": "常考基层民主制度。"
+ },
+ {
+  "id": "LS-U11-R03",
+  "book": "LS",
+  "unit": "LS-U11",
+  "lesson": "LS-U11-L34",
+  "title": "人民公社时期1958年-1978年",
+  "content": "人民公社时期（1958年-1978年），主要是实行三级所有、队为基础的人民公社制度。人民公社化运动脱离了中国社会生产力发展水平的现实，违背了经济和社会发展的客观规律，影响了农业农村经济社会的健康发展",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 120,
+  "pdfPage": 123,
+  "keywords": [
+   "人民公社",
+   "时期",
+   "1958",
+   "1978"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U11-R04",
+  "book": "LS",
+  "unit": "LS-U11",
+  "lesson": "LS-U11-L34",
+  "title": "农业合作化时期1952年-1958年",
+  "content": "农业合作化时期（1952年-1958年），主要是把农民私有的土地等生产资料逐步转为集体所",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 120,
+  "pdfPage": 123,
+  "keywords": [
+   "农业",
+   "合作化",
+   "时期",
+   "1952"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U11-R05",
+  "book": "LS",
+  "unit": "LS-U11",
+  "lesson": "LS-U11-L34",
+  "title": "土地改革时期1949年-1952年",
+  "content": "土地改革时期（1949年-1952年），在全国废除封建剥削的土地所有制，确立了农民土地所有制。到1952年底，除少数地区外，全国土地改革基本完成，约3亿无地少地农民无偿获得约7亿亩土地。通过土地改革，废除了封建剥削的土地制度",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 120,
+  "pdfPage": 123,
+  "keywords": [
+   "土地改革",
+   "时期",
+   "1949",
+   "1952"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U11-X10",
+  "book": "LS",
+  "unit": "LS-U11",
+  "lesson": "LS-U11-L34",
+  "title": "邓小平理论",
+  "content": "1997年中共十五大把邓小平理论确立为党的指导思想并写入党章。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "邓小平理论",
+   "十五大",
+   "1997"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考邓小平理论地位。"
+ },
+ {
+  "id": "LS-U11-X11",
+  "book": "LS",
+  "unit": "LS-U11",
+  "lesson": "LS-U11-L34",
+  "title": "三个代表重要思想",
+  "content": "2002年中共十六大把“三个代表”重要思想写入党章，强调党要始终代表最广大人民根本利益。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "三个代表",
+   "十六大",
+   "2002"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考党的建设理论。"
+ },
+ {
+  "id": "LS-U11-X12",
+  "book": "LS",
+  "unit": "LS-U11",
+  "lesson": "LS-U11-L34",
+  "title": "科学发展观",
+  "content": "2007年中共十七大提出科学发展观，第一要义是发展，核心是以人为本。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "科学发展观",
+   "十七大",
+   "2007"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考科学发展观内涵。"
+ },
+ {
+  "id": "LS-U11-X13",
+  "book": "LS",
+  "unit": "LS-U11",
+  "lesson": "LS-U11-L34",
+  "title": "习近平新时代中国特色社会主义思想",
+  "content": "2017年中共十九大确立习近平新时代中国特色社会主义思想，作为全党全国人民行动指南。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "新时代",
+   "十九大",
+   "2017"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考新时代指导思想。"
  },
  {
   "id": "LS-U11-006",
@@ -5513,6 +8345,48 @@
   "type": "结论",
   "difficulty": 1,
   "commonq": "常考脱贫成就。"
+ },
+ {
+  "id": "LS-U11-R06",
+  "book": "LS",
+  "unit": "LS-U11",
+  "lesson": "LS-U11-L35",
+  "title": "主义民族关系",
+  "content": "打牢中华民族共同体思想基础：实现民族地区经济社会事业加快发展",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 122,
+  "pdfPage": 125,
+  "keywords": [
+   "主义",
+   "民族",
+   "关系",
+   "打牢"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U11-R07",
+  "book": "LS",
+  "unit": "LS-U11",
+  "lesson": "LS-U11-L35",
+  "title": "基层民众直治制度1)概念：依据宪法和法",
+  "content": "基层民众直治制度（1)概念：依据宪法和法律，由居民（村民）选举的成员组成居民（村民）委员会，实行自我管理、自我教育、自我服务、自我监督的制度2)形成：20世纪80年代末，从城市开始，再推广到农村",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 122,
+  "pdfPage": 125,
+  "keywords": [
+   "基层",
+   "民众",
+   "直治",
+   "制度"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
  },
  {
   "id": "LS-U11-008",
@@ -5580,6 +8454,47 @@
   "commonq": "常考新时代外交。"
  },
  {
+  "id": "LS-U11-R08",
+  "book": "LS",
+  "unit": "LS-U11",
+  "lesson": "LS-U11-L36",
+  "title": "促进全球治理体系改善：“巴黎协定”、“亚",
+  "content": "促进全球治理体系改善：“巴黎协定”、“亚投行”“一带一路”等3)丛经济全球化的积极参与者变成更具有影响力和作用力的推动者",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 125,
+  "pdfPage": 128,
+  "keywords": [
+   "促进",
+   "全球",
+   "治理",
+   "体系"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U11-X06",
+  "book": "LS",
+  "unit": "LS-U11",
+  "lesson": "LS-U11-L36",
+  "title": "加入世界贸易组织",
+  "content": "2001年中国加入世界贸易组织，进一步融入全球经济，推动对外开放。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "WTO",
+   "2001",
+   "对外开放"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考中国入世的影响。"
+ },
+ {
   "id": "LS-U12-001",
   "book": "LS",
   "unit": "LS-U12",
@@ -5622,6 +8537,88 @@
   "type": "机制",
   "difficulty": 2,
   "commonq": "常考雅典民主的范围与局限。"
+ },
+ {
+  "id": "LS-U12-X01",
+  "book": "LS",
+  "unit": "LS-U12",
+  "lesson": "LS-U12-L01",
+  "title": "文明产生的前提",
+  "content": "农业革命提供剩余产品，社会分工、私有制和阶级出现，城市、文字与国家随之产生。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "农业革命",
+   "剩余产品",
+   "城市",
+   "文字"
+  ],
+  "type": "机制",
+  "difficulty": 2,
+  "commonq": "常考文明产生的标志。"
+ },
+ {
+  "id": "LS-U12-X02",
+  "book": "LS",
+  "unit": "LS-U12",
+  "lesson": "LS-U12-L01",
+  "title": "两河流域文明",
+  "content": "苏美尔人建立城邦，使用楔形文字，《汉谟拉比法典》是已知最早较完整的成文法典。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "两河流域",
+   "楔形文字",
+   "汉谟拉比法典"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考两河流域的文明成就。"
+ },
+ {
+  "id": "LS-U12-X03",
+  "book": "LS",
+  "unit": "LS-U12",
+  "lesson": "LS-U12-L01",
+  "title": "古埃及文明",
+  "content": "尼罗河定期泛滥促进农业，法老集权，象形文字、金字塔和太阳历是代表成就。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "尼罗河",
+   "法老",
+   "金字塔",
+   "象形文字"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考古埃及文明的象征。"
+ },
+ {
+  "id": "LS-U12-X04",
+  "book": "LS",
+  "unit": "LS-U12",
+  "lesson": "LS-U12-L01",
+  "title": "古印度文明",
+  "content": "印度河流域出现哈拉帕文明；雅利安人进入印度后形成种姓制度。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "哈拉帕",
+   "种姓制度",
+   "雅利安人"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考古印度文明与种姓制度。"
  },
  {
   "id": "LS-U12-003",
@@ -5668,6 +8665,129 @@
   "commonq": "常考希腊城邦特点。"
  },
  {
+  "id": "LS-U12-R01",
+  "book": "LS",
+  "unit": "LS-U12",
+  "lesson": "LS-U12-L02",
+  "title": "早期文化选必3，第5课，P26~27)",
+  "content": "史诗《摩诃婆罗多》和《罗摩衍那》在古代印度文学中占有重要地位",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 132,
+  "pdfPage": 135,
+  "keywords": [
+   "文学",
+   "史诗",
+   "摩诃",
+   "婆罗"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U12-R02",
+  "book": "LS",
+  "unit": "LS-U12",
+  "lesson": "LS-U12-L02",
+  "title": "科学技术",
+  "content": "世界上最早的太阳历；数学、医学等方面建树5书卷：前30世纪，埃及纸莎草书卷，被认为是书籍的形",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 132,
+  "pdfPage": 135,
+  "keywords": [
+   "科学技术",
+   "世界",
+   "最早",
+   "太阳历"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U12-R03",
+  "book": "LS",
+  "unit": "LS-U12",
+  "lesson": "LS-U12-L02",
+  "title": "宗教婆罗门教－佛教－印度教婆罗门教",
+  "content": "宗教（婆罗门教－佛教－印度教）婆罗门教：早期出现种姓制度和婆罗门教佛教：前6世纪产生，提倡“众生平等”和忍耐顺从印度教：在婆罗门教的基础上，4世纪兴起，后来逐渐发展为印度的主要宗教",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 132,
+  "pdfPage": 135,
+  "keywords": [
+   "宗教",
+   "婆罗门教",
+   "佛教",
+   "印度教"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U12-X06",
+  "book": "LS",
+  "unit": "LS-U12",
+  "lesson": "LS-U12-L02",
+  "title": "希腊城邦的特征",
+  "content": "希腊城邦小国寡民、独立自治，公民享有政治权利，妇女、外邦人和奴隶被排斥。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "希腊城邦",
+   "小国寡民",
+   "公民"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "常考希腊城邦的特征。"
+ },
+ {
+  "id": "LS-U12-X07",
+  "book": "LS",
+  "unit": "LS-U12",
+  "lesson": "LS-U12-L02",
+  "title": "雅典民主改革",
+  "content": "梭伦、克利斯提尼和伯里克利改革逐步扩大公民参与，公民大会成为最高权力机关。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "梭伦",
+   "克利斯提尼",
+   "伯里克利"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考雅典民主政治的发展。"
+ },
+ {
+  "id": "LS-U12-X08",
+  "book": "LS",
+  "unit": "LS-U12",
+  "lesson": "LS-U12-L02",
+  "title": "雅典民主的局限",
+  "content": "直接民主容易受情绪影响，妇女、外邦人和奴隶被排除在公民之外。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "直接民主",
+   "局限",
+   "外邦人"
+  ],
+  "type": "对比",
+  "difficulty": 2,
+  "commonq": "材料题常考雅典民主的进步性与局限。"
+ },
+ {
   "id": "LS-U12-005",
   "book": "LS",
   "unit": "LS-U12",
@@ -5710,6 +8830,149 @@
   "type": "结论",
   "difficulty": 2,
   "commonq": "常考罗马扩张与法律演变。"
+ },
+ {
+  "id": "LS-U12-R04",
+  "book": "LS",
+  "unit": "LS-U12",
+  "lesson": "LS-U12-L03",
+  "title": "帝国时期—君主制形成：前27年",
+  "content": "帝国时期一一君主制形成：前27年，屋大维建立元首制（隐蔽的君主制），形成君主政治特点：皇帝（元首）掌控罗马国家一切最高权力，实行独裁统治",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 138,
+  "pdfPage": 141,
+  "keywords": [
+   "帝国",
+   "时期",
+   "一一",
+   "君主制"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U12-R05",
+  "book": "LS",
+  "unit": "LS-U12",
+  "lesson": "LS-U12-L03",
+  "title": "长老会：议员仅30人，且终身任职监察官",
+  "content": "选举产生，主持公民大会、审判国王等权力，一年一任4。古希腊城邦政治制度特点：城邦的公民直接参与国家管理，包含一定的民主因素，各城邦制度千差万别",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 135,
+  "pdfPage": 138,
+  "keywords": [
+   "监察官",
+   "选举",
+   "产生",
+   "主持"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U12-R06",
+  "book": "LS",
+  "unit": "LS-U12",
+  "lesson": "LS-U12-L03",
+  "title": "政治制度与社会治理：以希腊文化为主导",
+  "content": "政治制度与社会治理：以希腊文化为主导，融合埃及和西亚文化",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 137,
+  "pdfPage": 140,
+  "keywords": [
+   "政治",
+   "制度",
+   "社会",
+   "治理"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U12-X09",
+  "book": "LS",
+  "unit": "LS-U12",
+  "lesson": "LS-U12-L03",
+  "title": "波斯帝国",
+  "content": "大流士一世实行行省制、总督制，修建驿站、统一货币，建立地跨欧亚非的帝国。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "波斯帝国",
+   "大流士",
+   "行省制"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考波斯帝国的统治措施。"
+ },
+ {
+  "id": "LS-U12-X10",
+  "book": "LS",
+  "unit": "LS-U12",
+  "lesson": "LS-U12-L03",
+  "title": "亚历山大东征",
+  "content": "前334—前324年亚历山大东征，建立地跨欧亚非的帝国，促进希腊文化与东方文化交融。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "亚历山大",
+   "东征",
+   "希腊化"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "常考亚历山大东征的影响。"
+ },
+ {
+  "id": "LS-U12-X11",
+  "book": "LS",
+  "unit": "LS-U12",
+  "lesson": "LS-U12-L03",
+  "title": "罗马从共和到帝国",
+  "content": "前27年屋大维称“奥古斯都”，罗马进入帝国时期，万民法适应帝国统治需要。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "屋大维",
+   "奥古斯都",
+   "万民法"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考罗马共和国到帝国的转折。"
+ },
+ {
+  "id": "LS-U12-X12",
+  "book": "LS",
+  "unit": "LS-U12",
+  "lesson": "LS-U12-L03",
+  "title": "罗马法的发展",
+  "content": "从公民法到万民法，罗马法体系逐渐完善，对近代西方法律产生影响。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "公民法",
+   "万民法",
+   "罗马法"
+  ],
+  "type": "机制",
+  "difficulty": 2,
+  "commonq": "常考罗马法演变的原因。"
  },
  {
   "id": "LS-U13-001",
@@ -5756,6 +9019,149 @@
   "commonq": "常考庄园经济与城市兴起。"
  },
  {
+  "id": "LS-U13-R01",
+  "book": "LS",
+  "unit": "LS-U13",
+  "lesson": "LS-U13-L04",
+  "title": "中国东汉",
+  "content": "班超曾派甘英出使大秦。2世纪，已经有来自罗马的商人到达洛阳",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 140,
+  "pdfPage": 143,
+  "keywords": [
+   "中国",
+   "东汉",
+   "班超",
+   "曾派"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U13-R02",
+  "book": "LS",
+  "unit": "LS-U13",
+  "lesson": "LS-U13-L04",
+  "title": "中古时期西欧的经济、政治、思想前期VS",
+  "content": "庄园农奴制，基本的农业经济组织形式（基本上自给自足）(1）领主自营地：由农奴耕种，收入归领主所有",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 142,
+  "pdfPage": 145,
+  "keywords": [
+   "经济",
+   "庄园",
+   "农奴制",
+   "基本"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U13-R03",
+  "book": "LS",
+  "unit": "LS-U13",
+  "lesson": "LS-U13-L04",
+  "title": "权力与义务双向：各级封建主都是土地事",
+  "content": "权力与义务（双向）：各级封建主都是土地事实上的占有者，享有土地上的司法、行政和经济等各种权力。封臣必须效忠封君，主要义务是服兵役",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 142,
+  "pdfPage": 145,
+  "keywords": [
+   "权力",
+   "义务",
+   "双向",
+   "各级"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U13-X01",
+  "book": "LS",
+  "unit": "LS-U13",
+  "lesson": "LS-U13-L04",
+  "title": "中古西欧的政治",
+  "content": "封君封臣制度与等级君主制并存，王权有限，基督教会势力强大。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "封君封臣",
+   "等级君主制",
+   "教会"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "常考中古西欧政治特征。"
+ },
+ {
+  "id": "LS-U13-X02",
+  "book": "LS",
+  "unit": "LS-U13",
+  "lesson": "LS-U13-L04",
+  "title": "中古西欧的农业",
+  "content": "庄园经济以三圃制、重犁为特征，农业生产力提高，人口增长。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "庄园",
+   "三圃制",
+   "重犁"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考庄园经济的特点。"
+ },
+ {
+  "id": "LS-U13-X03",
+  "book": "LS",
+  "unit": "LS-U13",
+  "lesson": "LS-U13-L04",
+  "title": "城市自治",
+  "content": "10—11世纪城市复兴，市民通过赎买或斗争获得特许状，手工业者组织行会。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "城市复兴",
+   "特许状",
+   "行会"
+  ],
+  "type": "机制",
+  "difficulty": 2,
+  "commonq": "常考城市自治的方式。"
+ },
+ {
+  "id": "LS-U13-X04",
+  "book": "LS",
+  "unit": "LS-U13",
+  "lesson": "LS-U13-L04",
+  "title": "中世纪大学",
+  "content": "12世纪大学兴起，巴黎大学、牛津大学等推动文化与教育发展。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "中世纪大学",
+   "巴黎大学",
+   "牛津大学"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考中世纪大学的意义。"
+ },
+ {
   "id": "LS-U13-003",
   "book": "LS",
   "unit": "LS-U13",
@@ -5798,6 +9204,150 @@
   "type": "机制",
   "difficulty": 2,
   "commonq": "常考日本幕府统治。"
+ },
+ {
+  "id": "LS-U13-R04",
+  "book": "LS",
+  "unit": "LS-U13",
+  "lesson": "LS-U13-L05",
+  "title": "古代阿拉伯帝国的作用天文",
+  "content": "白塔尼论证日环食，《萨比天文历表》对欧洲天文学产生很大影响",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 146,
+  "pdfPage": 149,
+  "keywords": [
+   "天文",
+   "白塔",
+   "论证",
+   "日环食"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U13-R05",
+  "book": "LS",
+  "unit": "LS-U13",
+  "lesson": "LS-U13-L05",
+  "title": "拜占庭灭亡后",
+  "content": "东正教对俄罗斯的专制统治、宗教信仰、文学艺术、生活习惯、建筑风格等产生了深远的影响。如：俄罗斯圆顶多塔风格的教堂建筑",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 144,
+  "pdfPage": 147,
+  "keywords": [
+   "拜占庭",
+   "灭亡",
+   "东正教",
+   "俄罗斯"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U13-R06",
+  "book": "LS",
+  "unit": "LS-U13",
+  "lesson": "LS-U13-L05",
+  "title": "阿拉伯帝国文化繁荣的原因国家统一",
+  "content": "阿拉伯帝国文化繁荣的原因国家统一，政局相对稳定；工商业发达，经济繁荣：统治者重视知识、人才地处亚非欧交界，地理位置优越；兼收并蓄，融合东西方优秀文化",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 146,
+  "pdfPage": 149,
+  "keywords": [
+   "阿拉伯",
+   "帝国",
+   "文化",
+   "繁荣"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U13-R07",
+  "book": "LS",
+  "unit": "LS-U13",
+  "lesson": "LS-U13-L05",
+  "title": "古代阿拉伯帝国的作用政治",
+  "content": "最高统治者哈里发，政教合一；中央设宰相、枢密院和财政部等",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 146,
+  "pdfPage": 149,
+  "keywords": [
+   "政治",
+   "最高",
+   "统治者",
+   "哈里发"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U13-X05",
+  "book": "LS",
+  "unit": "LS-U13",
+  "lesson": "LS-U13-L05",
+  "title": "阿拉伯文化",
+  "content": "阿拉伯帝国翻译希腊、波斯、印度典籍，在数学、天文、医学上取得成就，阿拉伯数字广泛传播。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "阿拉伯帝国",
+   "智慧宫",
+   "阿拉伯数字"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "常考阿拉伯文化的桥梁作用。"
+ },
+ {
+  "id": "LS-U13-X06",
+  "book": "LS",
+  "unit": "LS-U13",
+  "lesson": "LS-U13-L05",
+  "title": "奥斯曼帝国",
+  "content": "1453年攻占君士坦丁堡，控制亚欧交通，实行米勒特制管理不同宗教群体。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "奥斯曼帝国",
+   "1453",
+   "米勒特制"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考奥斯曼帝国的影响。"
+ },
+ {
+  "id": "LS-U13-X08",
+  "book": "LS",
+  "unit": "LS-U13",
+  "lesson": "LS-U13-L05",
+  "title": "朝鲜与越南",
+  "content": "朝鲜引入科举与儒学，越南受中国文化影响，独立后建立中央集权制度。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "朝鲜",
+   "科举",
+   "越南"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考东亚文化圈的表现。"
  },
  {
   "id": "LS-U13-005",
@@ -5844,6 +9394,172 @@
   "commonq": "常考美洲文明成就。"
  },
  {
+  "id": "LS-U13-R08",
+  "book": "LS",
+  "unit": "LS-U13",
+  "lesson": "LS-U13-L06",
+  "title": "中国文化对东亚和东南亚的影响：中华文化圈",
+  "content": "中国文化对东亚和东南亚的影响：中华文化圈1)文字：朝、日、越等国使用汉字，并在汉字的基础上，创造了本国文字",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 149,
+  "pdfPage": 152,
+  "keywords": [
+   "中国",
+   "文化",
+   "东亚",
+   "东南亚"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U13-R09",
+  "book": "LS",
+  "unit": "LS-U13",
+  "lesson": "LS-U13-L06",
+  "title": "西征带来的文化交流客观推动东西方文化交",
+  "content": "第二次西征后，教皇和法国国王派遣传教士，到达漠北与蒙古交涉",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 150,
+  "pdfPage": 153,
+  "keywords": [
+   "使节",
+   "交涉",
+   "第二次",
+   "西征"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U13-R10",
+  "book": "LS",
+  "unit": "LS-U13",
+  "lesson": "LS-U13-L06",
+  "title": "阿兹特克文明位于今墨西哥中部1)兴",
+  "content": "阿兹特克文明（位于今墨西哥中部）（1)兴盛：14世纪兴起于今墨西哥地区；16世纪初进入鼎盛时期",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 152,
+  "pdfPage": 155,
+  "keywords": [
+   "阿兹特克",
+   "文明",
+   "位于",
+   "墨西哥"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U13-R11",
+  "book": "LS",
+  "unit": "LS-U13",
+  "lesson": "LS-U13-L06",
+  "title": "北美大平原地区",
+  "content": "过着游猎生活，住在圆锥形的帐篷中2）亚马孙雨林：频繁迁徒；不隔间的圆形公共居所，每家有自已的区域",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 152,
+  "pdfPage": 155,
+  "keywords": [
+   "北美",
+   "平原",
+   "地区",
+   "游猎"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U13-R12",
+  "book": "LS",
+  "unit": "LS-U13",
+  "lesson": "LS-U13-L06",
+  "title": "农业：发明了“浮动园地”，扩大了耕地面积",
+  "content": "水上城市特诺奇蒂特兰，配套堤道、引水渠、桥梁等。太阳金字塔（4)文化：图画文字，陶器、石雕、木刻和金银首饰",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 152,
+  "pdfPage": 155,
+  "keywords": [
+   "建筑",
+   "水上",
+   "城市",
+   "特诺奇"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U13-R13",
+  "book": "LS",
+  "unit": "LS-U13",
+  "lesson": "LS-U13-L06",
+  "title": "玛雅文明位于今墨西哥东南部、危地马拉",
+  "content": "玛雅文明（位于今墨西哥东南部、危地马拉、洪都拉斯、萨尔瓦多等地）（1)兴盛：约公元前1500年兴起于今墨西哥的尤卡坦半岛，4世纪-9世纪全盛",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 152,
+  "pdfPage": 155,
+  "keywords": [
+   "玛雅",
+   "文明",
+   "位于",
+   "墨西哥"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U13-X09",
+  "book": "LS",
+  "unit": "LS-U13",
+  "lesson": "LS-U13-L06",
+  "title": "阿克苏姆文明",
+  "content": "阿克苏姆位于红海沿岸，靠贸易繁荣，接受基督教，留下文字与建筑。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "阿克苏姆",
+   "红海贸易",
+   "基督教"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考古代东非文明。"
+ },
+ {
+  "id": "LS-U13-X10",
+  "book": "LS",
+  "unit": "LS-U13",
+  "lesson": "LS-U13-L06",
+  "title": "印加帝国",
+  "content": "印加帝国位于安第斯山区，修建道路系统，使用结绳记事，建造太阳神庙。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "印加",
+   "道路",
+   "结绳记事"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考古代美洲文明。"
+ },
+ {
   "id": "LS-U14-001",
   "book": "LS",
   "unit": "LS-U14",
@@ -5865,6 +9581,186 @@
   "type": "结论",
   "difficulty": 2,
   "commonq": "常考航海家与航线。"
+ },
+ {
+  "id": "LS-U14-X01",
+  "book": "LS",
+  "unit": "LS-U14",
+  "lesson": "LS-U14-L07",
+  "title": "新航路开辟的动因",
+  "content": "商品经济发展、资本主义萌芽、奥斯曼控制传统商路，以及传播宗教的愿望推动新航路开辟。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "新航路",
+   "资本主义萌芽",
+   "奥斯曼"
+  ],
+  "type": "机制",
+  "difficulty": 2,
+  "commonq": "常考新航路开辟的原因。"
+ },
+ {
+  "id": "LS-U14-X02",
+  "book": "LS",
+  "unit": "LS-U14",
+  "lesson": "LS-U14-L07",
+  "title": "迪亚士到达好望角",
+  "content": "1487年迪亚士到达非洲南端好望角，为绕过非洲进入印度洋开辟道路。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "迪亚士",
+   "好望角",
+   "1487"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考新航路开辟的航海家。"
+ },
+ {
+  "id": "LS-U14-X03",
+  "book": "LS",
+  "unit": "LS-U14",
+  "lesson": "LS-U14-L07",
+  "title": "达伽马到达印度",
+  "content": "1497—1498年达·伽马绕过非洲到达印度，开辟从欧洲到印度的新航线。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "达伽马",
+   "印度",
+   "1498"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考通往印度航线的开辟者。"
+ },
+ {
+  "id": "LS-U14-X04",
+  "book": "LS",
+  "unit": "LS-U14",
+  "lesson": "LS-U14-L07",
+  "title": "哥伦布到达美洲",
+  "content": "1492年哥伦布到达美洲，开辟从欧洲到美洲的新航线。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "哥伦布",
+   "美洲",
+   "1492"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考哥伦布航行的时间与意义。"
+ },
+ {
+  "id": "LS-U14-X05",
+  "book": "LS",
+  "unit": "LS-U14",
+  "lesson": "LS-U14-L07",
+  "title": "麦哲伦环球航行",
+  "content": "1519—1522年麦哲伦船队完成环球航行，证明地圆说。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "麦哲伦",
+   "环球航行",
+   "地圆说"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考环球航行的意义。"
+ },
+ {
+  "id": "LS-U14-X06",
+  "book": "LS",
+  "unit": "LS-U14",
+  "lesson": "LS-U14-L07",
+  "title": "新航路开辟的影响",
+  "content": "世界市场雏形出现，欧洲出现商业革命和价格革命，殖民扩张由此展开。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "世界市场",
+   "商业革命",
+   "价格革命"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "材料题常考新航路开辟的影响。"
+ },
+ {
+  "id": "LS-U14-X14",
+  "book": "LS",
+  "unit": "LS-U14",
+  "lesson": "LS-U14-L07",
+  "title": "葡萄牙殖民扩张",
+  "content": "16世纪葡萄牙在非洲、印度、马六甲和巴西建立据点，控制香料贸易。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "葡萄牙",
+   "殖民",
+   "香料"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考早期殖民国家。"
+ },
+ {
+  "id": "LS-U14-X15",
+  "book": "LS",
+  "unit": "LS-U14",
+  "lesson": "LS-U14-L07",
+  "title": "西班牙殖民扩张",
+  "content": "16世纪西班牙征服阿兹特克和印加，在美洲建立大庄园和殖民统治。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "西班牙",
+   "阿兹特克",
+   "印加"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考西班牙殖民美洲。"
+ },
+ {
+  "id": "LS-U14-X16",
+  "book": "LS",
+  "unit": "LS-U14",
+  "lesson": "LS-U14-L07",
+  "title": "荷兰殖民扩张",
+  "content": "17世纪荷兰号称“海上马车夫”，控制香料贸易，建立东印度公司。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "荷兰",
+   "海上马车夫",
+   "东印度公司"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考荷兰殖民的特点。"
  },
  {
   "id": "LS-U14-002",
@@ -5909,6 +9805,271 @@
   "type": "结论",
   "difficulty": 3,
   "commonq": "常考价格革命社会影响。"
+ },
+ {
+  "id": "LS-U14-R01",
+  "book": "LS",
+  "unit": "LS-U14",
+  "lesson": "LS-U14-L08",
+  "title": "欧洲畜禽的传入物种：牛、驴、马、猪、羊",
+  "content": "欧洲畜禽的传入物种：牛、驴、马、猪、羊、鸡等意义：极大地改变了美洲的动物群落，推动了农业的发展",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 159,
+  "pdfPage": 162,
+  "keywords": [
+   "欧洲",
+   "畜禽",
+   "传入",
+   "物种"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U14-R02",
+  "book": "LS",
+  "unit": "LS-U14",
+  "lesson": "LS-U14-L08",
+  "title": "早期殖民扩张主要影响1)对美洲和非洲",
+  "content": "早期殖民扩张主要影响（1)对美洲和非洲：原住民剧减：文明遭到毁灭：中断原有的社会发展进程，打破原本多元文明",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 158,
+  "pdfPage": 161,
+  "keywords": [
+   "早期",
+   "殖民",
+   "扩张",
+   "主要"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U14-R03",
+  "book": "LS",
+  "unit": "LS-U14",
+  "lesson": "LS-U14-L08",
+  "title": "美洲物种外传的原因及特点的原因",
+  "content": "新航路开辟后，西班牙、葡萄牙殖民者把美洲物种带到旧大陆2)特点：先传播到南欧，再到全欧洲及亚非各地；由作为观赏植物栽培到食用大量栽培2．美洲物种在欧洲和中国的传播",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 159,
+  "pdfPage": 162,
+  "keywords": [
+   "原因",
+   "航路",
+   "开辟",
+   "西班牙"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U14-R04",
+  "book": "LS",
+  "unit": "LS-U14",
+  "lesson": "LS-U14-L08",
+  "title": "南半球航路",
+  "content": "英、荷航海家到达美洲南端的合恩角、澳大利亚附近的新西兰等",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 157,
+  "pdfPage": 160,
+  "keywords": [
+   "南半球",
+   "航路",
+   "航海家",
+   "到达"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U14-R05",
+  "book": "LS",
+  "unit": "LS-U14",
+  "lesson": "LS-U14-L08",
+  "title": "早期殖民扩张概况葡萄牙",
+  "content": "占领巴西；在非洲、印度沿岸、马六甲和中国澳门等据点和商站",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 157,
+  "pdfPage": 160,
+  "keywords": [
+   "葡萄牙",
+   "占领",
+   "巴西",
+   "非洲"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U14-X08",
+  "book": "LS",
+  "unit": "LS-U14",
+  "lesson": "LS-U14-L08",
+  "title": "人口与疾病传播",
+  "content": "欧洲移民和非洲奴隶贸易改变美洲人口结构，天花等疾病造成原住民大量死亡。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "人口迁移",
+   "奴隶贸易",
+   "天花"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "材料题常考殖民扩张的灾难性后果。"
+ },
+ {
+  "id": "LS-U14-X09",
+  "book": "LS",
+  "unit": "LS-U14",
+  "lesson": "LS-U14-L08",
+  "title": "世界市场的拓展",
+  "content": "丝绸、瓷器、香料、白银等商品全球流动，世界市场进一步拓展。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "世界市场",
+   "商品流通",
+   "白银"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考世界市场形成的表现。"
+ },
+ {
+  "id": "LS-U14-X10",
+  "book": "LS",
+  "unit": "LS-U14",
+  "lesson": "LS-U14-L08",
+  "title": "商业革命",
+  "content": "贸易中心从地中海转移到大西洋，股份公司、证券交易所和商业战争兴起。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "商业革命",
+   "大西洋",
+   "股份公司"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "常考商业革命的表现。"
+ },
+ {
+  "id": "LS-U14-X11",
+  "book": "LS",
+  "unit": "LS-U14",
+  "lesson": "LS-U14-L08",
+  "title": "价格革命",
+  "content": "金银大量流入欧洲，物价上涨，封建地主衰落，资产阶级实力上升。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "价格革命",
+   "通货膨胀",
+   "资产阶级"
+  ],
+  "type": "机制",
+  "difficulty": 2,
+  "commonq": "常考价格革命的社会影响。"
+ },
+ {
+  "id": "LS-U14-X13",
+  "book": "LS",
+  "unit": "LS-U14",
+  "lesson": "LS-U14-L08",
+  "title": "殖民扩张",
+  "content": "葡萄牙、西班牙、荷兰、英国在亚非拉建立据点，掠夺资源，建立殖民体系。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "殖民扩张",
+   "据点",
+   "殖民体系"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "常考早期殖民扩张的国家。"
+ },
+ {
+  "id": "LS-U14-X17",
+  "book": "LS",
+  "unit": "LS-U14",
+  "lesson": "LS-U14-L08",
+  "title": "英国殖民扩张",
+  "content": "17—18世纪英国打败西班牙、荷兰和法国，夺取海上霸权，建立日不落帝国。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "英国",
+   "海上霸权",
+   "日不落"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "常考英国殖民霸权。"
+ },
+ {
+  "id": "LS-U14-X18",
+  "book": "LS",
+  "unit": "LS-U14",
+  "lesson": "LS-U14-L08",
+  "title": "世界市场",
+  "content": "新航路开辟后世界市场雏形出现，殖民扩张和贸易发展推动世界市场扩大。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "世界市场",
+   "雏形",
+   "殖民扩张"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考世界市场的形成。"
+ },
+ {
+  "id": "LS-U14-X19",
+  "book": "LS",
+  "unit": "LS-U14",
+  "lesson": "LS-U14-L08",
+  "title": "马尼拉大帆船贸易",
+  "content": "1565年起西班牙经营马尼拉大帆船贸易，美洲白银流入中国，连接亚欧美市场。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "马尼拉大帆船",
+   "白银",
+   "1565"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考太平洋贸易。"
  },
  {
   "id": "LS-U15-001",
@@ -5977,6 +10138,69 @@
   "commonq": "常考启蒙思想家主张。"
  },
  {
+  "id": "LS-U15-R01",
+  "book": "LS",
+  "unit": "LS-U15",
+  "lesson": "LS-U15-L09",
+  "title": "多种类型的商品贸易文化实证",
+  "content": "西红柿的西班牙语是eltomato；菲律宾语是kamatis；闽南人称西红柿为“甘仔得”即音译而来。闽南人还称甘薯为“番薯”，马铃薯为“番仔薯”",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 161,
+  "pdfPage": 164,
+  "keywords": [
+   "文化",
+   "实证",
+   "西红柿",
+   "西班牙语"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U15-R02",
+  "book": "LS",
+  "unit": "LS-U14",
+  "lesson": "LS-U14-L08",
+  "title": "世界贸易格局的变化1)16世纪",
+  "content": "世界贸易格局的变化（1)16世纪，西班牙、葡萄牙在全球贸易中居主导地位（2)17世纪，荷兰取代西班牙、葡萄牙的主导地位，被称为“海上马车夫”3)17世纪下半期以来：英国打败荷兰等国，逐渐控制了海上贸易",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR（已按内容归位）",
+  "page": 161,
+  "pdfPage": 164,
+  "keywords": [
+   "世界",
+   "贸易",
+   "格局",
+   "变化"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U15-R03",
+  "book": "LS",
+  "unit": "LS-U14",
+  "lesson": "LS-U14-L08",
+  "title": "闽南华侨与美洲物种传入中国1)菲美航线",
+  "content": "闽南华侨与美洲物种传入中国（1)菲美航线：16世纪下半叶，“马尼拉大帆船”航线开通。航运船只是一种福建工匠建造的木制大帆船，中国的丝绸等产品经马尼拉销往美洲，美洲白银和农产品运往菲律宾2)中菲交往：随着贸易的发展，福建商人逐渐移居马尼拉",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR（已按内容归位）",
+  "page": 161,
+  "pdfPage": 164,
+  "keywords": [
+   "闽南",
+   "华侨",
+   "美洲",
+   "物种"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
   "id": "LS-U15-004",
   "book": "LS",
   "unit": "LS-U15",
@@ -6019,6 +10243,152 @@
   "type": "结论",
   "difficulty": 2,
   "commonq": "常考美国宪法原则与局限。"
+ },
+ {
+  "id": "LS-U15-R04",
+  "book": "LS",
+  "unit": "LS-U15",
+  "lesson": "LS-U15-L10",
+  "title": "促进思想解放，推动资本主义经济、科学文化",
+  "content": "近代西方的契约精神，由私人契约精神发展到社会契约精神。契约精神对商品经济的发展及西方的民主、自由、法治的构筑有着深刻的影响",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 165,
+  "pdfPage": 168,
+  "keywords": [
+   "社会",
+   "契约",
+   "近代",
+   "西方"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U15-R05",
+  "book": "LS",
+  "unit": "LS-U15",
+  "lesson": "LS-U15-L10",
+  "title": "新教的两面性选必1，第9课，P5354",
+  "content": "反对教皇权威，提高《圣经》地位；提倡节俭和积极入世，追求财富",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 164,
+  "pdfPage": 167,
+  "keywords": [
+   "积极",
+   "反对",
+   "教皇",
+   "权威"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U15-R06",
+  "book": "LS",
+  "unit": "LS-U15",
+  "lesson": "LS-U15-L10",
+  "title": "契约与契约精神(1契约：是指双方或多方",
+  "content": "契约与契约精神(1）契约：是指双方或多方达成的具有约束力的交易协议",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 165,
+  "pdfPage": 168,
+  "keywords": [
+   "契约",
+   "精神",
+   "双方",
+   "多方"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U15-R07",
+  "book": "LS",
+  "unit": "LS-U15",
+  "lesson": "LS-U15-L10",
+  "title": "启蒙运动17世纪晚期-18世纪：反对",
+  "content": "启蒙运动（17世纪晚期-18世纪）：反对王权至上、神权至上、教权至上",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 164,
+  "pdfPage": 167,
+  "keywords": [
+   "启蒙运动",
+   "17",
+   "世纪",
+   "晚期"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U15-R08",
+  "book": "LS",
+  "unit": "LS-U15",
+  "lesson": "LS-U15-L10",
+  "title": "代表人物及主张1)孟德斯鸠法：立法",
+  "content": "代表人物及主张（1)孟德斯鸠（法）：立法、行政、司法三权分立，核心是“制约与平衡”",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 164,
+  "pdfPage": 167,
+  "keywords": [
+   "代表",
+   "人物",
+   "主张",
+   "孟德斯鸠"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U15-R09",
+  "book": "LS",
+  "unit": "LS-U15",
+  "lesson": "LS-U15-L10",
+  "title": "卢梭法",
+  "content": "社会契约、天赋人权，主权在民，主张民主共和制。思想总体最激进（4)亚当斯密（英）：《国富论》主张直由竞争（直由放任主义），被尊为“现代经济学之父”",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 164,
+  "pdfPage": 167,
+  "keywords": [
+   "卢梭",
+   "社会",
+   "契约",
+   "天赋人权"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U15-X04",
+  "book": "LS",
+  "unit": "LS-U15",
+  "lesson": "LS-U15-L10",
+  "title": "英国光荣革命",
+  "content": "1688年光荣革命后，1689年《权利法案》限制王权，确立君主立宪制。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "光荣革命",
+   "1688",
+   "权利法案"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考英国君主立宪制确立。"
  },
  {
   "id": "LS-U15-006",
@@ -6065,6 +10435,132 @@
   "commonq": "常考法典原则与影响。"
  },
  {
+  "id": "LS-U15-R10",
+  "book": "LS",
+  "unit": "LS-U15",
+  "lesson": "LS-U15-L11",
+  "title": "保留南方的奴兼制度",
+  "content": "保留南方的奴兼制度，把5个黑人折合为3个人来计算南方各州的入口总数（暂时调和南方蓄奴州与北方自由州）美国内战：（1861-1865年）背景：美国独立后经济发展；南北矛盾，焦点是奴隶制的存废问题措施：颁布《宅地法》和《解放黑人奴隶宣言》",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 167,
+  "pdfPage": 170,
+  "keywords": [
+   "保留",
+   "南方",
+   "制度",
+   "黑人"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U15-R11",
+  "book": "LS",
+  "unit": "LS-U15",
+  "lesson": "LS-U15-L11",
+  "title": "邦联制改为联邦制",
+  "content": "联邦政府拥有最高权力，各州政府拥有一定直治权（调和中央集权VS",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 167,
+  "pdfPage": 170,
+  "keywords": [
+   "邦联",
+   "改为",
+   "联邦制",
+   "联邦政府"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U15-R12",
+  "book": "LS",
+  "unit": "LS-U15",
+  "lesson": "LS-U15-L11",
+  "title": "君主权力受到限制统而不治的虚君",
+  "content": "君主权力受到限制（统而不治的虚君），议会是国家最高立法机关和权力机关",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 167,
+  "pdfPage": 170,
+  "keywords": [
+   "君主",
+   "权力",
+   "受到限制",
+   "统而"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U15-R13",
+  "book": "LS",
+  "unit": "LS-U15",
+  "lesson": "LS-U15-L11",
+  "title": "国会议员",
+  "content": "国会议员，参议员每州两名，众议员根据各州人口比例选出（调和大州与小州）",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 167,
+  "pdfPage": 170,
+  "keywords": [
+   "国会议员",
+   "参议员",
+   "每州",
+   "两名"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U15-R14",
+  "book": "LS",
+  "unit": "LS-U15",
+  "lesson": "LS-U15-L11",
+  "title": "内阁掌握行政权",
+  "content": "内阁掌握行政权，受议会监督，对议会负责。但现实运作上更多时候内阁牵制议会",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 167,
+  "pdfPage": 170,
+  "keywords": [
+   "内阁",
+   "掌握",
+   "行政权",
+   "议会"
+  ],
+  "type": "机制",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U15-R15",
+  "book": "LS",
+  "unit": "LS-U15",
+  "lesson": "LS-U15-L11",
+  "title": "中央政府实行三权分立、分权制衡调和中央",
+  "content": "中央政府实行三权分立、分权制衡（调和中央政府内部权力分配，地方政府构成也类似）",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 167,
+  "pdfPage": 170,
+  "keywords": [
+   "中央政府",
+   "实行",
+   "三权分立",
+   "分权"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
   "id": "LS-U16-001",
   "book": "LS",
   "unit": "LS-U16",
@@ -6107,6 +10603,231 @@
   "type": "结论",
   "difficulty": 2,
   "commonq": "常考第二次工业革命特点。"
+ },
+ {
+  "id": "LS-U16-R01",
+  "book": "LS",
+  "unit": "LS-U16",
+  "lesson": "LS-U16-L12",
+  "title": "波兰：1830年，华沙争取民族独立的起义",
+  "content": "普鲁士废除农奴制改革；1848年革命，要求统一，制定宪法",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 169,
+  "pdfPage": 172,
+  "keywords": [
+   "德意志",
+   "普鲁士",
+   "废除",
+   "农奴制"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U16-R02",
+  "book": "LS",
+  "unit": "LS-U15",
+  "lesson": "LS-U15-L11",
+  "title": "近代西方法律制度的基本特征重视程序",
+  "content": "坚持程序公正和无罪推定；建立了律师制度和陪审团制度（5)不平等性：基于财产的不平等；黑人、原住民和妇女公民权认定问题",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR（已按内容归位）",
+  "page": 169,
+  "pdfPage": 172,
+  "keywords": [
+   "重视",
+   "程序",
+   "坚持",
+   "公正"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U16-R03",
+  "book": "LS",
+  "unit": "LS-U15",
+  "lesson": "LS-U15-L11",
+  "title": "英美法系普通法系的形成1)光荣革命",
+  "content": "英美法系（普通法系）的形成（1)光荣革命后，英国确立了君主立宪制，法律体系更加完善（2)法系形成：美国等国家在英国法律基础上制定本国法律，共同构成“英美法系”",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR（已按内容归位）",
+  "page": 169,
+  "pdfPage": 172,
+  "keywords": [
+   "英美法",
+   "普通法",
+   "形成",
+   "光荣革命"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U16-R04",
+  "book": "LS",
+  "unit": "LS-U15",
+  "lesson": "LS-U15-L10",
+  "title": "拿破仑的压迫",
+  "content": "拿破仑的压迫，引起欧洲各地民主意识和民族独立要求不断高涨2：文化重构：反对封建、专制，提倡民主、独立、自由、法治等（1)俄国：“十二月党人”希望按照西欧的方式来改造国家，起义失败",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR（已按内容归位）",
+  "page": 169,
+  "pdfPage": 172,
+  "keywords": [
+   "拿破仑",
+   "压迫",
+   "引起",
+   "欧洲"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U16-R05",
+  "book": "LS",
+  "unit": "LS-U15",
+  "lesson": "LS-U15-L11",
+  "title": "大陆法系民法系的形成1)法国爆发大革",
+  "content": "大陆法系（民法系）的形成1)法国爆发大革命后：制定了一系列法律（2)拿破仑帝国：《法国民法典》及此后制定的四部法典统称“拿破仑法典”，构成了法国的成文法体系，最终确立了法国的资产阶级法律制度3)法系形成：后来，逐渐形成了以罗马法为基础",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR（已按内容归位）",
+  "page": 169,
+  "pdfPage": 172,
+  "keywords": [
+   "大陆法系",
+   "民法",
+   "形成",
+   "法国"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U16-X01",
+  "book": "LS",
+  "unit": "LS-U16",
+  "lesson": "LS-U16-L12",
+  "title": "工业革命的前提",
+  "content": "英国君主立宪制、殖民掠夺、圈地运动、手工工场和海外市场扩大，为工业革命提供条件。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "工业革命",
+   "君主立宪",
+   "圈地运动"
+  ],
+  "type": "机制",
+  "difficulty": 2,
+  "commonq": "常考工业革命首先发生在英国的原因。"
+ },
+ {
+  "id": "LS-U16-X02",
+  "book": "LS",
+  "unit": "LS-U16",
+  "lesson": "LS-U16-L12",
+  "title": "珍妮机的发明",
+  "content": "1765年哈格里夫斯发明珍妮机，提高纺纱效率，标志工业革命开始。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "珍妮机",
+   "哈格里夫斯",
+   "1765"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考工业革命开始的标志。"
+ },
+ {
+  "id": "LS-U16-X03",
+  "book": "LS",
+  "unit": "LS-U16",
+  "lesson": "LS-U16-L12",
+  "title": "改良蒸汽机",
+  "content": "瓦特改良蒸汽机，使工厂摆脱水力限制，蒸汽动力广泛用于生产和交通。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "瓦特",
+   "蒸汽机",
+   "工厂"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考蒸汽机改良的意义。"
+ },
+ {
+  "id": "LS-U16-X04",
+  "book": "LS",
+  "unit": "LS-U16",
+  "lesson": "LS-U16-L12",
+  "title": "工厂制度",
+  "content": "机器集中生产，工人按纪律和分工劳动，工厂制度确立并推动城市化。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "工厂制度",
+   "分工",
+   "城市化"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "常考工厂制度的特点。"
+ },
+ {
+  "id": "LS-U16-X05",
+  "book": "LS",
+  "unit": "LS-U16",
+  "lesson": "LS-U16-L12",
+  "title": "铁路与轮船",
+  "content": "1825年英国建成第一条铁路，蒸汽机车和汽船改变交通运输。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "铁路",
+   "蒸汽机车",
+   "汽船"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考工业革命交通成就。"
+ },
+ {
+  "id": "LS-U16-X07",
+  "book": "LS",
+  "unit": "LS-U16",
+  "lesson": "LS-U16-L12",
+  "title": "垄断组织",
+  "content": "生产和资本集中，托拉斯、卡特尔等垄断组织形成，资本主义进入垄断阶段。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "垄断组织",
+   "托拉斯",
+   "卡特尔"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考垄断组织的影响。"
  },
  {
   "id": "LS-U16-003",
@@ -6153,6 +10874,171 @@
   "commonq": "常考工业社会问题与治理。"
  },
  {
+  "id": "LS-U16-R06",
+  "book": "LS",
+  "unit": "LS-U16",
+  "lesson": "LS-U16-L13",
+  "title": "消极影响次要1)社会问题：贫富分化",
+  "content": "消极影响（次要）（1)社会问题：贫富分化、环境污染、疾病与犯罪等，社会矛盾激化",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 172,
+  "pdfPage": 175,
+  "keywords": [
+   "消极影响",
+   "次要",
+   "社会",
+   "问题"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U16-R07",
+  "book": "LS",
+  "unit": "LS-U16",
+  "lesson": "LS-U16-L13",
+  "title": "B、严格管理的工厂制度制度：严格的规章制",
+  "content": "B、严格管理的工厂制度制度：严格的规章制度；工人倒班制；流水线协同劳作；原料统一供应调配作用：提高生产效率与保证产品质量，从而获得更大的经济效益",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 172,
+  "pdfPage": 175,
+  "keywords": [
+   "严格管理",
+   "工厂",
+   "制度",
+   "严格"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U16-R08",
+  "book": "LS",
+  "unit": "LS-U16",
+  "lesson": "LS-U16-L12",
+  "title": "影响工业革命的主要因素文化因素",
+  "content": "包括思想解放（或保守），人才，科学理论、技术创新或积累等",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR（已按内容归位）",
+  "page": 172,
+  "pdfPage": 175,
+  "keywords": [
+   "文化",
+   "因素",
+   "包括",
+   "思想解放"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U16-R09",
+  "book": "LS",
+  "unit": "LS-U16",
+  "lesson": "LS-U16-L13",
+  "title": "内燃机：用于交通，出现汽车、内燃机车、飞",
+  "content": "人工合成材料，石油化工等4)传统工业：炼钢、纺织、采煤、机器制造和铁路运输等升级",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 171,
+  "pdfPage": 174,
+  "keywords": [
+   "化工",
+   "人工合成",
+   "材料",
+   "石油化工"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U16-R10",
+  "book": "LS",
+  "unit": "LS-U16",
+  "lesson": "LS-U16-L12",
+  "title": "影响工业革命的主要因素政治因素",
+  "content": "包括国家政治制度、政策、政局等要素2)经济因素：包括国家经济政策，原有的经济结构、物质基础，原料、资金、劳动力、国内外",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR（已按内容归位）",
+  "page": 172,
+  "pdfPage": 175,
+  "keywords": [
+   "政治",
+   "因素",
+   "包括",
+   "国家"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U16-X08",
+  "book": "LS",
+  "unit": "LS-U16",
+  "lesson": "LS-U16-L13",
+  "title": "城市化",
+  "content": "工业革命推动人口向城市集中，英国城市人口超过农村，城市基础设施改善。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "城市化",
+   "城市人口",
+   "基础设施"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "常考工业革命与城市化。"
+ },
+ {
+  "id": "LS-U16-X09",
+  "book": "LS",
+  "unit": "LS-U16",
+  "lesson": "LS-U16-L13",
+  "title": "城市社会问题",
+  "content": "工业化带来贫富分化、工人居住恶劣、环境污染和童工女工问题。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "贫富分化",
+   "环境污染",
+   "童工"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "材料题常考工业化的社会代价。"
+ },
+ {
+  "id": "LS-U16-X10",
+  "book": "LS",
+  "unit": "LS-U16",
+  "lesson": "LS-U16-L13",
+  "title": "社会立法",
+  "content": "英国1833年工厂法、1848年公共卫生法等逐步改善劳动条件与城市卫生。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "工厂法",
+   "公共卫生法",
+   "劳动条件"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "常考工业革命后的社会立法。"
+ },
+ {
   "id": "LS-U16-005",
   "book": "LS",
   "unit": "LS-U16",
@@ -6195,6 +11081,69 @@
   "type": "结论",
   "difficulty": 3,
   "commonq": "常考近代国际关系体系。"
+ },
+ {
+  "id": "LS-U16-R11",
+  "book": "LS",
+  "unit": "LS-U16",
+  "lesson": "LS-U16-L14",
+  "title": "修道院、大教堂和大学图的书馆",
+  "content": "修道院、大教堂和大学图的书馆，私人图书馆发展迅速（4)作用：保存人类文化典籍和文化遗产：服务公众文化需求",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 174,
+  "pdfPage": 177,
+  "keywords": [
+   "修道院",
+   "教堂",
+   "大学",
+   "书馆"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U16-R12",
+  "book": "LS",
+  "unit": "LS-U16",
+  "lesson": "LS-U16-L14",
+  "title": "印刷书和图书馆选必3，第14课，P82",
+  "content": "德国人谷登堡发明合金活字印刷机，大大提高印刷质量和效率（2)19世纪下半叶，英、美等国家出现具有近代意义的公共图书馆",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 174,
+  "pdfPage": 177,
+  "keywords": [
+   "15",
+   "世纪",
+   "中叶",
+   "德国人"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U16-R13",
+  "book": "LS",
+  "unit": "LS-U16",
+  "lesson": "LS-U16-L14",
+  "title": "交通线路及交通工具的分类人口转移",
+  "content": "吸收大量农村剩余人口，劳动力从第一产业向第二、第三产业转移",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 175,
+  "pdfPage": 178,
+  "keywords": [
+   "人口",
+   "转移",
+   "吸收",
+   "大量"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
  },
  {
   "id": "LS-U17-001",
@@ -6241,6 +11190,171 @@
   "commonq": "常考三角贸易路线与影响。"
  },
  {
+  "id": "LS-U17-R01",
+  "book": "LS",
+  "unit": "LS-U16",
+  "lesson": "LS-U16-L14",
+  "title": "中国科举制度对西方文官制度的影响1传播",
+  "content": "中国科举制度对西方文官制度的影响1传播：16世纪后半期，葡萄牙传教士的《中国游记》《伟大的中国》，对中国科举制大加赞赏，并详细介绍了中国科举考试的方法和内容。这两本书在欧洲出版后，广泛流传，引起了欧洲人对中国政治制度的认真关注",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR（已按内容归位）",
+  "page": 177,
+  "pdfPage": 180,
+  "keywords": [
+   "中国",
+   "科举制度",
+   "西方",
+   "文官"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U17-R02",
+  "book": "LS",
+  "unit": "LS-U17",
+  "lesson": "LS-U17-L15",
+  "title": "基层治理与与社会保障制度发展",
+  "content": "把城市分成若干小区，组织志愿者，负责救济的分配，并协调各机构",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 177,
+  "pdfPage": 180,
+  "keywords": [
+   "发展",
+   "城市",
+   "分成",
+   "若干"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U17-R03",
+  "book": "LS",
+  "unit": "LS-U16",
+  "lesson": "LS-U16-L14",
+  "title": "国际法的形成—威斯特伐利亚体系机制",
+  "content": "通过会议谈判，解决国际争端、结束战争；各缔约国可对违约国集体制裁",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR（已按内容归位）",
+  "page": 177,
+  "pdfPage": 180,
+  "keywords": [
+   "机制",
+   "通过",
+   "会议",
+   "谈判"
+  ],
+  "type": "机制",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U17-R04",
+  "book": "LS",
+  "unit": "LS-U16",
+  "lesson": "LS-U16-L14",
+  "title": "国际法的形成—威斯特伐利亚体系立法",
+  "content": "各国之间签订了许多国际公约，制定了一系列战争法规（1)进步：为用和平方式解决国际争端、减少战争开辟了新途径",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR（已按内容归位）",
+  "page": 177,
+  "pdfPage": 180,
+  "keywords": [
+   "立法",
+   "各国",
+   "之间",
+   "签订"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U17-R05",
+  "book": "LS",
+  "unit": "LS-U17",
+  "lesson": "LS-U17-L15",
+  "title": "国际法的发展—维也纳体系1)确立：1",
+  "content": "国际法的发展一一维也纳体系（1)确立：1815年，建立以大国协调、欧洲均势为特征的维也纳体系（2)推广：19世纪后，国际法的应用范围从欧洲扩大到美洲、亚洲等地",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 177,
+  "pdfPage": 180,
+  "keywords": [
+   "国际法",
+   "发展",
+   "一一",
+   "维也纳"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U17-X01",
+  "book": "LS",
+  "unit": "LS-U17",
+  "lesson": "LS-U17-L15",
+  "title": "资本主义世界殖民体系",
+  "content": "19世纪末20世纪初，资本主义列强瓜分世界，世界殖民体系最终形成。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "殖民体系",
+   "瓜分世界",
+   "19世纪末"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "常考殖民体系形成的时间。"
+ },
+ {
+  "id": "LS-U17-X08",
+  "book": "LS",
+  "unit": "LS-U17",
+  "lesson": "LS-U17-L15",
+  "title": "英国殖民印度",
+  "content": "1600年英国东印度公司成立，1858年英国政府直接统治印度，印度沦为殖民地。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "东印度公司",
+   "印度",
+   "1858"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考英国殖民印度。"
+ },
+ {
+  "id": "LS-U17-X09",
+  "book": "LS",
+  "unit": "LS-U17",
+  "lesson": "LS-U17-L15",
+  "title": "柏林会议瓜分非洲",
+  "content": "1884—1885年柏林会议，列强划定势力范围，加速瓜分非洲。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "柏林会议",
+   "1884",
+   "瓜分非洲"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考非洲殖民化。"
+ },
+ {
   "id": "LS-U17-003",
   "book": "LS",
   "unit": "LS-U17",
@@ -6283,6 +11397,109 @@
   "type": "结论",
   "difficulty": 2,
   "commonq": "常考亚洲觉醒表现。"
+ },
+ {
+  "id": "LS-U17-R06",
+  "book": "LS",
+  "unit": "LS-U16",
+  "lesson": "LS-U16-L12",
+  "title": "原因：工业革命的影响交通",
+  "content": "蒸汽机车和轮船大大改善交通运输：世界各地间的联系更为便捷",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR（已按内容归位）",
+  "page": 181,
+  "pdfPage": 184,
+  "keywords": [
+   "交通",
+   "蒸汽机车",
+   "轮船",
+   "大大"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U17-R07",
+  "book": "LS",
+  "unit": "LS-U16",
+  "lesson": "LS-U16-L12",
+  "title": "原因：工业革命的影响的原因",
+  "content": "第二次工业革命，向断资本主义过渡，列强更大规模地瓜分世界",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR（已按内容归位）",
+  "page": 181,
+  "pdfPage": 184,
+  "keywords": [
+   "原因",
+   "第二次",
+   "工业革命",
+   "向断"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U17-R08",
+  "book": "LS",
+  "unit": "LS-U16",
+  "lesson": "LS-U16-L12",
+  "title": "原因：工业革命的影响生产",
+  "content": "资本主义国家机器化大生产，需要更广阔的市场与更多的原料产地",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR（已按内容归位）",
+  "page": 181,
+  "pdfPage": 184,
+  "keywords": [
+   "生产",
+   "资本主义",
+   "国家机器",
+   "化大"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U17-X02",
+  "book": "LS",
+  "unit": "LS-U17",
+  "lesson": "LS-U17-L16",
+  "title": "印度民族大起义",
+  "content": "1857—1859年印度反英大起义，章西女王领导，失败但打击英国殖民统治。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "印度",
+   "1857",
+   "章西女王"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考印度民族大起义。"
+ },
+ {
+  "id": "LS-U17-X04",
+  "book": "LS",
+  "unit": "LS-U17",
+  "lesson": "LS-U17-L16",
+  "title": "埃塞俄比亚抗意",
+  "content": "1896年埃塞俄比亚在阿杜瓦战役击败意大利，保持国家独立。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "埃塞俄比亚",
+   "阿杜瓦",
+   "1896"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考非洲抗殖民斗争。"
  },
  {
   "id": "LS-U17-005",
@@ -6329,6 +11546,88 @@
   "commonq": "常考巴黎公社性质与教训。"
  },
  {
+  "id": "LS-U17-R09",
+  "book": "LS",
+  "unit": "LS-U17",
+  "lesson": "LS-U17-L17",
+  "title": "法国大革命、美国的独立战争的影响2．独立",
+  "content": "法国大革命、美国的独立战争的影响2．独立战争的过程（1)法属海地（最早）：黑人领导独立运动，1791年起义、1804年独立",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 183,
+  "pdfPage": 186,
+  "keywords": [
+   "法国",
+   "大革命",
+   "美国",
+   "独立战争"
+  ],
+  "type": "机制",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U17-R10",
+  "book": "LS",
+  "unit": "LS-U17",
+  "lesson": "LS-U17-L17",
+  "title": "近代亚非美洲民族独立运动的阶段特点1)",
+  "content": "近代亚非美洲民族独立运动的阶段特点（1)18世纪晚期：美国独立战争。是英国在北美的地方殖民政权宣布脱离英国，结成新的美利坚合众国，确立共和体制。领导者主要是英国及欧洲各国移民及其后裔，不是土生民族的独立（2)19世纪初期：拉丁美洲独立运动",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 184,
+  "pdfPage": 187,
+  "keywords": [
+   "近代",
+   "亚非",
+   "美洲",
+   "民族"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U17-X05",
+  "book": "LS",
+  "unit": "LS-U17",
+  "lesson": "LS-U17-L17",
+  "title": "马克思主义诞生",
+  "content": "1848年《共产党宣言》发表，标志科学社会主义诞生，国际工人运动兴起。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "共产党宣言",
+   "1848",
+   "科学社会主义"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考马克思主义诞生的标志。"
+ },
+ {
+  "id": "LS-U17-X07",
+  "book": "LS",
+  "unit": "LS-U17",
+  "lesson": "LS-U17-L17",
+  "title": "明治维新",
+  "content": "1868年日本明治维新，殖产兴业、富国强兵，走上资本主义道路并对外扩张。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "明治维新",
+   "1868",
+   "殖产兴业"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考明治维新的影响。"
+ },
+ {
   "id": "LS-U18-001",
   "book": "LS",
   "unit": "LS-U18",
@@ -6371,6 +11670,69 @@
   "type": "结论",
   "difficulty": 2,
   "commonq": "常考战后体系内容与隐患。"
+ },
+ {
+  "id": "LS-U18-R01",
+  "book": "LS",
+  "unit": "LS-U17",
+  "lesson": "LS-U17-L17",
+  "title": "巴黎公社1871.3-5的背景",
+  "content": "民族矛盾（德国VS法国）&阶级矛盾（资产阶级VS无产阶级）双重作用（2)措施：立法行政合一：国民自卫军：人民监督：公职人员限薪：合作社：八小时工作日",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR（已按内容归位）",
+  "page": 186,
+  "pdfPage": 189,
+  "keywords": [
+   "背景",
+   "民族矛盾",
+   "德国",
+   "VS"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U18-R02",
+  "book": "LS",
+  "unit": "LS-U17",
+  "lesson": "LS-U17-L17",
+  "title": "巴黎公社1871.3-5的意义",
+  "content": "无产阶级建立政权的第一次伟大尝试：丰富了马克思主义的学说：为国际工人运动的",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR（已按内容归位）",
+  "page": 186,
+  "pdfPage": 189,
+  "keywords": [
+   "意义",
+   "无产阶级",
+   "建立",
+   "政权"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U18-R03",
+  "book": "LS",
+  "unit": "LS-U18",
+  "lesson": "LS-U18-L18",
+  "title": "无产阶级革命与社会主义革命1)概念：无",
+  "content": "无产阶级革命与社会主义革命（1)概念：无产阶级革命是指无产阶级推翻资产阶级、建立无产阶级政权的革命；社会主义革命还必须是消灭私有和剥削制度，建立社会主义公有制2)分析：据此标准，巴黎公社属于无产阶级革命，但还不是社会主义革命",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 186,
+  "pdfPage": 189,
+  "keywords": [
+   "无产阶级",
+   "革命",
+   "社会主义",
+   "概念"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
  },
  {
   "id": "LS-U18-003",
@@ -6439,6 +11801,27 @@
   "commonq": "常考苏联模式特点与评价。"
  },
  {
+  "id": "LS-U18-R04",
+  "book": "LS",
+  "unit": "LS-U18",
+  "lesson": "LS-U18-L18",
+  "title": "主战场欧洲的三条战线：西线决定性",
+  "content": "主战场欧洲的三条战线：西线（决定性）：英法V德；东线：德奥V俄：南线：奥V俄",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR（已按内容归位）",
+  "page": 189,
+  "pdfPage": 192,
+  "keywords": [
+   "主战场",
+   "欧洲",
+   "三条",
+   "战线"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
   "id": "LS-U18-006",
   "book": "LS",
   "unit": "LS-U18",
@@ -6481,6 +11864,69 @@
   "type": "结论",
   "difficulty": 2,
   "commonq": "常考凯末尔改革。"
+ },
+ {
+  "id": "LS-U18-R05",
+  "book": "LS",
+  "unit": "LS-U18",
+  "lesson": "LS-U18-L19",
+  "title": "条件或背景、原因1)俄国资本主义发",
+  "content": "条件（或背景、原因）（1)俄国资本主义发展，进入帝国主义阶段2)沙皇专制统治却持续强化，社会矛盾日益尖锐（3)工人队伍壮大：1898年，俄国社会民主工党成立，组织工人运动（4)1900年，列宁创办《火星报》",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR（已按内容归位）",
+  "page": 191,
+  "pdfPage": 194,
+  "keywords": [
+   "条件",
+   "背景",
+   "原因",
+   "俄国"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U18-R06",
+  "book": "LS",
+  "unit": "LS-U18",
+  "lesson": "LS-U18-L19",
+  "title": "帝国主义是资本主义发展的最高阶段",
+  "content": "帝国主义是资本主义发展的最高阶段，“是无产阶级社会革命的前夜”",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR（已按内容归位）",
+  "page": 191,
+  "pdfPage": 194,
+  "keywords": [
+   "帝国主义",
+   "资本主义",
+   "发展",
+   "最高"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U18-R07",
+  "book": "LS",
+  "unit": "LS-U18",
+  "lesson": "LS-U18-L19",
+  "title": "工人阶级要以暴力推翻资产阶级政权",
+  "content": "工人阶级要以暴力推翻资产阶级政权，建立无产阶级专政（5)一战激化了各种矛盾，使俄国成为“帝国主义链条中最薄弱的一环”1）二月革命：1917.3（俄历2月），资产阶级民主革命，推翻沙皇；出现资产阶级临时政府（主要",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR（已按内容归位）",
+  "page": 191,
+  "pdfPage": 194,
+  "keywords": [
+   "工人阶级",
+   "暴力",
+   "推翻",
+   "资产阶级"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
  },
  {
   "id": "LS-U18-008",
@@ -6527,6 +11973,132 @@
   "commonq": "常考新政措施与特点。"
  },
  {
+  "id": "LS-U18-R08",
+  "book": "LS",
+  "unit": "LS-U18",
+  "lesson": "LS-U18-L21",
+  "title": "一战后亚非拉民族民主运动意义：沉重打击了",
+  "content": "一战后亚非拉民族民主运动意义：沉重打击了帝国主义和殖民主义，动摇了世界殖民体系，成为影响国际秩序的重要因素",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 194,
+  "pdfPage": 197,
+  "keywords": [
+   "战后",
+   "亚非拉",
+   "民族",
+   "民主运动"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U18-R09",
+  "book": "LS",
+  "unit": "LS-U18",
+  "lesson": "LS-U18-L21",
+  "title": "斯大林时代19281953高度集中的",
+  "content": "斯大林时代（19281953）高度集中的政治经济体制（苏联模式，斯大林模式）（1)措施：经济，经过工业化（优先发展重工业），农业集体化，取消新经济政策，逐渐形成高",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 193,
+  "pdfPage": 196,
+  "keywords": [
+   "斯大林",
+   "时代",
+   "19281953",
+   "高度集中"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U18-R10",
+  "book": "LS",
+  "unit": "LS-U18",
+  "lesson": "LS-U18-L21",
+  "title": "埃及的独立运动1)领导者：扎格鲁尔",
+  "content": "埃及的独立运动（1)领导者：扎格鲁尔，华夫脱党（民族主义政党）",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 194,
+  "pdfPage": 197,
+  "keywords": [
+   "埃及",
+   "独立",
+   "运动",
+   "领导者"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U18-R11",
+  "book": "LS",
+  "unit": "LS-U18",
+  "lesson": "LS-U18-L21",
+  "title": "特点",
+  "content": "单一的公有制：高度集中、高度计划：以行政手段管理经济，排斥商品市场",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 193,
+  "pdfPage": 196,
+  "keywords": [
+   "特点",
+   "单一",
+   "公有制",
+   "高度集中"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U18-R12",
+  "book": "LS",
+  "unit": "LS-U18",
+  "lesson": "LS-U18-L21",
+  "title": "战争客观上将自由、民主与民族独立的思想",
+  "content": "战争客观上将自由、民主与民族独立的思想、民族自决原则传播到各地（选必3",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 193,
+  "pdfPage": 196,
+  "keywords": [
+   "战争",
+   "客观",
+   "上将",
+   "自由"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U18-R13",
+  "book": "LS",
+  "unit": "LS-U18",
+  "lesson": "LS-U18-L21",
+  "title": "片面发展重工业，导致国民经济",
+  "content": "片面发展重工业，导致国民经济比例失调：忽视消费品生产，人民生活水平提高缓慢",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 193,
+  "pdfPage": 196,
+  "keywords": [
+   "片面",
+   "发展",
+   "重工业",
+   "导致"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
   "id": "LS-U18-010",
   "book": "LS",
   "unit": "LS-U18",
@@ -6569,6 +12141,90 @@
   "type": "结论",
   "difficulty": 2,
   "commonq": "常考战后国际秩序。"
+ },
+ {
+  "id": "LS-U18-R14",
+  "book": "LS",
+  "unit": "LS-U18",
+  "lesson": "LS-U18-L22",
+  "title": "服饰文化交流中国",
+  "content": "中山装兼具中西服装的特点，体现了一定的时代精神和民族特色",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 196,
+  "pdfPage": 199,
+  "keywords": [
+   "中国",
+   "中山装",
+   "兼具",
+   "中西"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U18-R15",
+  "book": "LS",
+  "unit": "LS-U18",
+  "lesson": "LS-U18-L22",
+  "title": "法西斯主义兴起特点：极端民族主义",
+  "content": "法西斯主义兴起（特点：极端民族主义：反对自由主义和共产主义：对内独裁统治，对外侵",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 198,
+  "pdfPage": 201,
+  "keywords": [
+   "法西斯主义",
+   "兴起",
+   "特点",
+   "极端"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U18-R16",
+  "book": "LS",
+  "unit": "LS-U18",
+  "lesson": "LS-U18-L22",
+  "title": "实行：1816年，英国制定法案，实行金本",
+  "content": "以英镑为中心、以金币或黄金在国际间流通为主（4)特点：各国的金币具有法定的含金量，自由铸造、自由流通，不易贬值",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 196,
+  "pdfPage": 199,
+  "keywords": [
+   "内容",
+   "英镑",
+   "中心",
+   "金币"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U18-R17",
+  "book": "LS",
+  "unit": "LS-U18",
+  "lesson": "LS-U18-L22",
+  "title": "服饰文化交流的影响",
+  "content": "国家干预经济政策的推行，促进了战后各主要资本主义国家进入了发展的“黄金时期”，使私人垄断发展到国家断资本主义阶段。但凯恩斯主义并没有找到经济危机爆发的根本原因一资本主义的基本矛盾，因此也就不可能从根本上找到消除危机的有效办法",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 197,
+  "pdfPage": 200,
+  "keywords": [
+   "影响",
+   "国家",
+   "干预",
+   "经济"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
  },
  {
   "id": "LS-U19-001",
@@ -6615,6 +12271,48 @@
   "commonq": "常考多极化力量。"
  },
  {
+  "id": "LS-U19-R01",
+  "book": "LS",
+  "unit": "LS-U19",
+  "lesson": "LS-U19-L23",
+  "title": "评价①积极：对世界和平与发展作出了积极的",
+  "content": "二些大国以自身利益出发，破坏国际法，发动战争，威胁着世界和平",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 200,
+  "pdfPage": 203,
+  "keywords": [
+   "局限",
+   "二些",
+   "大国",
+   "自身"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U19-R02",
+  "book": "LS",
+  "unit": "LS-U19",
+  "lesson": "LS-U19-L23",
+  "title": "美国：成为世界第一经济、政治和军事强国苏",
+  "content": "仅次于美国，军事和政治亦士分强大，赢得很高威望4）国际格局：从欧洲中心走向美苏对峙的两极格局",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 200,
+  "pdfPage": 203,
+  "keywords": [
+   "苏联",
+   "仅次于",
+   "美国",
+   "军事"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
   "id": "LS-U19-003",
   "book": "LS",
   "unit": "LS-U19",
@@ -6658,6 +12356,90 @@
   "commonq": "常考福利国家利弊。"
  },
  {
+  "id": "LS-U19-R03",
+  "book": "LS",
+  "unit": "LS-U19",
+  "lesson": "LS-U19-L24",
+  "title": "不同社会制度的国家从对方身上借鉴经验",
+  "content": "不同社会制度的国家从对方身上借鉴经验，推动了世界的整体发展",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 203,
+  "pdfPage": 206,
+  "keywords": [
+   "不同",
+   "社会制度",
+   "国家",
+   "对方"
+  ],
+  "type": "对比",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U19-R04",
+  "book": "LS",
+  "unit": "LS-U19",
+  "lesson": "LS-U19-L24",
+  "title": "苏联一方面谋求与美国平起平坐",
+  "content": "苏联一方面谋求与美国平起平坐，美苏合作，共同主宰世界，企图控制中国，造成中苏关系",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 203,
+  "pdfPage": 206,
+  "keywords": [
+   "苏联",
+   "一方面",
+   "谋求",
+   "美国"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U19-R05",
+  "book": "LS",
+  "unit": "LS-U19",
+  "lesson": "LS-U19-L24",
+  "title": "美国凭借高新技术和雄厚的经济军事实力",
+  "content": "美国凭借高新技术和雄厚的经济军事实力，对苏联采取强硬态度。中美关系则忽冷忽热，时",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 203,
+  "pdfPage": 206,
+  "keywords": [
+   "美国",
+   "凭借",
+   "高新技术",
+   "雄厚"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U19-R06",
+  "book": "LS",
+  "unit": "LS-U19",
+  "lesson": "LS-U19-L24",
+  "title": "苏联由于勃列日涅夫时期大搞国民经济军事化",
+  "content": "苏联由于勃列日涅夫时期大搞国民经济军事化，造成国家经济困难，到80年代，戈尔巴乔夫与中国恢复正常",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 203,
+  "pdfPage": 206,
+  "keywords": [
+   "苏联",
+   "由于",
+   "列日涅夫",
+   "时期"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
   "id": "LS-U19-005",
   "book": "LS",
   "unit": "LS-U19",
@@ -6699,6 +12481,69 @@
   "type": "结论",
   "difficulty": 2,
   "commonq": "常考剧变实质与影响。"
+ },
+ {
+  "id": "LS-U19-R07",
+  "book": "LS",
+  "unit": "LS-U19",
+  "lesson": "LS-U19-L25",
+  "title": "世界银行1945年宗旨：鼓励对外投资",
+  "content": "世界银行（1945年）宗旨：鼓励对外投资，促进战后经济的复苏与发展业务：向会员国发放中长期贷款，初期用于西欧战后恢复（与马歇尔计划作用重复）：后来",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 205,
+  "pdfPage": 208,
+  "keywords": [
+   "世界银行",
+   "1945",
+   "宗旨",
+   "鼓励"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U19-R08",
+  "book": "LS",
+  "unit": "LS-U19",
+  "lesson": "LS-U19-L25",
+  "title": "以英镑为中心的金本位制一以美元为中心的货",
+  "content": "二战严重削弱了英国等欧洲国家，美国成为资本主义世界的霸主",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 205,
+  "pdfPage": 208,
+  "keywords": [
+   "背景",
+   "二战",
+   "严重",
+   "削弱"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U19-R09",
+  "book": "LS",
+  "unit": "LS-U19",
+  "lesson": "LS-U19-L25",
+  "title": "国际货币基金组织1945年宗旨：重建",
+  "content": "国际货币基金组织（1945年）宗旨：重建国际货币制度，以维持汇率的稳定和国际收支的平衡业务：向会员国发放短期贷款，用于进行国际收支调整（救急）",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 205,
+  "pdfPage": 208,
+  "keywords": [
+   "国际货币基金组织",
+   "1945",
+   "宗旨",
+   "重建"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
  },
  {
   "id": "LS-U19-007",
@@ -6745,6 +12590,132 @@
   "commonq": "常考南南合作与挑战。"
  },
  {
+  "id": "LS-U19-R10",
+  "book": "LS",
+  "unit": "LS-U19",
+  "lesson": "LS-U19-L26",
+  "title": "南斯拉夫改革最早措施：社会主义自治制",
+  "content": "南斯拉夫改革（最早）措施：社会主义自治制度，权力下放作用：调动地方、企业和群众的积极性，促进了经济发展局限：地方主义，民族问题，为后来国家的分裂埋下了隐患",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 208,
+  "pdfPage": 211,
+  "keywords": [
+   "南斯拉夫",
+   "改革",
+   "最早",
+   "措施"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U19-R11",
+  "book": "LS",
+  "unit": "LS-U19",
+  "lesson": "LS-U19-L26",
+  "title": "经济成效甚微",
+  "content": "承认市场调节在社会主义经济中的作用（计划经济－市场经济）政治（大错特错）：取消苏共领导地位；放弃社会主义制度，实行议会制、总统制和多党制思想（大错特错）：意识形态抛弃马克思主义指导，放任西方资本主义国家对社会主义国家的",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 208,
+  "pdfPage": 211,
+  "keywords": [
+   "经济",
+   "成效",
+   "甚微",
+   "承认"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U19-R12",
+  "book": "LS",
+  "unit": "LS-U19",
+  "lesson": "LS-U19-L26",
+  "title": "发展1945年起发展",
+  "content": "国民经济巨大成就；原子弹、氢弹、卫星；教育和生活水平提高",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 207,
+  "pdfPage": 210,
+  "keywords": [
+   "发展",
+   "国民经济",
+   "巨大成就",
+   "原子弹"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U19-R13",
+  "book": "LS",
+  "unit": "LS-U19",
+  "lesson": "LS-U19-L26",
+  "title": "勃列且涅夫改革1964~1982：“",
+  "content": "工业领域推行“新经济体制”，扩大企业自主权，改进工业管理",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 207,
+  "pdfPage": 210,
+  "keywords": [
+   "内容",
+   "工业",
+   "领域",
+   "推行"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U19-R14",
+  "book": "LS",
+  "unit": "LS-U19",
+  "lesson": "LS-U19-L26",
+  "title": "共和国恢复在联合国的一切合法权利：中国重",
+  "content": "共和国恢复在联合国的一切合法权利：中国重视对非洲经济和技术援助",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 209,
+  "pdfPage": 212,
+  "keywords": [
+   "共和国",
+   "恢复",
+   "联合国",
+   "一切"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U19-R15",
+  "book": "LS",
+  "unit": "LS-U19",
+  "lesson": "LS-U19-L26",
+  "title": "发展1945年起问题",
+  "content": "优先发展重工业，农业、轻工业落后（1)赫鲁晓夫改革（1953~1964）：“补短”",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 207,
+  "pdfPage": 210,
+  "keywords": [
+   "问题",
+   "优先发展",
+   "重工业",
+   "农业"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
   "id": "LS-U20-001",
   "book": "LS",
   "unit": "LS-U20",
@@ -6787,6 +12758,167 @@
   "type": "结论",
   "difficulty": 2,
   "commonq": "常考科技对生产影响。"
+ },
+ {
+  "id": "LS-U20-R01",
+  "book": "LS",
+  "unit": "LS-U20",
+  "lesson": "LS-U20-L27",
+  "title": "特点：多元文化和谐共处文艺",
+  "content": "各种宗教建筑形式各异，各民族的传统文化活动丰富多彩4埃及：是具有非洲特点的阿拉伯文化，并带有欧洲和西亚等地的文化元素",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 211,
+  "pdfPage": 214,
+  "keywords": [
+   "文艺",
+   "各种",
+   "宗教建筑",
+   "形式各异"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U20-X02",
+  "book": "LS",
+  "unit": "LS-U20",
+  "lesson": "LS-U20-L27",
+  "title": "互联网的发展",
+  "content": "1969年美国阿帕网出现，90年代互联网普及，人类进入信息社会。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "互联网",
+   "阿帕网",
+   "信息社会"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考互联网的起源与影响。"
+ },
+ {
+  "id": "LS-U20-X03",
+  "book": "LS",
+  "unit": "LS-U20",
+  "lesson": "LS-U20-L27",
+  "title": "人工智能",
+  "content": "机器学习、大数据和自动化技术发展，人工智能改变生产与服务方式。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "人工智能",
+   "大数据",
+   "自动化"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考人工智能的应用与影响。"
+ },
+ {
+  "id": "LS-U20-X04",
+  "book": "LS",
+  "unit": "LS-U20",
+  "lesson": "LS-U20-L27",
+  "title": "生物技术",
+  "content": "DNA双螺旋结构发现后，基因工程、克隆等技术发展，应用于医学和农业。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "DNA",
+   "基因工程",
+   "克隆"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考现代生物技术成就。"
+ },
+ {
+  "id": "LS-U20-X05",
+  "book": "LS",
+  "unit": "LS-U20",
+  "lesson": "LS-U20-L27",
+  "title": "航天技术",
+  "content": "1957年苏联发射人造卫星，1969年美国登月，空间探索不断推进。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "人造卫星",
+   "登月",
+   "航天"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考航天技术的标志性事件。"
+ },
+ {
+  "id": "LS-U20-X06",
+  "book": "LS",
+  "unit": "LS-U20",
+  "lesson": "LS-U20-L27",
+  "title": "产业结构变化",
+  "content": "农业比重下降，服务业和知识经济上升，产业结构发生深刻变化。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "产业结构",
+   "服务业",
+   "知识经济"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "常考科技革命对产业结构的影响。"
+ },
+ {
+  "id": "LS-U20-X20",
+  "book": "LS",
+  "unit": "LS-U20",
+  "lesson": "LS-U20-L27",
+  "title": "原子能的利用",
+  "content": "1945年美国研制原子弹，1954年苏联建成世界第一座核电站，核能进入民用领域。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "原子能",
+   "核电站",
+   "1945"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考第三次科技革命能源成就。"
+ },
+ {
+  "id": "LS-U20-X22",
+  "book": "LS",
+  "unit": "LS-U20",
+  "lesson": "LS-U20-L27",
+  "title": "现代生物技术",
+  "content": "1953年发现DNA双螺旋结构，1973年基因重组成功，1996年克隆羊多利诞生。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "DNA",
+   "基因工程",
+   "克隆羊"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考生物技术成就。"
  },
  {
   "id": "LS-U20-003",
@@ -6833,6 +12965,206 @@
   "commonq": "常考现代生活改善。"
  },
  {
+  "id": "LS-U20-X07",
+  "book": "LS",
+  "unit": "LS-U20",
+  "lesson": "LS-U20-L28",
+  "title": "二战后城市化",
+  "content": "发达国家出现郊区化和卫星城，发展中国家城市化加速。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "郊区化",
+   "卫星城",
+   "城市化"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "常考二战后城市化的特点。"
+ },
+ {
+  "id": "LS-U20-X08",
+  "book": "LS",
+  "unit": "LS-U20",
+  "lesson": "LS-U20-L28",
+  "title": "居住条件改善",
+  "content": "高层住宅、家电普及改善居住条件，但住房紧张和贫民窟问题仍存在。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "高层住宅",
+   "家电",
+   "贫民窟"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考现代居住生活变化。"
+ },
+ {
+  "id": "LS-U20-X09",
+  "book": "LS",
+  "unit": "LS-U20",
+  "lesson": "LS-U20-L28",
+  "title": "公共卫生进步",
+  "content": "疫苗、抗生素和医保体系发展，传染病得到控制，人均寿命延长。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "疫苗",
+   "抗生素",
+   "医保"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "常考公共卫生体系的进步。"
+ },
+ {
+  "id": "LS-U20-X10",
+  "book": "LS",
+  "unit": "LS-U20",
+  "lesson": "LS-U20-L28",
+  "title": "社会保障制度",
+  "content": "福利国家建立养老、医疗、失业等社会保障，也带来财政负担。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "福利国家",
+   "养老",
+   "失业保险"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "常考社会保障制度的利弊。"
+ },
+ {
+  "id": "LS-U20-X11",
+  "book": "LS",
+  "unit": "LS-U20",
+  "lesson": "LS-U20-L28",
+  "title": "交通变革",
+  "content": "汽车、高速公路和航空发展，通勤范围扩大，城市空间扩张。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "汽车",
+   "高速公路",
+   "航空"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考现代交通的影响。"
+ },
+ {
+  "id": "LS-U20-X12",
+  "book": "LS",
+  "unit": "LS-U20",
+  "lesson": "LS-U20-L28",
+  "title": "环境问题与环保",
+  "content": "工业化带来污染和资源消耗，环保运动兴起，可持续发展理念提出。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "环境污染",
+   "环保运动",
+   "可持续发展"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "材料题常考环境问题的治理。"
+ },
+ {
+  "id": "LS-U20-X16",
+  "book": "LS",
+  "unit": "LS-U20",
+  "lesson": "LS-U20-L28",
+  "title": "社会保障",
+  "content": "二战后福利国家建立养老、医疗、失业等社会保障，也带来财政负担。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "福利国家",
+   "养老",
+   "失业保险"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "常考社会保障的利弊。"
+ },
+ {
+  "id": "LS-U20-X18",
+  "book": "LS",
+  "unit": "LS-U20",
+  "lesson": "LS-U20-L28",
+  "title": "环境问题",
+  "content": "工业化和城市化带来污染、资源消耗，环保运动兴起，可持续发展提出。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "环境污染",
+   "环保运动",
+   "可持续发展"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "常考环境治理。"
+ },
+ {
+  "id": "LS-U20-X23",
+  "book": "LS",
+  "unit": "LS-U20",
+  "lesson": "LS-U20-L28",
+  "title": "现代医疗",
+  "content": "1928年弗莱明发现青霉素，抗生素和疫苗推广，传染病得到控制。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "青霉素",
+   "抗生素",
+   "疫苗"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考现代医学进步。"
+ },
+ {
+  "id": "LS-U20-X24",
+  "book": "LS",
+  "unit": "LS-U20",
+  "lesson": "LS-U20-L28",
+  "title": "器官移植与微创手术",
+  "content": "20世纪后期器官移植、微创手术和影像诊断发展，医疗水平显著提高。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "器官移植",
+   "微创手术",
+   "影像诊断"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考现代医学技术。"
+ },
+ {
   "id": "LS-U21-001",
   "book": "LS",
   "unit": "LS-U21",
@@ -6877,6 +13209,186 @@
   "commonq": "常考多极化表现。"
  },
  {
+  "id": "LS-U21-X01",
+  "book": "LS",
+  "unit": "LS-U21",
+  "lesson": "LS-U21-L29",
+  "title": "经济全球化的表现",
+  "content": "贸易、投资、金融和生产全球化，跨国公司成为重要推动力量。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "全球化",
+   "跨国公司",
+   "贸易"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "常考经济全球化的表现。"
+ },
+ {
+  "id": "LS-U21-X02",
+  "book": "LS",
+  "unit": "LS-U21",
+  "lesson": "LS-U21-L29",
+  "title": "世界贸易组织",
+  "content": "1995年世界贸易组织成立，推动贸易自由化，解决贸易争端。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "世贸组织",
+   "1995",
+   "贸易自由化"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考世贸组织的作用。"
+ },
+ {
+  "id": "LS-U21-X03",
+  "book": "LS",
+  "unit": "LS-U21",
+  "lesson": "LS-U21-L29",
+  "title": "区域集团化",
+  "content": "欧盟、东盟、北美自由贸易区等区域组织发展，区域合作加强。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "欧盟",
+   "东盟",
+   "区域集团化"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考区域集团化的表现。"
+ },
+ {
+  "id": "LS-U21-X05",
+  "book": "LS",
+  "unit": "LS-U21",
+  "lesson": "LS-U21-L29",
+  "title": "全球性问题",
+  "content": "贫富差距、金融危机、气候变化、恐怖主义和公共卫生危机等全球问题突出。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "全球问题",
+   "贫富差距",
+   "气候变化"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "材料题常考全球化的挑战。"
+ },
+ {
+  "id": "LS-U21-X06",
+  "book": "LS",
+  "unit": "LS-U21",
+  "lesson": "LS-U21-L29",
+  "title": "逆全球化",
+  "content": "贸易保护主义、民粹主义和英国脱欧等现象出现，全球化遭遇逆流。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "逆全球化",
+   "贸易保护",
+   "英国脱欧"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考逆全球化的表现。"
+ },
+ {
+  "id": "LS-U21-X21",
+  "book": "LS",
+  "unit": "LS-U21",
+  "lesson": "LS-U21-L29",
+  "title": "全球化的历史进程",
+  "content": "新航路开辟使世界开始联系，工业革命后世界市场形成，二战后全球化加速。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "新航路",
+   "工业革命",
+   "全球化"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "常考全球化的阶段。"
+ },
+ {
+  "id": "LS-U21-X22",
+  "book": "LS",
+  "unit": "LS-U21",
+  "lesson": "LS-U21-L29",
+  "title": "世贸组织与中国",
+  "content": "1995年世贸组织成立，2001年中国加入，推动贸易自由化和中国开放。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "世贸组织",
+   "1995",
+   "中国入世"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考中国入世时间。"
+ },
+ {
+  "id": "LS-U21-X23",
+  "book": "LS",
+  "unit": "LS-U21",
+  "lesson": "LS-U21-L29",
+  "title": "区域集团化组织",
+  "content": "欧盟1993年成立，东盟1967年成立，北美自由贸易区1994年启动。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "欧盟",
+   "东盟",
+   "北美自贸区"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考区域集团化组织。"
+ },
+ {
+  "id": "LS-U21-X24",
+  "book": "LS",
+  "unit": "LS-U21",
+  "lesson": "LS-U21-L29",
+  "title": "全球金融危机",
+  "content": "1997年亚洲金融危机、2008年国际金融危机暴露全球金融体系风险。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "亚洲金融危机",
+   "2008",
+   "金融风险"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考全球化的风险。"
+ },
+ {
   "id": "LS-U21-003",
   "book": "LS",
   "unit": "LS-U21",
@@ -6918,5 +13430,208 @@
   "type": "结论",
   "difficulty": 1,
   "commonq": "常考中国全球治理主张。"
+ },
+ {
+  "id": "LS-U21-R01",
+  "book": "LS",
+  "unit": "LS-U21",
+  "lesson": "LS-U21-L30",
+  "title": "国际金融格局",
+  "content": "美元仍占最大权重；欧元、日元和人民市等的影响也在上升★劳动力的全球流动",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 221,
+  "pdfPage": 224,
+  "keywords": [
+   "国际金融",
+   "格局",
+   "美元",
+   "最大"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U21-R02",
+  "book": "LS",
+  "unit": "LS-U21",
+  "lesson": "LS-U21-L30",
+  "title": "亚太经济合作组织APEC：亚太",
+  "content": "亚太经济合作组织（APEC）：亚太地区层级最高、领域最广、最具影响力的经济合作机制",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 221,
+  "pdfPage": 224,
+  "keywords": [
+   "亚太经济合作组织",
+   "APEC",
+   "亚太地区",
+   "层级"
+  ],
+  "type": "机制",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U21-R03",
+  "book": "LS",
+  "unit": "LS-U21",
+  "lesson": "LS-U21-L30",
+  "title": "国际难民问题的产生难民定义",
+  "content": "因为战争和地区冲突、宗教或部族矛盾、自然灾害、经济恶化等各种原因被迫离开原籍国，且不能或不愿返回原籍国的独特群体",
+  "excerpt": "",
+  "source": "教材原文摘录·OCR",
+  "page": 223,
+  "pdfPage": 226,
+  "keywords": [
+   "难民",
+   "定义",
+   "因为",
+   "战争"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "教材细节，注意与主干结论对应。"
+ },
+ {
+  "id": "LS-U21-X07",
+  "book": "LS",
+  "unit": "LS-U21",
+  "lesson": "LS-U21-L30",
+  "title": "和平与发展的时代主题",
+  "content": "冷战后和平与发展成为时代主题，但霸权主义、强权政治和地区冲突仍威胁和平。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "和平",
+   "发展",
+   "霸权主义"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "常考时代主题的判断。"
+ },
+ {
+  "id": "LS-U21-X09",
+  "book": "LS",
+  "unit": "LS-U21",
+  "lesson": "LS-U21-L30",
+  "title": "一带一路",
+  "content": "2013年中国提出共建“一带一路”，推动基础设施互联互通和国际贸易合作。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "一带一路",
+   "互联互通",
+   "2013"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "常考一带一路的意义。"
+ },
+ {
+  "id": "LS-U21-X10",
+  "book": "LS",
+  "unit": "LS-U21",
+  "lesson": "LS-U21-L30",
+  "title": "全球治理体系",
+  "content": "联合国、二十国集团、金砖国家和上海合作组织等在全球治理中发挥作用。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "全球治理",
+   "联合国",
+   "G20"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考全球治理的主体。"
+ },
+ {
+  "id": "LS-U21-X11",
+  "book": "LS",
+  "unit": "LS-U21",
+  "lesson": "LS-U21-L30",
+  "title": "中国的外交",
+  "content": "中国坚持独立自主的和平外交政策，不结盟，发展全方位外交。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "独立自主",
+   "不结盟",
+   "全方位外交"
+  ],
+  "type": "结论",
+  "difficulty": 2,
+  "commonq": "常考新中国外交政策。"
+ },
+ {
+  "id": "LS-U21-X12",
+  "book": "LS",
+  "unit": "LS-U21",
+  "lesson": "LS-U21-L30",
+  "title": "可持续发展",
+  "content": "联合国2030年可持续发展议程倡导绿色低碳发展，协调经济、社会与环境。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "可持续发展",
+   "2030议程",
+   "绿色低碳"
+  ],
+  "type": "政策工具",
+  "difficulty": 2,
+  "commonq": "常考可持续发展的内涵。"
+ },
+ {
+  "id": "LS-U21-X18",
+  "book": "LS",
+  "unit": "LS-U21",
+  "lesson": "LS-U21-L30",
+  "title": "全球气候治理",
+  "content": "2015年《巴黎协定》确立全球气候治理框架，各国自主贡献减排。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "巴黎协定",
+   "2015",
+   "气候治理"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考全球气候治理。"
+ },
+ {
+  "id": "LS-U21-X19",
+  "book": "LS",
+  "unit": "LS-U21",
+  "lesson": "LS-U21-L30",
+  "title": "上海合作组织",
+  "content": "2001年上海合作组织成立，倡导互信、互利、平等、协商，开展安全与经济合作。",
+  "excerpt": "",
+  "source": "全量扩充·教材要点",
+  "page": null,
+  "pdfPage": null,
+  "keywords": [
+   "上合组织",
+   "2001",
+   "安全合作"
+  ],
+  "type": "概念",
+  "difficulty": 2,
+  "commonq": "常考区域合作组织。"
  }
 ]

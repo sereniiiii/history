@@ -6,7 +6,7 @@
 
 - 纯静态；主体功能无任何联网依赖，断网可继续使用；只有主动登录 / 云同步时才会访问 Supabase。
 - 未登录时用户数据只存浏览器 localStorage，与 `data/` 静态数据严格分离，重新部署不会覆盖。
-- 当前内容：**66 课共 323 条**，章节树完整录入 2 册 / 6 部 / 21 单元 / 66 课。314 条带原文摘录，9 条因扫描页无对应正文标为“考点归纳”，界面会显示不同徽标。
+- 当前内容：**66 课共 650 条知识点 + 150 道例题 + 206 个纪年事件**，章节树完整录入 2 册 / 6 部 / 21 单元 / 66 课。知识点含原卡、教材细节卡与人工补强卡；例题按课归档，带答案与解析。
 - 视觉：编辑感玻璃主题（山景 Hero、四格学习概览、暖纸阅读面、宋体标题），支持明暗主题切换，桌面 / 平板 / 手机三档响应式；时间线与主站共用同一套设计语言。
 - 线上地址：<https://sereniiiii.github.io/history/>（时间线：`/timeline.html`；单条解析：`/detail.html?id=<知识点ID>`）。
 
@@ -26,7 +26,7 @@ python3 -m http.server 8123
 history/
 ├─ index.html                 单页入口
 ├─ detail.html               单条考点独立解析页
-├─ timeline.html             全球纪年时间线（内置 104 + 自定义）
+├─ timeline.html             全球纪年时间线（内置 206 + 自定义）
 ├─ sw.js                      离线缓存（改版本号可强制换新）
 ├─ assets/
 │  ├─ css/app.css             功能与基础布局
@@ -40,7 +40,7 @@ history/
 │  ├─ js/app.js               渲染、检索、详情、错题、复习打卡、账号入口、快捷键
 │  ├─ js/cloud.js             Supabase 登录、会话、云端读写、冲突处理
 │  ├─ js/supabase-config.js   Supabase URL / Publishable key / 表名
-│  ├─ js/detail.js            解析页：原文、考法、注意点、同课网络、时间线坐标、个人笔记、复习月历
+│  ├─ js/detail.js            解析页：原文、考法、例题、注意点、同课网络、时间线坐标、个人笔记、复习月历
 │  ├─ js/review.js            复习日期、今日打卡、月历生成与统计
 │  ├─ js/chrome.js            明暗主题、日期、Hero 学习概览
 │  ├─ js/timeline.js          时间线总览/分时代、地区筛选、自定义事件、导出
@@ -50,8 +50,9 @@ history/
 │  ├─ vendor/supabase.js      本地 supabase-js 2.57.4（UMD）
 │  └─ vendor/supabase-mount.js 以模块方式挂载 supabase-js
 ├─ data/
-│  ├─ knowledge.json          知识点（静态，只读）
-│  ├─ timeline.json           时间线事件（104 个，按六个时代分组）
+│  ├─ knowledge.json          知识点（650 条，静态只读）
+│  ├─ examples.json           例题（150 道，按课归档）
+│  ├─ timeline.json           时间线事件（206 个，按六个时代分组）
 │  ├─ books.json              章节树（静态，只读）
 │  ├─ aliases.json            同义词/别名表
 │  └─ pinyin.json             汉字→拼音首字母

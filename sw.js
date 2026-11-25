@@ -4,7 +4,7 @@
  *  - 静态资源：缓存优先 + 后台更新（stale-while-revalidate）
  * 重新部署后如资源有变，改下面的 CACHE 版本号即可整体换新。
  */
-const CACHE = 'hs-static-v21';
+const CACHE = 'hs-static-v24';
 const ASSETS = [
   './',
   './index.html',
@@ -36,6 +36,7 @@ const ASSETS = [
   './assets/js/detail.js',
   './assets/js/review.js',
   './data/timeline.json',
+  './data/examples.json',
 ];
 
 self.addEventListener('install', (e) => {
